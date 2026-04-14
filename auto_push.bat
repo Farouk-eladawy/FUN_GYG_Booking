@@ -99,6 +99,13 @@ echo ----------------------------------------------
 :: Set origin to current repo
 git remote set-url origin !REPO_URL! 2>nul || git remote add origin !REPO_URL!
 
+:: Check if remote branch exists and pull if needed
+git ls-remote --exit-code --heads origin main >nul 2>&1
+if not errorlevel 1 (
+    echo Pulling latest changes...
+    git pull --rebase origin main
+)
+
 :: Push changes directly (force if needed)
 git push -u origin main
 echo Done with !REPO_NAME!
