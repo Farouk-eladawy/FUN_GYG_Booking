@@ -1067,6 +1067,39 @@ class GYGUnifiedSystem:
                 pass
 
             # Verify login success
+            await self.page.wait_for_timeout(3000)
+            
+            # Additional check if it's asking for OTP again
+            otp_field = await self.page.query_selector('input[type="text"], input[type="tel"], input[type="number"], input[inputmode="numeric"]')
+            if otp_field:
+                self.logger.info("OTP field detected. Processing 2FA...")
+                # We handle TOTP logic here again just in case the first one missed it
+                if self.totp_secret:
+                    code = pyotp.TOTP(self.totp_secret).now()
+                    code_inputs = await self.page.query_selector_all('input[type="text"], input[type="tel"], input[type="number"], input[inputmode="numeric"]')
+                    if len(code_inputs) >= 6:
+                        for i in range(6):
+                            if i < len(code):
+                                await code_inputs[i].fill(code[i])
+                                await asyncio.sleep(0.1)
+                    elif len(code_inputs) == 1:
+                        await code_inputs[0].fill(code)
+                    
+                    verify_btn = await self.page.query_selector('button:has-text("Verify code")')
+                    if verify_btn:
+                        await verify_btn.click()
+                    else:
+                        await self.page.press('body', 'Enter')
+                    await asyncio.sleep(4)
+
+            # Check if we successfully logged in by looking for Home/Analytics/Bookings again
+            if await self.page.query_selector('text="Analytics"') or \
+               await self.page.query_selector('text="Revenue"') or \
+               await self.page.query_selector('text="Bookings"') or \
+               "bookings" in self.page.url:
+                 self.logger.info("Successfully logged in.")
+                 return True
+
             if await self.page.query_selector('button[type="submit"]'): # Still on login page
                 self.logger.error("Login failed - still on login page")
                 ts = datetime.now().strftime('%Y%m%d_%H%M%S')

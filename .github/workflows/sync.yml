@@ -28,6 +28,7 @@ jobs:
       - name: Run GYG Scraper
         env:
           HEADLESS_MODE: 'true'
+          MAX_PAGES: ${{ secrets.MAX_PAGES || vars.MAX_PAGES || '100' }}
           GYG_EMAIL: ${{ secrets.GYG_EMAIL }}
           GYG_PASSWORD: ${{ secrets.GYG_PASSWORD }}
           GYG_2FA_SECRET: ${{ secrets.GYG_2FA_SECRET }}
