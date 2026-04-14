@@ -3,52 +3,61 @@ setlocal enabledelayedexpansion
 chcp 65001 >nul
 
 echo ==============================================
-echo        GYG System - Auto Push Script
+echo        GYG System - Auto Push Script (Multi-Repo)
 echo ==============================================
 
-set REPO_URL=
+:: Define your repositories (Read from config\.env)
+set REPO_FTS=
+set REPO_SUNNY=
+set REPO_NILE=
+set REPO_FUN=
 
-:: Check config\.env first
 if exist "config\.env" (
     for /f "usebackq tokens=1,* delims==" %%A in ("config\.env") do (
-        if "%%A"=="GITHUB_REPO_URL" set REPO_URL=%%B
+        if "%%A"=="GITHUB_REPO_FTS" set REPO_FTS=%%B
+        if "%%A"=="GITHUB_REPO_SUNNY" set REPO_SUNNY=%%B
+        if "%%A"=="GITHUB_REPO_NILE" set REPO_NILE=%%B
+        if "%%A"=="GITHUB_REPO_FUN" set REPO_FUN=%%B
     )
 )
 
 :: Check .env in root if not found
-if "%REPO_URL%"=="" (
+if "%REPO_FTS%"=="" (
     if exist ".env" (
         for /f "usebackq tokens=1,* delims==" %%A in (".env") do (
-            if "%%A"=="GITHUB_REPO_URL" set REPO_URL=%%B
+            if "%%A"=="GITHUB_REPO_FTS" set REPO_FTS=%%B
+            if "%%A"=="GITHUB_REPO_SUNNY" set REPO_SUNNY=%%B
+            if "%%A"=="GITHUB_REPO_NILE" set REPO_NILE=%%B
+            if "%%A"=="GITHUB_REPO_FUN" set REPO_FUN=%%B
         )
     )
 )
 
-:: Trim quotes and spaces if any
-if defined REPO_URL set REPO_URL=%REPO_URL:"=%
-if defined REPO_URL set REPO_URL=%REPO_URL: =%
+:: Trim quotes and spaces
+if defined REPO_FTS set REPO_FTS=%REPO_FTS:"=%
+if defined REPO_FTS set REPO_FTS=%REPO_FTS: =%
+if defined REPO_SUNNY set REPO_SUNNY=%REPO_SUNNY:"=%
+if defined REPO_SUNNY set REPO_SUNNY=%REPO_SUNNY: =%
+if defined REPO_NILE set REPO_NILE=%REPO_NILE:"=%
+if defined REPO_NILE set REPO_NILE=%REPO_NILE: =%
+if defined REPO_FUN set REPO_FUN=%REPO_FUN:"=%
+if defined REPO_FUN set REPO_FUN=%REPO_FUN: =%
 
-if "%REPO_URL%"=="" (
-    echo [ERROR] GITHUB_REPO_URL not found in .env or config\.env
-    echo Please add GITHUB_REPO_URL=https://github.com/your-username/repo.git
+if "%REPO_FTS%"=="" (
+    echo [ERROR] Repositories not found in .env or config\.env
+    echo Please add GITHUB_REPO_FTS, GITHUB_REPO_SUNNY, etc.
     pause
     exit /b 1
 )
 
-echo Found Repository URL: %REPO_URL%
-echo.
-
 :: Ensure git is initialized
 if not exist ".git" (
-    echo [0/4] Initializing git repository...
+    echo [0/3] Initializing git repository...
     git init
     git branch -M main
 )
 
-:: Ensure origin is set correctly
-git remote set-url origin %REPO_URL% 2>nul || git remote add origin %REPO_URL%
-
-echo [1/4] Adding files...
+echo [1/3] Adding files...
 git add .
 echo.
 
@@ -58,25 +67,40 @@ set /p COMMIT_MSG="Enter commit message (or press Enter for 'Auto update'): "
 if "%COMMIT_MSG%"=="" set COMMIT_MSG=Auto update
 
 echo.
-echo [2/4] Committing changes...
+echo [2/3] Committing changes...
 git commit -m "%COMMIT_MSG%"
 echo.
 
-echo [3/4] Pulling latest changes from remote (rebase)...
-:: Check if the remote has a main branch
-git ls-remote --exit-code --heads origin main >nul 2>&1
-if errorlevel 1 (
-    echo Remote branch 'main' not found. Skipping pull.
-) else (
-    git pull --rebase origin main
-)
+echo [3/3] Pushing to all repositories...
 echo.
 
-echo [4/4] Pushing to remote repository...
-git push -u origin main
+:: Function to push to a specific repo
+if defined REPO_FTS call :PushToRepo "FTS_GYG" "%REPO_FTS%"
+if defined REPO_SUNNY call :PushToRepo "Sunny_GYG" "%REPO_SUNNY%"
+if defined REPO_NILE call :PushToRepo "Nile_GYG" "%REPO_NILE%"
+if defined REPO_FUN call :PushToRepo "FUN_GYG" "%REPO_FUN%"
 
 echo.
 echo ==============================================
-echo             Upload Completed!
+echo             All Uploads Completed!
 echo ==============================================
 pause
+exit /b 0
+
+:PushToRepo
+set "REPO_NAME=%~1"
+set "REPO_URL=%~2"
+
+echo ----------------------------------------------
+echo Pushing to !REPO_NAME!...
+echo URL: !REPO_URL!
+echo ----------------------------------------------
+
+:: Set origin to current repo
+git remote set-url origin !REPO_URL! 2>nul || git remote add origin !REPO_URL!
+
+:: Push changes directly (force if needed)
+git push -u origin main
+echo Done with !REPO_NAME!
+echo.
+exit /b 0
