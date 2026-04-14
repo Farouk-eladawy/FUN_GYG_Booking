@@ -34,7 +34,7 @@ jobs:
           GYG_2FA_SECRET: ${{ secrets.GYG_2FA_SECRET }}
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
           AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
-          AIRTABLE_TABLE_NAME: ${{ secrets.AIRTABLE_TABLE_NAME }}
+          AIRTABLE_TABLE: ${{ secrets.AIRTABLE_TABLE }}
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: |
           python gyg_unified.py --once
