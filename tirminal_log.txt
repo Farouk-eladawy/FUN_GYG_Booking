@@ -1,0 +1,492 @@
+
+(venv) PS C:\Users\Aloosh2020\Downloads\New Project's\GYG_System\v8_Enhanced> $env:BROWSER_HEADLESS='true'; $env:BROWSER_ENGINE='firefox'; $env:BROWSER_CHANNEL=''; $env:BROWSER_PERSISTENT='false'; $env:RESTART_DELAY_MINUTES='5'; ./venv/Scripts/python.exe ./gyg_unified.py --server
+2026-01-26 08:52:48 - INFO - Browser initialized with chat blocking enabled
+2026-01-26 08:53:00 - INFO - Session state saved (new login).
+2026-01-26 08:53:00 - INFO - Persistent server started; browser will remain open
+2026-01-26 08:53:13 - INFO - Already on page 1
+2026-01-26 08:53:13 - INFO - Extracting from page 1
+2026-01-26 08:53:14 - INFO - Found 50 booking cards on page
+2026-01-26 08:53:14 - INFO - Card text content (first 200 chars): Scan tickets
+2026-01-26 08:53:14 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:53:14 - INFO - Card text content (first 200 chars): Request cancellations
+2026-01-26 08:53:14 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:53:14 - INFO - Card text content (first 200 chars): Download bookings
+2026-01-26 08:53:14 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:53:14 - INFO - Card text content (first 200 chars): No bookings foundOn-demand bookings that you did not confirm and were canceled by a customer are not shown(0 of 0)(0 of 0)
+2026-01-26 08:53:14 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:53:16 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombMonday, January 26th, 2026Monday, February 9th, 2026 4:00 AMGYGBLHW3
+2026-01-26 08:53:16 - INFO - Booking number extraction (sanitized): GYGBLHW3NLAM (raw_match: GYGBLHW3NLAM2)
+2026-01-26 08:53:16 - INFO - Fetching missing details for GYGBLHW3NLAM from subpage...
+2026-01-26 08:53:21 - INFO - Found email on subpage: customer-judzve3ff2fajptb@reply.getyourguide.com
+2026-01-26 08:53:21 - INFO - Found phone on subpage: +31627030772
+2026-01-26 08:53:22 - INFO - Extracted GYGBLHW3NLAM | trip='Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip' | price=144.5 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=144.5 revenue=101.15 comm=30.0
+2026-01-26 08:53:22 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombMonday, January 26th, 2026Monday, February 9th, 2026 4:00 AMGYGBLHW3
+2026-01-26 08:53:22 - INFO - Booking number extraction (sanitized): GYGBLHW3NLAM (raw_match: GYGBLHW3NLAM2)
+2026-01-26 08:53:22 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:53:22 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:53:23 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Tuesday, January 27th, 2026 8:00 AMG
+2026-01-26 08:53:23 - INFO - Booking number extraction (sanitized): GYGX7NM2GKR2 (raw_match: GYGX7NM2GKR22)
+2026-01-26 08:53:23 - INFO - Fetching missing details for GYGX7NM2GKR2 from subpage...
+2026-01-26 08:53:28 - INFO - Found email on subpage: customer-wkr5sx3xhydpbxzl@reply.getyourguide.com
+2026-01-26 08:53:28 - INFO - Found phone on subpage: +5568999854244
+2026-01-26 08:53:29 - INFO - Extracted GYGX7NM2GKR2 | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=80.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=80.0 revenue=56.0 comm=30.0
+2026-01-26 08:53:29 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:53:29 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:53:31 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Valley of the Kings with King TutankhamunMonday, January 26th, 2026Wednesday, January 28th, 2026 4:00 AM
+2026-01-26 08:53:31 - INFO - Booking number extraction (sanitized): GYG32MBNX8FV (raw_match: GYG32MBNX8FV2)
+2026-01-26 08:53:31 - INFO - Fetching missing details for GYG32MBNX8FV from subpage...
+2026-01-26 08:53:36 - INFO - Found email on subpage: customer-kzyapnhb6audqchp@reply.getyourguide.com
+2026-01-26 08:53:36 - INFO - Found phone on subpage: +20624709664
+2026-01-26 08:53:37 - INFO - Extracted GYG32MBNX8FV | trip='Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip' | price=176.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=176.0 revenue=123.2 comm=30.0
+2026-01-26 08:53:37 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:53:37 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:53:38 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumMonday, January 26th, 2026Tuesday, January 27th, 2026 8:00 AMGYGFW
+2026-01-26 08:53:38 - INFO - Booking number extraction (sanitized): GYGFWWFY8YRZ (raw_match: GYGFWWFY8YRZ4)
+2026-01-26 08:53:38 - INFO - Fetching missing details for GYGFWWFY8YRZ from subpage...
+2026-01-26 08:53:43 - INFO - Found email on subpage: customer-pss2teiwomc5hxzm@reply.getyourguide.com
+2026-01-26 08:53:43 - INFO - Found phone on subpage: +33650459944
+2026-01-26 08:53:44 - INFO - Extracted GYGFWWFY8YRZ | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=96.0 | participants A:4 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=96.0 revenue=67.2 comm=30.0
+2026-01-26 08:53:44 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:53:44 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:53:46 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Wednesday, April 8th, 2026 8:00 AMGY
+2026-01-26 08:53:46 - INFO - Booking number extraction (sanitized): GYGWZA344W25 (raw_match: GYGWZA344W254)
+2026-01-26 08:53:46 - INFO - Fetching missing details for GYGWZA344W25 from subpage...
+2026-01-26 08:53:51 - INFO - Found email on subpage: customer-vv7hq7ctsm3xxqyo@reply.getyourguide.com
+2026-01-26 08:53:51 - INFO - Found phone on subpage: +32478642846
+2026-01-26 08:53:52 - INFO - Extracted GYGWZA344W25 | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=150.0 | participants A:3 S:0 C:1 I:0 Y:0 | status=Confirmed | retail=150.0 revenue=105.0 comm=30.0
+2026-01-26 08:53:52 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:53:52 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:53:53 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Friday, June 26th, 2026 8:00 AMGYG99
+2026-01-26 08:53:53 - INFO - Booking number extraction (sanitized): GYG99686BYYY (raw_match: GYG99686BYYY3)
+2026-01-26 08:53:54 - INFO - Fetching missing details for GYG99686BYYY from subpage...
+2026-01-26 08:53:59 - INFO - Found email on subpage: customer-u6xrcszixrjtffmg@reply.getyourguide.com
+2026-01-26 08:53:59 - INFO - Found phone on subpage: +33643078320
+2026-01-26 08:54:00 - INFO - Extracted GYG99686BYYY | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=110.0 | participants A:2 S:0 C:1 I:0 Y:0 | status=Confirmed | retail=110.0 revenue=77.0 comm=30.0
+2026-01-26 08:54:00 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:54:00 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:01 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombMonday, January 26th, 2026Tuesday, January 27th, 2026 4:00 AMGYGN6FA
+2026-01-26 08:54:01 - INFO - Booking number extraction (sanitized): GYGN6FAFVLY2 (raw_match: GYGN6FAFVLY22)
+2026-01-26 08:54:01 - INFO - Fetching missing details for GYGN6FAFVLY2 from subpage...
+2026-01-26 08:54:13 - INFO - Extracted GYGN6FAFVLY2 | trip='Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip' | price=136.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=136.0 revenue=95.2 comm=30.0
+2026-01-26 08:54:13 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:54:13 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:14 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumSunday, January 25th, 2026Tuesday, January 27th, 2026 8:00 AMGYG7V
+2026-01-26 08:54:14 - INFO - Booking number extraction (sanitized): GYG7VK5BMQM9 (raw_match: GYG7VK5BMQM92)
+2026-01-26 08:54:14 - INFO - Fetching missing details for GYG7VK5BMQM9 from subpage...
+2026-01-26 08:54:33 - INFO - Extracted GYG7VK5BMQM9 | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=48.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=48.0 revenue=33.6 comm=30.0
+2026-01-26 08:54:33 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:54:33 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:34 - INFO - Card text content (first 200 chars): Hurghada: Pyramids & Museum for First-Time Visitors by PlaneOption: default |  Option 2 - The Grand Egyptian Museum (GEM) and Giza PyramidsSunday, January 25th, 2026Tuesday, February 10th, 2026 4:00 A
+2026-01-26 08:54:34 - INFO - Booking number extraction (sanitized): GYGFWWFZQBVQ (raw_match: GYGFWWFZQBVQ1)
+2026-01-26 08:54:34 - INFO - Fetching missing details for GYGFWWFZQBVQ from subpage...
+2026-01-26 08:54:46 - INFO - Extracted GYGFWWFZQBVQ | trip='Hurghada: Pyramids & Museum for First-Time Visitors by Plane' | price=261.0 | participants A:1 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=261.0 revenue=182.7 comm=30.0
+2026-01-26 08:54:46 - INFO - Card text content (first 200 chars): Hurghada: Pyramids & Museum for First-Time Visitors by Plane
+2026-01-26 08:54:46 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:48 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumSunday, January 25th, 2026Saturday, February 14th, 2026 8:00 AMGYG
+2026-01-26 08:54:48 - INFO - Booking number extraction (sanitized): GYG32MBQF6A9 (raw_match: GYG32MBQF6A92)
+2026-01-26 08:54:48 - INFO - Fetching missing details for GYG32MBQF6A9 from subpage...
+2026-01-26 08:54:58 - INFO - Extracted GYG32MBQF6A9 | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=68.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=68.0 revenue=47.6 comm=30.0
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:54:58 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): Scan tickets
+2026-01-26 08:54:58 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): Request cancellations
+2026-01-26 08:54:58 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): Download bookings
+2026-01-26 08:54:58 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): No bookings foundOn-demand bookings that you did not confirm and were canceled by a customer are not shown(0 of 0)(0 of 0)
+2026-01-26 08:54:58 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombMonday, January 26th, 2026Monday, February 9th, 2026 4:00 AMGYGBLHW3
+2026-01-26 08:54:58 - INFO - Booking number extraction (sanitized): GYGBLHW3NLAM (raw_match: GYGBLHW3NLAM2)
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombMonday, January 26th, 2026Monday, February 9th, 2026 4:00 AMGYGBLHW3
+2026-01-26 08:54:58 - INFO - Booking number extraction (sanitized): GYGBLHW3NLAM (raw_match: GYGBLHW3NLAM2)
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:54:58 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Tuesday, January 27th, 2026 8:00 AMG
+2026-01-26 08:54:58 - INFO - Booking number extraction (sanitized): GYGX7NM2GKR2 (raw_match: GYGX7NM2GKR22)
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:54:58 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Valley of the Kings with King TutankhamunMonday, January 26th, 2026Wednesday, January 28th, 2026 4:00 AM
+2026-01-26 08:54:58 - INFO - Booking number extraction (sanitized): GYG32MBNX8FV (raw_match: GYG32MBNX8FV2)
+2026-01-26 08:54:58 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumMonday, January 26th, 2026Tuesday, January 27th, 2026 8:00 AMGYGFW
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): GYGFWWFY8YRZ (raw_match: GYGFWWFY8YRZ4)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Wednesday, April 8th, 2026 8:00 AMGY
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): GYGWZA344W25 (raw_match: GYGWZA344W254)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Friday, June 26th, 2026 8:00 AMGYG99
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): GYG99686BYYY (raw_match: GYG99686BYYY3)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombMonday, January 26th, 2026Tuesday, January 27th, 2026 4:00 AMGYGN6FA
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): GYGN6FAFVLY2 (raw_match: GYGN6FAFVLY22)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumSunday, January 25th, 2026Tuesday, January 27th, 2026 8:00 AMGYG7V
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): GYG7VK5BMQM9 (raw_match: GYG7VK5BMQM92)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Hurghada: Pyramids & Museum for First-Time Visitors by PlaneOption: default |  Option 2 - The Grand Egyptian Museum (GEM) and Giza PyramidsSunday, January 25th, 2026Tuesday, February 10th, 2026 4:00 A
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): GYGFWWFZQBVQ (raw_match: GYGFWWFZQBVQ1)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Hurghada: Pyramids & Museum for First-Time Visitors by Plane
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumSunday, January 25th, 2026Saturday, February 14th, 2026 8:00 AMGYG
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): GYG32MBQF6A9 (raw_match: GYG32MBQF6A92)
+2026-01-26 08:54:59 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:54:59 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:54:59 - INFO - Sync start: GYGBLHW3NLAM -> DB + Airtable
+2026-01-26 08:55:02 - INFO - Airtable synced GYGBLHW3NLAM record_id=recsITRBunnYp4Z3U
+2026-01-26 08:55:02 - INFO - Sync start: GYGX7NM2GKR2 -> DB + Airtable
+2026-01-26 08:55:03 - INFO - Airtable synced GYGX7NM2GKR2 record_id=recGrJuYuldvOtoVO
+2026-01-26 08:55:03 - INFO - Sync start: GYG32MBNX8FV -> DB + Airtable
+2026-01-26 08:55:05 - INFO - Airtable synced GYG32MBNX8FV record_id=rec9Ayl7TkB3TVd5D
+2026-01-26 08:55:05 - INFO - Sync start: GYGFWWFY8YRZ -> DB + Airtable
+2026-01-26 08:55:07 - INFO - Airtable synced GYGFWWFY8YRZ record_id=recZPIznsbtud2xkV
+2026-01-26 08:55:07 - INFO - Sync start: GYGWZA344W25 -> DB + Airtable
+2026-01-26 08:55:09 - INFO - Airtable synced GYGWZA344W25 record_id=recqid3U7J4T8Oq1v
+2026-01-26 08:55:09 - INFO - Sync start: GYG99686BYYY -> DB + Airtable
+2026-01-26 08:55:11 - INFO - Airtable synced GYG99686BYYY record_id=recSqvNl70j5QVUGF
+2026-01-26 08:55:11 - INFO - Sync start: GYGN6FAFVLY2 -> DB + Airtable
+2026-01-26 08:55:13 - INFO - Airtable synced GYGN6FAFVLY2 record_id=recSgOme1i47UIT5S
+2026-01-26 08:55:13 - INFO - Sync start: GYG7VK5BMQM9 -> DB + Airtable
+2026-01-26 08:55:15 - INFO - Airtable synced GYG7VK5BMQM9 record_id=recji1cmmKk3O8z0o
+2026-01-26 08:55:15 - INFO - Sync start: GYGFWWFZQBVQ -> DB + Airtable
+2026-01-26 08:55:17 - INFO - Airtable synced GYGFWWFZQBVQ record_id=recsrysakWNzELagO
+2026-01-26 08:55:17 - INFO - Sync start: GYG32MBQF6A9 -> DB + Airtable
+2026-01-26 08:55:18 - INFO - Airtable synced GYG32MBQF6A9 record_id=recABqDoRjdV8jQde
+2026-01-26 08:55:19 - INFO - Clicked page 2 button
+2026-01-26 08:55:33 - INFO - Session state saved (new login).
+2026-01-26 08:55:33 - INFO - Extracting from page 2
+2026-01-26 08:56:24 - WARNING - No bookings found on page 2. Reloading page to verify...
+2026-01-26 08:56:54 - WARNING - No bookings found on page 2 after reload. Assuming end of list or transient error.
+2026-01-26 08:56:59 - INFO - Extracting from page 1
+2026-01-26 08:57:00 - INFO - Found 50 booking cards on page
+2026-01-26 08:57:00 - INFO - Card text content (first 200 chars): Scan tickets
+2026-01-26 08:57:00 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:57:00 - INFO - Card text content (first 200 chars): Request cancellations
+2026-01-26 08:57:00 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:57:00 - INFO - Card text content (first 200 chars): Download bookings
+2026-01-26 08:57:00 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:57:00 - INFO - Card text content (first 200 chars): No bookings foundOn-demand bookings that you did not confirm and were canceled by a customer are not shown(0 of 0)(0 of 0)
+2026-01-26 08:57:00 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:57:02 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time VisitorsOption: default |  Option 3 - Giza Pyramids Tour with Optional Museum VisitMonday, January 26th, 2026Wednesday, January 28th, 2026 12:30 AMG
+2026-01-26 08:57:02 - INFO - Booking number extraction (sanitized): GYGN6FAFGNGX (raw_match: GYGN6FAFGNGX3)
+2026-01-26 08:57:02 - INFO - Fetching missing details for GYGN6FAFGNGX from subpage...
+2026-01-26 08:57:07 - INFO - Found email on subpage: customer-m25rl2jo35527wmc@reply.getyourguide.com
+2026-01-26 08:57:07 - INFO - Found phone on subpage: +4917661258742
+2026-01-26 08:57:08 - INFO - Extracted GYGN6FAFGNGX | trip='Hurghada to Cairo: Pyramids & Museum for First-Time Visitors' | price=175.5 | participants A:3 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=175.5 revenue=122.85 comm=30.0
+2026-01-26 08:57:08 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time VisitorsOption: default |  Option 3 - Giza Pyramids Tour with Optional Museum VisitMonday, January 26th, 2026Wednesday, January 28th, 2026 12:30 AMG
+2026-01-26 08:57:08 - INFO - Booking number extraction (sanitized): GYGN6FAFGNGX (raw_match: GYGN6FAFGNGX3)
+2026-01-26 08:57:08 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time Visitors
+2026-01-26 08:57:08 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:57:10 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombMonday, January 26th, 2026Monday, February 9th, 2026 4:00 AMGYGBLHW3
+2026-01-26 08:57:10 - INFO - Booking number extraction (sanitized): GYGBLHW3NLAM (raw_match: GYGBLHW3NLAM2)
+2026-01-26 08:57:10 - INFO - Fetching missing details for GYGBLHW3NLAM from subpage...
+2026-01-26 08:57:15 - INFO - Found email on subpage: customer-judzve3ff2fajptb@reply.getyourguide.com
+2026-01-26 08:57:15 - INFO - Found phone on subpage: +31627030772
+2026-01-26 08:57:16 - INFO - Extracted GYGBLHW3NLAM | trip='Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip' | price=144.5 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=144.5 revenue=101.15 comm=30.0
+2026-01-26 08:57:16 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:57:16 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:57:17 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Tuesday, January 27th, 2026 8:00 AMG
+2026-01-26 08:57:17 - INFO - Booking number extraction (sanitized): GYGX7NM2GKR2 (raw_match: GYGX7NM2GKR22)
+2026-01-26 08:57:17 - INFO - Fetching missing details for GYGX7NM2GKR2 from subpage...
+2026-01-26 08:57:23 - INFO - Found email on subpage: customer-wkr5sx3xhydpbxzl@reply.getyourguide.com
+2026-01-26 08:57:23 - INFO - Found phone on subpage: +5568999854244
+2026-01-26 08:57:24 - INFO - Extracted GYGX7NM2GKR2 | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=80.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=80.0 revenue=56.0 comm=30.0
+2026-01-26 08:57:24 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:57:24 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:57:25 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Valley of the Kings with King TutankhamunMonday, January 26th, 2026Wednesday, January 28th, 2026 4:00 AM
+2026-01-26 08:57:25 - INFO - Booking number extraction (sanitized): GYG32MBNX8FV (raw_match: GYG32MBNX8FV2)
+2026-01-26 08:57:25 - INFO - Fetching missing details for GYG32MBNX8FV from subpage...
+2026-01-26 08:57:31 - INFO - Found email on subpage: customer-kzyapnhb6audqchp@reply.getyourguide.com
+2026-01-26 08:57:31 - INFO - Found phone on subpage: +20624709664
+2026-01-26 08:57:31 - INFO - Extracted GYG32MBNX8FV | trip='Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip' | price=176.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=176.0 revenue=123.2 comm=30.0
+2026-01-26 08:57:31 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:57:31 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:57:33 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumMonday, January 26th, 2026Tuesday, January 27th, 2026 8:00 AMGYGFW
+2026-01-26 08:57:33 - INFO - Booking number extraction (sanitized): GYGFWWFY8YRZ (raw_match: GYGFWWFY8YRZ4)
+2026-01-26 08:57:33 - INFO - Fetching missing details for GYGFWWFY8YRZ from subpage...
+2026-01-26 08:57:44 - INFO - Extracted GYGFWWFY8YRZ | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=96.0 | participants A:4 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=96.0 revenue=67.2 comm=30.0
+2026-01-26 08:57:44 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:57:44 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:57:46 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Wednesday, April 8th, 2026 8:00 AMGY
+2026-01-26 08:57:46 - INFO - Booking number extraction (sanitized): GYGWZA344W25 (raw_match: GYGWZA344W254)
+2026-01-26 08:57:46 - INFO - Fetching missing details for GYGWZA344W25 from subpage...
+2026-01-26 08:57:51 - INFO - Found email on subpage: customer-vv7hq7ctsm3xxqyo@reply.getyourguide.com
+2026-01-26 08:57:51 - INFO - Found phone on subpage: +32478642846
+2026-01-26 08:57:51 - INFO - Extracted GYGWZA344W25 | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=150.0 | participants A:3 S:0 C:1 I:0 Y:0 | status=Confirmed | retail=150.0 revenue=105.0 comm=30.0
+2026-01-26 08:57:51 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:57:51 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:57:53 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Friday, June 26th, 2026 8:00 AMGYG99
+2026-01-26 08:57:53 - INFO - Booking number extraction (sanitized): GYG99686BYYY (raw_match: GYG99686BYYY3)
+2026-01-26 08:57:53 - INFO - Fetching missing details for GYG99686BYYY from subpage...
+2026-01-26 08:57:58 - INFO - Found email on subpage: customer-u6xrcszixrjtffmg@reply.getyourguide.com
+2026-01-26 08:57:58 - INFO - Found phone on subpage: +33643078320
+2026-01-26 08:57:58 - INFO - Extracted GYG99686BYYY | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=110.0 | participants A:2 S:0 C:1 I:0 Y:0 | status=Confirmed | retail=110.0 revenue=77.0 comm=30.0
+2026-01-26 08:57:58 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:57:58 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:00 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombMonday, January 26th, 2026Tuesday, January 27th, 2026 4:00 AMGYGN6FA
+2026-01-26 08:58:00 - INFO - Booking number extraction (sanitized): GYGN6FAFVLY2 (raw_match: GYGN6FAFVLY22)
+2026-01-26 08:58:00 - INFO - Fetching missing details for GYGN6FAFVLY2 from subpage...
+2026-01-26 08:58:12 - INFO - Extracted GYGN6FAFVLY2 | trip='Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip' | price=136.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=136.0 revenue=95.2 comm=30.0
+2026-01-26 08:58:12 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:58:12 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:13 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumSunday, January 25th, 2026Tuesday, January 27th, 2026 8:00 AMGYG7V
+2026-01-26 08:58:13 - INFO - Booking number extraction (sanitized): GYG7VK5BMQM9 (raw_match: GYG7VK5BMQM92)
+2026-01-26 08:58:13 - INFO - Fetching missing details for GYG7VK5BMQM9 from subpage...
+2026-01-26 08:58:25 - INFO - Extracted GYG7VK5BMQM9 | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=48.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=48.0 revenue=33.6 comm=30.0
+2026-01-26 08:58:25 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:58:25 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:26 - INFO - Card text content (first 200 chars): Hurghada: Pyramids & Museum for First-Time Visitors by PlaneOption: default |  Option 2 - The Grand Egyptian Museum (GEM) and Giza PyramidsSunday, January 25th, 2026Tuesday, February 10th, 2026 4:00 A
+2026-01-26 08:58:26 - INFO - Booking number extraction (sanitized): GYGFWWFZQBVQ (raw_match: GYGFWWFZQBVQ1)
+2026-01-26 08:58:26 - INFO - Fetching missing details for GYGFWWFZQBVQ from subpage...
+2026-01-26 08:58:37 - INFO - Extracted GYGFWWFZQBVQ | trip='Hurghada: Pyramids & Museum for First-Time Visitors by Plane' | price=261.0 | participants A:1 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=261.0 revenue=182.7 comm=30.0
+2026-01-26 08:58:37 - INFO - Card text content (first 200 chars): Hurghada: Pyramids & Museum for First-Time Visitors by Plane
+2026-01-26 08:58:37 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:37 - INFO - Card text content (first 200 chars): Scan tickets
+2026-01-26 08:58:37 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:37 - INFO - Card text content (first 200 chars): Request cancellations
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Download bookings
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): No bookings foundOn-demand bookings that you did not confirm and were canceled by a customer are not shown(0 of 0)(0 of 0)
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time VisitorsOption: default |  Option 3 - Giza Pyramids Tour with Optional Museum VisitMonday, January 26th, 2026Wednesday, January 28th, 2026 12:30 AMG
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): GYGN6FAFGNGX (raw_match: GYGN6FAFGNGX3)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time VisitorsOption: default |  Option 3 - Giza Pyramids Tour with Optional Museum VisitMonday, January 26th, 2026Wednesday, January 28th, 2026 12:30 AMG
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): GYGN6FAFGNGX (raw_match: GYGN6FAFGNGX3)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time Visitors
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombMonday, January 26th, 2026Monday, February 9th, 2026 4:00 AMGYGBLHW3
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): GYGBLHW3NLAM (raw_match: GYGBLHW3NLAM2)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Tuesday, January 27th, 2026 8:00 AMG
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): GYGX7NM2GKR2 (raw_match: GYGX7NM2GKR22)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Valley of the Kings with King TutankhamunMonday, January 26th, 2026Wednesday, January 28th, 2026 4:00 AM
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): GYG32MBNX8FV (raw_match: GYG32MBNX8FV2)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumMonday, January 26th, 2026Tuesday, January 27th, 2026 8:00 AMGYGFW
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): GYGFWWFY8YRZ (raw_match: GYGFWWFY8YRZ4)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Wednesday, April 8th, 2026 8:00 AMGY
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): GYGWZA344W25 (raw_match: GYGWZA344W254)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadMonday, January 26th, 2026Friday, June 26th, 2026 8:00 AMGYG99
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): GYG99686BYYY (raw_match: GYG99686BYYY3)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombMonday, January 26th, 2026Tuesday, January 27th, 2026 4:00 AMGYGN6FA
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): GYGN6FAFVLY2 (raw_match: GYGN6FAFVLY22)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumSunday, January 25th, 2026Tuesday, January 27th, 2026 8:00 AMGYG7V
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): GYG7VK5BMQM9 (raw_match: GYG7VK5BMQM92)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Hurghada: Pyramids & Museum for First-Time Visitors by PlaneOption: default |  Option 2 - The Grand Egyptian Museum (GEM) and Giza PyramidsSunday, January 25th, 2026Tuesday, February 10th, 2026 4:00 A
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): GYGFWWFZQBVQ (raw_match: GYGFWWFZQBVQ1)
+2026-01-26 08:58:38 - INFO - Card text content (first 200 chars): Hurghada: Pyramids & Museum for First-Time Visitors by Plane
+2026-01-26 08:58:38 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:38 - INFO - Sync start: GYGN6FAFGNGX -> DB + Airtable
+2026-01-26 08:58:41 - INFO - Airtable synced GYGN6FAFGNGX record_id=recDAdvz7TMIsjFaw
+2026-01-26 08:58:41 - INFO - Sync start: GYGBLHW3NLAM -> DB + Airtable
+2026-01-26 08:58:41 - INFO - Skipping Airtable sync for GYGBLHW3NLAM (No changes & already synced)
+2026-01-26 08:58:41 - INFO - Sync start: GYGX7NM2GKR2 -> DB + Airtable
+2026-01-26 08:58:41 - INFO - Skipping Airtable sync for GYGX7NM2GKR2 (No changes & already synced)
+2026-01-26 08:58:41 - INFO - Sync start: GYG32MBNX8FV -> DB + Airtable
+2026-01-26 08:58:41 - INFO - Skipping Airtable sync for GYG32MBNX8FV (No changes & already synced)
+2026-01-26 08:58:41 - INFO - Sync start: GYGFWWFY8YRZ -> DB + Airtable
+2026-01-26 08:58:43 - INFO - Airtable synced GYGFWWFY8YRZ record_id=recZPIznsbtud2xkV
+2026-01-26 08:58:43 - INFO - Sync start: GYGWZA344W25 -> DB + Airtable
+2026-01-26 08:58:44 - INFO - Skipping Airtable sync for GYGWZA344W25 (No changes & already synced)
+2026-01-26 08:58:44 - INFO - Sync start: GYG99686BYYY -> DB + Airtable
+2026-01-26 08:58:44 - INFO - Skipping Airtable sync for GYG99686BYYY (No changes & already synced)
+2026-01-26 08:58:44 - INFO - Sync start: GYGN6FAFVLY2 -> DB + Airtable
+2026-01-26 08:58:44 - INFO - Skipping Airtable sync for GYGN6FAFVLY2 (No changes & already synced)
+2026-01-26 08:58:44 - INFO - Sync start: GYG7VK5BMQM9 -> DB + Airtable
+2026-01-26 08:58:45 - INFO - Skipping Airtable sync for GYG7VK5BMQM9 (No changes & already synced)
+2026-01-26 08:58:45 - INFO - Sync start: GYGFWWFZQBVQ -> DB + Airtable
+2026-01-26 08:58:45 - INFO - Skipping Airtable sync for GYGFWWFZQBVQ (No changes & already synced)
+2026-01-26 08:58:45 - INFO - Clicked page 2 button
+2026-01-26 08:58:48 - INFO - Extracting from page 2
+2026-01-26 08:58:50 - INFO - Found 54 booking cards on page
+2026-01-26 08:58:50 - INFO - Card text content (first 200 chars): Scan tickets
+2026-01-26 08:58:50 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:50 - INFO - Card text content (first 200 chars): Request cancellations
+2026-01-26 08:58:50 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:50 - INFO - Card text content (first 200 chars): Download bookings
+2026-01-26 08:58:50 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:50 - INFO - Card text content (first 200 chars): No bookings foundOn-demand bookings that you did not confirm and were canceled by a customer are not shown(0 of 0)(0 of 0)
+2026-01-26 08:58:50 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:52 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumSunday, January 25th, 2026Saturday, February 14th, 2026 8:00 AMGYG
+2026-01-26 08:58:52 - INFO - Booking number extraction (sanitized): GYG32MBQF6A9 (raw_match: GYG32MBQF6A92)
+2026-01-26 08:58:52 - INFO - Fetching missing details for GYG32MBQF6A9 from subpage...
+2026-01-26 08:58:57 - INFO - Found email on subpage: customer-hovv2zkjnpwjmrgi@reply.getyourguide.com
+2026-01-26 08:58:57 - INFO - Found phone on subpage: +393333611335
+2026-01-26 08:58:58 - INFO - Extracted GYG32MBQF6A9 | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=68.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Canceled | retail=68.0 revenue=47.6 comm=30.0
+2026-01-26 08:58:58 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumSunday, January 25th, 2026Saturday, February 14th, 2026 8:00 AMGYG
+2026-01-26 08:58:58 - INFO - Booking number extraction (sanitized): GYG32MBQF6A9 (raw_match: GYG32MBQF6A92)
+2026-01-26 08:58:58 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:58:58 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:58:59 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadSunday, January 25th, 2026Saturday, February 14th, 2026 8:00 A
+2026-01-26 08:58:59 - INFO - Booking number extraction (sanitized): GYGBLHW4AAVN (raw_match: GYGBLHW4AAVN2)
+2026-01-26 08:59:00 - INFO - Fetching missing details for GYGBLHW4AAVN from subpage...
+2026-01-26 08:59:05 - INFO - Found email on subpage: customer-cgafnvi7izpbek2i@reply.getyourguide.com
+2026-01-26 08:59:05 - INFO - Found phone on subpage: +393486563643
+2026-01-26 08:59:05 - INFO - Extracted GYGBLHW4AAVN | trip='Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab' | price=80.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=80.0 revenue=56.0 comm=30.0
+2026-01-26 08:59:05 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 08:59:06 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:59:07 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time VisitorsOption: default |  Option 1 - Egyptian Museum & Giza PyramidsSunday, January 25th, 2026Thursday, July 9th, 2026 12:30 AMGYG83XN9LRYV2 people
+2026-01-26 08:59:07 - INFO - Booking number extraction (sanitized): GYG83XN9LRYV (raw_match: GYG83XN9LRYV2)
+2026-01-26 08:59:07 - INFO - Fetching missing details for GYG83XN9LRYV from subpage...
+2026-01-26 08:59:19 - INFO - Extracted GYG83XN9LRYV | trip='Hurghada to Cairo: Pyramids & Museum for First-Time Visitors' | price=255.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=255.0 revenue=178.5 comm=30.0
+2026-01-26 08:59:19 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time Visitors
+2026-01-26 08:59:19 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:59:21 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Valley of the Kings with King TutankhamunSunday, January 25th, 2026Friday, January 30th, 2026 4:00 AMGYG
+2026-01-26 08:59:33 - INFO - Booking number extraction (sanitized): GYG7VK5B5B65 (raw_match: GYG7VK5B5B653)
+2026-01-26 08:59:33 - INFO - Fetching missing details for GYG7VK5B5B65 from subpage...
+2026-01-26 08:59:39 - INFO - Found email on subpage: customer-i53maqwfkon2fwt3@reply.getyourguide.com
+2026-01-26 08:59:39 - INFO - Found phone on subpage: +33660130699
+2026-01-26 08:59:39 - INFO - Extracted GYG7VK5B5B65 | trip='Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip' | price=264.0 | participants A:3 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=264.0 revenue=184.8 comm=30.0
+2026-01-26 08:59:39 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 08:59:39 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:59:41 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time VisitorsOption: default |  Option 1 - Egyptian Museum & Giza PyramidsSunday, January 25th, 2026CanceledThursday, July 9th, 2026 12:30 AMGYG7VK5B53ZA
+2026-01-26 08:59:41 - INFO - Booking number extraction (sanitized): GYG7VK5B53ZA (raw_match: GYG7VK5B53ZA2)
+2026-01-26 08:59:41 - INFO - Fetching missing details for GYG7VK5B53ZA from subpage...
+2026-01-26 08:59:53 - INFO - Extracted GYG7VK5B53ZA | trip='Hurghada to Cairo: Pyramids & Museum for First-Time Visitors' | price=255.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Canceled | retail=255.0 revenue=178.5 comm=30.0
+2026-01-26 08:59:53 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time Visitors
+2026-01-26 08:59:53 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:59:53 - INFO - Card text content (first 200 chars): Canceled
+2026-01-26 08:59:53 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:59:53 - INFO - Card text content (first 200 chars): Canceled
+2026-01-26 08:59:53 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 08:59:55 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Valley of the Kings with King TutankhamunSunday, January 25th, 2026Wednesday, January 28th, 2026 4:00 AM
+2026-01-26 08:59:55 - INFO - Booking number extraction (sanitized): GYGLMR6NK56Q (raw_match: GYGLMR6NK56Q1)
+2026-01-26 08:59:55 - INFO - Fetching missing details for GYGLMR6NK56Q from subpage...
+2026-01-26 09:00:07 - INFO - Extracted GYGLMR6NK56Q | trip='Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip' | price=88.0 | participants A:1 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=88.0 revenue=61.6 comm=30.0
+2026-01-26 09:00:07 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 09:00:07 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:00:08 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Valley of the Kings with King TutankhamunSunday, January 25th, 2026Monday, August 24th, 2026 4:00 AMGYGN
+2026-01-26 09:00:08 - INFO - Booking number extraction (sanitized): GYGN6FAGKRG9 (raw_match: GYGN6FAGKRG93)
+2026-01-26 09:00:08 - INFO - Fetching missing details for GYGN6FAGKRG9 from subpage...
+2026-01-26 09:00:26 - INFO - Extracted GYGN6FAGKRG9 | trip='Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip' | price=330.0 | participants A:3 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=330.0 revenue=231.0 comm=30.0
+2026-01-26 09:00:52 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 09:00:52 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:00:54 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombSunday, January 25th, 2026Monday, January 26th, 2026 4:00 AMGYGN6FAG
+2026-01-26 09:00:54 - INFO - Booking number extraction (sanitized): GYGN6FAGKRRA (raw_match: GYGN6FAGKRRA7)
+2026-01-26 09:00:54 - INFO - Fetching missing details for GYGN6FAGKRRA from subpage...
+2026-01-26 09:01:07 - INFO - Extracted GYGN6FAGKRRA | trip='Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip' | price=392.0 | participants A:4 S:0 C:3 I:0 Y:0 | status=Confirmed | retail=392.0 revenue=274.4 comm=30.0
+2026-01-26 09:01:07 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 09:01:07 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:09 - INFO - Card text content (first 200 chars): Hurghada: Full-Day Trip to Cairo by PlaneOption: default |  Option 2 - The Grand Egyptian Museum (GEM) and Giza PyramidsSunday, January 25th, 2026Thursday, January 29th, 2026 4:00 AMGYGVN3G8HLAF5 peop
+2026-01-26 09:01:09 - INFO - Booking number extraction (sanitized): GYGVN3G8HLAF (raw_match: GYGVN3G8HLAF5)
+2026-01-26 09:01:09 - INFO - Fetching missing details for GYGVN3G8HLAF from subpage...
+2026-01-26 09:01:21 - INFO - Extracted GYGVN3G8HLAF | trip='Hurghada: Full-Day Trip to Cairo by Plane' | price=1151.75 | participants A:4 S:0 C:1 I:0 Y:0 | status=Confirmed | retail=1151.75 revenue=898.37 comm=22.0
+2026-01-26 09:01:21 - INFO - Card text content (first 200 chars): Hurghada: Full-Day Trip to Cairo by Plane
+2026-01-26 09:01:21 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:22 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombSunday, January 25th, 2026Thursday, March 5th, 2026 4:00 AMGYG996869
+2026-01-26 09:01:22 - INFO - Booking number extraction (sanitized): GYG996869XRY (raw_match: GYG996869XRY2)
+2026-01-26 09:01:22 - INFO - Fetching missing details for GYG996869XRY from subpage...
+2026-01-26 09:01:34 - INFO - Extracted GYG996869XRY | trip='Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip' | price=170.0 | participants A:2 S:0 C:0 I:0 Y:0 | status=Confirmed | retail=170.0 revenue=119.0 comm=30.0
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Scan tickets
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Request cancellations
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Download bookings
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): No bookings foundOn-demand bookings that you did not confirm and were canceled by a customer are not shown(0 of 0)(0 of 0)
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumSunday, January 25th, 2026Saturday, February 14th, 2026 8:00 AMGYG
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): GYG32MBQF6A9 (raw_match: GYG32MBQF6A92)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 1 - Colored Canyon without Blue Hole & Abu GalumSunday, January 25th, 2026Saturday, February 14th, 2026 8:00 AMGYG
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): GYG32MBQF6A9 (raw_match: GYG32MBQF6A92)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & DahabOption: default |  Option 2-Colored Canyon with Blue Hole & Abu Galum ATV QuadSunday, January 25th, 2026Saturday, February 14th, 2026 8:00 A
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): GYGBLHW4AAVN (raw_match: GYGBLHW4AAVN2)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Sharm El-Sheikh: Jeep Adventure to Blue Hole, Canyon & Dahab
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time VisitorsOption: default |  Option 1 - Egyptian Museum & Giza PyramidsSunday, January 25th, 2026Thursday, July 9th, 2026 12:30 AMGYG83XN9LRYV2 people
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): GYG83XN9LRYV (raw_match: GYG83XN9LRYV2)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time Visitors
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Valley of the Kings with King TutankhamunSunday, January 25th, 2026Friday, January 30th, 2026 4:00 AMGYG
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): GYG7VK5B5B65 (raw_match: GYG7VK5B5B653)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time VisitorsOption: default |  Option 1 - Egyptian Museum & Giza PyramidsSunday, January 25th, 2026CanceledThursday, July 9th, 2026 12:30 AMGYG7VK5B53ZA
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): GYG7VK5B53ZA (raw_match: GYG7VK5B53ZA2)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada to Cairo: Pyramids & Museum for First-Time Visitors
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Canceled
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Canceled
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Valley of the Kings with King TutankhamunSunday, January 25th, 2026Wednesday, January 28th, 2026 4:00 AM
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): GYGLMR6NK56Q (raw_match: GYGLMR6NK56Q1)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Valley of the Kings with King TutankhamunSunday, January 25th, 2026Monday, August 24th, 2026 4:00 AMGYGN
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): GYGN6FAGKRG9 (raw_match: GYGN6FAGKRG93)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombSunday, January 25th, 2026Monday, January 26th, 2026 4:00 AMGYGN6FAG
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): GYGN6FAGKRRA (raw_match: GYGN6FAGKRRA7)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Full-Day Trip to Cairo by PlaneOption: default |  Option 2 - The Grand Egyptian Museum (GEM) and Giza PyramidsSunday, January 25th, 2026Thursday, January 29th, 2026 4:00 AMGYGVN3G8HLAF5 peop
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): GYGVN3G8HLAF (raw_match: GYGVN3G8HLAF5)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Full-Day Trip to Cairo by Plane
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb TripOption: default |  Small Group Luxor Shared Tour without Tutankhamun TombSunday, January 25th, 2026Thursday, March 5th, 2026 4:00 AMGYG996869
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): GYG996869XRY (raw_match: GYG996869XRY2)
+2026-01-26 09:01:34 - INFO - Card text content (first 200 chars): Hurghada: Luxor Valley of the Kings & Tutankhamun Tomb Trip
+2026-01-26 09:01:34 - INFO - Booking number extraction (sanitized): None (raw_match: None)
+2026-01-26 09:01:34 - INFO - Sync start: GYG32MBQF6A9 -> DB + Airtable
+2026-01-26 09:01:37 - INFO - Airtable synced GYG32MBQF6A9 record_id=recABqDoRjdV8jQde
+2026-01-26 09:01:37 - INFO - Sync start: GYGBLHW4AAVN -> DB + Airtable
+2026-01-26 09:01:39 - INFO - Airtable synced GYGBLHW4AAVN record_id=recFh6kur2nUkrdpn
+2026-01-26 09:01:39 - INFO - Sync start: GYG83XN9LRYV -> DB + Airtable
+2026-01-26 09:01:40 - INFO - Airtable synced GYG83XN9LRYV record_id=rec3R6dxUkIIIRGzX
+2026-01-26 09:01:40 - INFO - Sync start: GYG7VK5B5B65 -> DB + Airtable
+2026-01-26 09:01:42 - INFO - Airtable synced GYG7VK5B5B65 record_id=rec3I8lRxEaxtOjwj
+2026-01-26 09:01:42 - INFO - Sync start: GYG7VK5B53ZA -> DB + Airtable
+2026-01-26 09:01:44 - INFO - Airtable synced GYG7VK5B53ZA record_id=recKAbfwF5RWSqg4w
+2026-01-26 09:01:44 - INFO - Sync start: GYGLMR6NK56Q -> DB + Airtable
+2026-01-26 09:01:46 - INFO - Airtable synced GYGLMR6NK56Q record_id=recd2JZBTL48Miegv
+2026-01-26 09:01:46 - INFO - Sync start: GYGN6FAGKRG9 -> DB + Airtable
+2026-01-26 09:01:48 - INFO - Airtable synced GYGN6FAGKRG9 record_id=recOv5X7AlDPpCsMW
+2026-01-26 09:01:48 - INFO - Sync start: GYGN6FAGKRRA -> DB + Airtable
+2026-01-26 09:01:50 - INFO - Airtable synced GYGN6FAGKRRA record_id=recHF8dEHIUt8bqAw
+2026-01-26 09:01:50 - INFO - Sync start: GYGVN3G8HLAF -> DB + Airtable
+2026-01-26 09:01:52 - INFO - Airtable synced GYGVN3G8HLAF record_id=rechgvYKgwB5Cr1MT
+2026-01-26 09:01:52 - INFO - Sync start: GYG996869XRY -> DB + Airtable
+2026-01-26 09:01:54 - INFO - Airtable synced GYG996869XRY record_id=recOAZxgnE5D30Q7n
+2026-01-26 09:01:55 - INFO - Clicked page 3 button
+2026-01-26 09:02:02 - INFO - Browser initialized with chat blocking enabled
+2026-01-26 09:02:16 - INFO - Session state saved (new login).
+2026-01-26 09:02:16 - ERROR - Failed to open bookings page after restart: Page.goto: NS_BINDING_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://supplier.getyourguide.com/bookings", waiting until "domcontentloaded"
+
+2026-01-26 09:02:16 - INFO - Extracting from page 3
+2026-01-26 09:03:06 - WARNING - No bookings found on page 3. Reloading page to verify...
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed\nCall log:\n  - waiting for locator("[data-testid*=\\"booking\\"], [data-test*=\\"booking\\"], [data-test-id*=\\"booking\\"], div[class*=\\"Card\\"], section[class*=\\"booking\\"], article[class*=\\"Card\\"]") to be visible\n')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("[data-testid*=\"booking\"], [data-test*=\"booking\"], [data-test-id*=\"booking\"], div[class*=\"Card\"], section[class*=\"booking\"], article[class*=\"Card\"]") to be visible
+
+(venv) PS C:\Users\Aloosh2020\Downloads\New Project's\GYG_System\v8_Enhanced>
