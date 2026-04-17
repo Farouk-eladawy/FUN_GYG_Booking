@@ -312,6 +312,10 @@ class AirtableManager:
         self.base_id = os.getenv("AIRTABLE_BASE_ID")
         self.table = os.getenv("AIRTABLE_TABLE", "Tito Sunny")
         self.api_url = f"https://api.airtable.com/v0/{self.base_id}/{quote_table(self.table)}"
+        
+        self.mirror_base_id = os.getenv("AIRTABLE_MIRROR_BASE_ID")
+        self.mirror_api_url = f"https://api.airtable.com/v0/{self.mirror_base_id}/{quote_table(self.table)}" if self.mirror_base_id else None
+        
         self.test_file = os.getenv("AIRTABLE_TEST_FILE", "airtable_sent_test.jsonl")
         self.report_file = os.getenv("AIRTABLE_SYNC_REPORT_FILE", "airtable_sync_report.jsonl")
         self._available_fields = None
@@ -418,6 +422,31 @@ class AirtableManager:
             pass
         try:
             params = {"filterByFormula": f"{{Booking Nr.}}='{booking.get('booking_nr')}'"}
+            
+            # --- 1. CHECK MIRROR BASE FIRST ---
+            if self.mirror_api_url:
+                mirror_find = requests.get(self.mirror_api_url, headers=headers, params=params, timeout=30)
+                if mirror_find.status_code == 200:
+                    m_data = mirror_find.json() or {}
+                    m_records = m_data.get("records") or []
+                    if m_records:
+                        m_rid = m_records[0].get("id")
+                        existing_m_record = m_records[0].get("fields", {})
+                        
+                        # Compare incoming fields with mirror base fields
+                        is_identical = True
+                        for k, v in fields.items():
+                            old_val = str(existing_m_record.get(k, ""))
+                            new_val = str(v)
+                            if new_val and new_val != "None" and new_val != old_val:
+                                is_identical = False
+                                break
+                                
+                        if is_identical:
+                            self.logger.info(f"Skipping {booking.get('booking_nr')} - Matches Mirror Base perfectly.")
+                            return {"success": True, "record_id": m_rid, "skipped": True}
+            # ----------------------------------
+            
             find = requests.get(self.api_url, headers=headers, params=params, timeout=30)
             if find.status_code == 200:
                 data = find.json() or {}
@@ -459,6 +488,16 @@ class AirtableManager:
                     self.logger.info(f"Patching Airtable {booking.get('booking_nr')} with fields: {list(update_fields.keys())}")
                         
                     patch = requests.patch(f"{self.api_url}/{rid}", headers=headers, json={"fields": update_fields, "typecast": True}, timeout=30)
+                    
+                    # --- 2. UPDATE MIRROR BASE ON PATCH ---
+                    if self.mirror_api_url and patch.status_code in (200, 201):
+                        self.logger.info(f"Updating Mirror Base for {booking.get('booking_nr')}")
+                        if 'm_rid' in locals():
+                            requests.patch(f"{self.mirror_api_url}/{m_rid}", headers=headers, json={"fields": update_fields, "typecast": True}, timeout=30)
+                        else:
+                            requests.post(self.mirror_api_url, headers=headers, json={"fields": update_fields, "typecast": True}, timeout=30)
+                    # --------------------------------------
+                    
                     try:
                         import json as _json
                         with open(self.test_file, "a", encoding="utf-8") as f:
@@ -521,6 +560,11 @@ class AirtableManager:
                 pass
             if create.status_code in (200, 201):
                 rid = create.json().get("id")
+                # --- 3. CREATE IN MIRROR BASE ---
+                if self.mirror_api_url:
+                    self.logger.info(f"Creating record in Mirror Base for {booking.get('booking_nr')}")
+                    requests.post(self.mirror_api_url, headers=headers, json={"fields": fields, "typecast": True}, timeout=30)
+                # --------------------------------
                 return {"success": True, "record_id": rid}
             # Fallback: attempt minimal record creation if schema is empty or columns are missing
             if create.status_code == 422:
@@ -553,6 +597,11 @@ class AirtableManager:
                         pass
                     if c2.status_code in (200, 201):
                         rid = c2.json().get("id")
+                        # --- 4. CREATE MINIMAL IN MIRROR BASE ---
+                        if self.mirror_api_url:
+                            self.logger.info(f"Creating minimal record in Mirror Base for {booking.get('booking_nr')}")
+                            requests.post(self.mirror_api_url, headers=headers, json={"fields": minimal, "typecast": True}, timeout=30)
+                        # ----------------------------------------
                         return {"success": True, "record_id": rid}
             return {"success": False, "code": create.status_code}
         except Exception as e:
