@@ -34,6 +34,7 @@ jobs:
           GYG_2FA_SECRET: ${{ secrets.GYG_2FA_SECRET }}
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
           AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+          AIRTABLE_MIRROR_BASE_ID: ${{ secrets.AIRTABLE_MIRROR_BASE_ID || vars.AIRTABLE_MIRROR_BASE_ID }}
           AIRTABLE_TABLE: ${{ secrets.AIRTABLE_TABLE || vars.AIRTABLE_TABLE || 'Tito Sunny' }}
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: |
@@ -44,6 +45,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add *.json browser_profile/ || true
-          git commit -m "chore: update cache and state files [skip ci]" || echo "No changes to commit"
-          git pull --rebase origin main
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "chore: update cache and state files [skip ci]"
+          else
+            echo "No changes to commit"
+          fi
+          git pull --rebase --autostash origin main
           git push origin main
