@@ -57,7 +57,11 @@ if not exist ".git" (
     git branch -M main
 )
 
-echo [1/3] Adding files...
+echo [1/3] Pulling from main repo (FTS) and Adding files...
+if defined REPO_FTS (
+    git remote set-url origin !REPO_FTS! 2>nul || git remote add origin !REPO_FTS!
+    git pull --rebase --autostash origin main || git rebase --abort
+)
 git add .
 echo.
 
@@ -96,19 +100,9 @@ echo Pushing to !REPO_NAME!...
 echo URL: !REPO_URL!
 echo ----------------------------------------------
 
-:: Set origin to current repo
-git remote set-url origin !REPO_URL! 2>nul || git remote add origin !REPO_URL!
-
-:: Check if remote branch exists and pull if needed
-git ls-remote --exit-code --heads origin main >nul 2>&1
-if not errorlevel 1 (
-    echo Pulling latest changes...
-    git pull --rebase --autostash origin main || git rebase --abort
-)
-
-:: Push changes directly (force to overwrite remote changes)
+:: Push changes directly to the target URL (force to overwrite remote changes)
 echo Force pushing to overwrite remote changes...
-git push --force -u origin main
+git push --force "!REPO_URL!" main
 echo Done with !REPO_NAME!
 echo.
 exit /b 0
