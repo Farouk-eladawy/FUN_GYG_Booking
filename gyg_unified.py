@@ -448,8 +448,30 @@ class AirtableManager:
             params = {"filterByFormula": f"{{Booking Nr.}}='{booking.get('booking_nr')}'"}
             
             # --- 1. CHECK MIRROR BASE FIRST ---
-            # Remove mirror base early-exit that skips main base update.
-            # We will handle mirror base after main base update.
+            # If the mirror base matches the new fields, it means there are no new changes from GYG.
+            # We skip the main base update to preserve manual edits in the main base.
+            if self.mirror_api_url:
+                mirror_find = requests.get(self.mirror_api_url, headers=headers, params=params, timeout=30)
+                if mirror_find.status_code == 200:
+                    m_data = mirror_find.json() or {}
+                    m_records = m_data.get("records") or []
+                    if m_records:
+                        m_rid = m_records[0].get("id")
+                        existing_m_record = m_records[0].get("fields", {})
+                        
+                        # Compare incoming fields with mirror base fields
+                        is_identical = True
+                        for k, v in fields.items():
+                            old_val = str(existing_m_record.get(k, ""))
+                            new_val = str(v)
+                            if new_val and new_val != "None" and new_val != old_val:
+                                is_identical = False
+                                break
+                                
+                        if is_identical:
+                            self.logger.info(f"Skipping Main Base update for {booking.get('booking_nr')} - Matches Mirror Base perfectly (No new changes from GYG).")
+                            # Even though we skipped Airtable, we return success so local DB is marked synced
+                            return {"success": True, "record_id": m_rid, "skipped": True}
             # ----------------------------------
 
             
