@@ -383,9 +383,9 @@ class AirtableManager:
             "Option": booking.get("option_selected"),
             "Date Trip": str(booking.get("date_trip")) if booking.get("date_trip") else None,
             "Total price EUR": booking.get("total_price_eur"),
-            "Retail Price": float(booking.get("retail_price")) if booking.get("retail_price") is not None else None,
-            "Revenue": float(booking.get("revenue")) if booking.get("revenue") is not None else None,
-            "Commission Breakdown": float(booking.get("commission_breakdown")) if booking.get("commission_breakdown") is not None else None,
+            "Retail Price": str(booking.get("retail_price")) if booking.get("retail_price") is not None else None,
+            "Revenue": str(booking.get("revenue")) if booking.get("revenue") is not None else None,
+            "Commission Breakdown": float(booking.get("commission_breakdown")) / 100.0 if booking.get("commission_breakdown") is not None else None,
             "Google Maps": booking.get("google_maps"),
             "Hotel Name": booking.get("hotel_name"),
             "Guide": booking.get("guide"),
@@ -1877,7 +1877,7 @@ class GYGUnifiedSystem:
             )
         # Fallback compute commission from retail/revenue
         if commission is None and retail is not None and revenue is not None and retail > 0:
-            commission = _sanitize_commission(((retail - revenue) / retail) * 100)
+            commission = round(((retail - revenue) / retail) * 100, 2)
         return retail, revenue, commission, supplier_rate, extra_rate
 
     def parse_euro_amount(self, text: str) -> Optional[float]:
@@ -1904,7 +1904,11 @@ class GYGUnifiedSystem:
         if not text:
             return None
         m = re.search(r'([0-9]+(?:\.[0-9]+)?)\s*%', text)
-        return _sanitize_commission(m.group(1)) if m else None
+        if not m:
+            return None
+        val = float(m.group(1))
+        # Keep as percentage value (e.g. 32.0), it will be divided by 100 before sending to Airtable
+        return val
 
     def parse_commission_details(self, text: str) -> Dict[str, Optional[float]]:
         """Extract commission details: total, supplier_rate, extra_rate."""
@@ -1913,10 +1917,10 @@ class GYGUnifiedSystem:
         extra = None
         m1 = re.search(r'Supplier\s+commission\s+rate\s*:\s*([0-9]+(?:\.[0-9]+)?)\s*%', text, re.IGNORECASE)
         if m1:
-            supplier = _sanitize_commission(m1.group(1))
+            supplier = float(m1.group(1))
         m2 = re.search(r'Extra\s+commission[^:]*:\s*([0-9]+(?:\.[0-9]+)?)\s*%', text, re.IGNORECASE)
         if m2:
-            extra = _sanitize_commission(m2.group(1))
+            extra = float(m2.group(1))
         return {"total": total, "supplier_rate": supplier, "extra_rate": extra}
 
     async def extract_customer_info(self, card) -> Tuple[Optional[str], Optional[str], Optional[str], Optional[str]]:
