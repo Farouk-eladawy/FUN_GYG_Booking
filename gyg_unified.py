@@ -357,6 +357,10 @@ class AirtableManager:
                         if not str_new or str_new == "None":
                             continue
                             
+                        if k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 10 and len(str_new) >= 10:
+                            if str_old[:10] == str_new[:10]:
+                                continue
+                                
                         if isinstance(new_val, (int, float)) or (isinstance(old_val, (int, float)) and old_val != ""):
                             try:
                                 f_old = float(old_val) if old_val != "" else 0.0
@@ -501,6 +505,11 @@ class AirtableManager:
                             if not str_new or str_new == "None":
                                 continue
                                 
+                            # Special handling for dates (compare only the first 10 chars YYYY-MM-DD if applicable)
+                            if k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 10 and len(str_new) >= 10:
+                                if str_old[:10] == str_new[:10]:
+                                    continue
+
                             # Special handling for floats/numbers
                             if isinstance(new_val, (int, float)) or (isinstance(old_val, (int, float)) and old_val != ""):
                                 try:
