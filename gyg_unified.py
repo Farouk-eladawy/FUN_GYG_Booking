@@ -343,9 +343,32 @@ class AirtableManager:
                     # Check if we actually need to patch
                     is_identical = True
                     for k, v in fields.items():
-                        old_val = str(existing_m_record.get(k, ""))
-                        new_val = str(v)
-                        if new_val and new_val != "None" and new_val != old_val:
+                        old_val = existing_m_record.get(k)
+                        new_val = v
+                        
+                        if old_val is None:
+                            old_val = ""
+                        if new_val is None:
+                            new_val = ""
+                            
+                        str_old = str(old_val).strip()
+                        str_new = str(new_val).strip()
+                        
+                        if not str_new or str_new == "None":
+                            continue
+                            
+                        if isinstance(new_val, (int, float)) or (isinstance(old_val, (int, float)) and old_val != ""):
+                            try:
+                                f_old = float(old_val) if old_val != "" else 0.0
+                                f_new = float(new_val)
+                                if abs(f_old - f_new) > 0.001:
+                                    is_identical = False
+                                    break
+                                continue
+                            except ValueError:
+                                pass
+                                
+                        if str_new != str_old:
                             is_identical = False
                             break
                             
@@ -462,10 +485,38 @@ class AirtableManager:
                         # Compare incoming fields with mirror base fields
                         is_identical = True
                         for k, v in fields.items():
-                            old_val = str(existing_m_record.get(k, ""))
-                            new_val = str(v)
-                            if new_val and new_val != "None" and new_val != old_val:
+                            old_val = existing_m_record.get(k)
+                            new_val = v
+                            
+                            # Normalize for comparison
+                            if old_val is None:
+                                old_val = ""
+                            if new_val is None:
+                                new_val = ""
+                                
+                            str_old = str(old_val).strip()
+                            str_new = str(new_val).strip()
+                            
+                            # Skip empty new values so we don't force updates for missing extractions
+                            if not str_new or str_new == "None":
+                                continue
+                                
+                            # Special handling for floats/numbers
+                            if isinstance(new_val, (int, float)) or (isinstance(old_val, (int, float)) and old_val != ""):
+                                try:
+                                    f_old = float(old_val) if old_val != "" else 0.0
+                                    f_new = float(new_val)
+                                    if abs(f_old - f_new) > 0.001:
+                                        is_identical = False
+                                        self.logger.debug(f"Mirror mismatch on {k}: {f_old} != {f_new}")
+                                        break
+                                    continue
+                                except ValueError:
+                                    pass # Fallback to string comparison
+                                    
+                            if str_new != str_old:
                                 is_identical = False
+                                self.logger.debug(f"Mirror mismatch on {k}: '{str_old}' != '{str_new}'")
                                 break
                                 
                         if is_identical:
