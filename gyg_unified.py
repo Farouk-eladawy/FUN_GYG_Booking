@@ -81,128 +81,104 @@ class BookingsDatabase:
         finally:
             conn.close()
 
+    def _compare_and_merge(self, booking: Dict, existing: Dict) -> Tuple[bool, List[str]]:
+        keys_to_check = [
+            "customer_name", "customer_country", "customer_phone", "customer_email",
+            "trip_name", "product_id", "destination", "option_selected", "date_trip",
+            "total_price_eur", "retail_price", "revenue", "commission_breakdown",
+            "google_maps", "hotel_name", "guide", "traveler_name", "add_ons",
+            "adt", "std", "chd", "inf", "youth", "booking_status"
+        ]
+        has_changes = False
+        change_details = []
+        import json
+
+        for k in keys_to_check:
+            v_new = booking.get(k)
+            v_old = existing.get(k)
+            
+            # --- PROTECT EXISTING FIELDS (User Request) ---
+            if k in ["adt", "chd", "inf", "youth", "std"]:
+                try:
+                    if v_old is not None and int(v_old) > 0 and (v_new is None or int(v_new) == 0):
+                        booking[k] = v_old
+                        v_new = v_old
+                except (ValueError, TypeError):
+                    pass
+
+            if k in ["hotel_name", "customer_phone", "customer_name"]:
+                if v_old and str(v_old).strip() and not (v_new and str(v_new).strip()):
+                    booking[k] = v_old
+                    v_new = v_old
+                    
+            def normalize_val(v):
+                if v is None: return ""
+                return str(v).strip()
+
+            if isinstance(v_new, (int, float)) and isinstance(v_old, (int, float)):
+                if abs(float(v_new) - float(v_old)) > 0.01:
+                    has_changes = True
+                    change_details.append(f"{k}: {v_old} -> {v_new}")
+                    break
+                continue
+            elif k == "customer_email":
+                s_new = normalize_val(v_new).lower()
+                s_old = normalize_val(v_old).lower()
+                if s_old and not s_new:
+                    booking[k] = v_old
+                    continue
+                if s_new != s_old:
+                    has_changes = True
+                    change_details.append(f"{k}: {v_old} -> {v_new}")
+                    break
+            elif isinstance(v_new, (dict, list)):
+                try:
+                    obj_old = v_old
+                    if isinstance(v_old, str):
+                        try:
+                            obj_old = json.loads(v_old)
+                        except:
+                            import ast
+                            try:
+                                obj_old = ast.literal_eval(v_old)
+                            except:
+                                pass
+                    s_new_json = json.dumps(v_new, sort_keys=True, default=str)
+                    s_old_json = json.dumps(obj_old, sort_keys=True, default=str)
+                    if s_new_json != s_old_json:
+                        has_changes = True
+                        change_details.append(f"{k} (struct): changed")
+                        break
+                except Exception:
+                    s_new = normalize_val(v_new)
+                    s_old = normalize_val(v_old)
+                    if s_new != s_old:
+                        has_changes = True
+                        change_details.append(f"{k}: {v_old} -> {v_new}")
+                        break
+            else:
+                s_new = normalize_val(v_new)
+                s_old = normalize_val(v_old)
+                if s_new != s_old:
+                    try:
+                        f1 = float(s_new)
+                        f2 = float(s_old)
+                        if abs(f1 - f2) < 0.01:
+                            continue
+                    except:
+                        pass
+                    has_changes = True
+                    change_details.append(f"{k}: '{s_old}' -> '{s_new}'")
+                    break
+
+        return has_changes, change_details
+
     def save_booking(self, booking: Dict) -> Dict:
-        # Check for existing booking to determine if update is needed
         existing = self.get_booking(booking.get("booking_nr"))
         status = "unchanged"
         
         if existing:
-            # Compare fields to detect changes
-            keys_to_check = [
-                "customer_name", "customer_country", "customer_phone", "customer_email",
-                "trip_name", "product_id", "destination", "option_selected", "date_trip",
-                "total_price_eur", "retail_price", "revenue", "commission_breakdown",
-                "google_maps", "hotel_name", "guide", "traveler_name", "add_ons",
-                "adt", "std", "chd", "inf", "youth", "booking_status"
-            ]
-            has_changes = False
-            change_details = []
-            
-            import json
-            
-            for k in keys_to_check:
-                v_new = booking.get(k)
-                v_old = existing.get(k)
-                
-                # --- PROTECT EXISTING FIELDS (User Request) ---
-                # 1. Number of People (ADT, CHD, INF, YOUTH, STD)
-                if k in ["adt", "chd", "inf", "youth", "std"]:
-                    try:
-                        # If existing value is valid (>0), protect it
-                        if v_old is not None and int(v_old) > 0:
-                            booking[k] = v_old
-                            continue
-                    except (ValueError, TypeError):
-                        pass
-
-                # 2. Hotel Name and Phone Number
-                if k in ["hotel_name", "customer_phone"]:
-                    # If existing value is not empty, protect it
-                    if v_old and str(v_old).strip():
-                        booking[k] = v_old
-                        continue
-                # ----------------------------------------------
-                
-                # Helper to normalize for comparison
-                def normalize_val(v):
-                    if v is None: return ""
-                    return str(v).strip()
-
-                # Special handling for floats
-                if isinstance(v_new, (int, float)) and isinstance(v_old, (int, float)):
-                    if abs(float(v_new) - float(v_old)) > 0.01:
-                        has_changes = True
-                        change_details.append(f"{k}: {v_old} -> {v_new}")
-                        break
-                    continue
-                
-                # Special handling for emails (ignore case)
-                elif k == "customer_email":
-                    s_new = normalize_val(v_new).lower()
-                    s_old = normalize_val(v_old).lower()
-                    
-                    # Prevent overwriting existing email with empty one (extraction failure protection)
-                    if s_old and not s_new:
-                        booking[k] = v_old # Restore old value to booking object
-                        continue
-
-                    if s_new != s_old:
-                        has_changes = True
-                        change_details.append(f"{k}: {v_old} -> {v_new}")
-                        break
-                
-                # Special handling for dicts/lists (commission_breakdown, add_ons)
-                elif isinstance(v_new, (dict, list)):
-                    try:
-                        obj_old = v_old
-                        if isinstance(v_old, str):
-                            try:
-                                obj_old = json.loads(v_old)
-                            except:
-                                import ast
-                                try:
-                                    obj_old = ast.literal_eval(v_old)
-                                except:
-                                    pass
-                        
-                        s_new_json = json.dumps(v_new, sort_keys=True, default=str)
-                        s_old_json = json.dumps(obj_old, sort_keys=True, default=str)
-                        
-                        if s_new_json != s_old_json:
-                            has_changes = True
-                            change_details.append(f"{k} (struct): changed")
-                            break
-                    except Exception:
-                        s_new = normalize_val(v_new)
-                        s_old = normalize_val(v_old)
-                        if s_new != s_old:
-                            has_changes = True
-                            change_details.append(f"{k}: {v_old} -> {v_new}")
-                            break
-
-                # Standard string comparison
-                else:
-                    s_new = normalize_val(v_new)
-                    s_old = normalize_val(v_old)
-                    
-                    # Protect phone/name from being cleared if extraction fails
-                    if k in ("customer_phone", "customer_name") and s_old and not s_new:
-                         booking[k] = v_old # Restore old value
-                         continue
-
-                    if s_new != s_old:
-                        # Double check for float-as-string differences (e.g. "20" vs "20.0")
-                        try:
-                            f1 = float(s_new)
-                            f2 = float(s_old)
-                            if abs(f1 - f2) < 0.01:
-                                continue
-                        except:
-                            pass
-                            
-                        has_changes = True
-                        change_details.append(f"{k}: '{s_old}' -> '{s_new}'")
-                        break
+            has_changes, change_details = self._compare_and_merge(booking, existing)
             
             if has_changes:
                 self.logger.info(f"Booking {booking.get('booking_nr')} changed: {'; '.join(change_details)}")
@@ -350,6 +326,41 @@ class AirtableManager:
         ]
         self.payload_debug_file = os.getenv("AIRTABLE_PAYLOAD_DEBUG_FILE", "airtable_payload_debug.jsonl")
 
+    def _sync_to_mirror_base(self, booking_nr: str, fields: Dict, headers: Dict):
+        """Helper to sync changes to the Mirror Base without blocking Main Base"""
+        if not self.mirror_api_url:
+            return
+        try:
+            params = {"filterByFormula": f"{{Booking Nr.}}='{booking_nr}'"}
+            mirror_find = requests.get(self.mirror_api_url, headers=headers, params=params, timeout=30)
+            if mirror_find.status_code == 200:
+                m_data = mirror_find.json() or {}
+                m_records = m_data.get("records") or []
+                if m_records:
+                    m_rid = m_records[0].get("id")
+                    existing_m_record = m_records[0].get("fields", {})
+                    
+                    # Check if we actually need to patch
+                    is_identical = True
+                    for k, v in fields.items():
+                        old_val = str(existing_m_record.get(k, ""))
+                        new_val = str(v)
+                        if new_val and new_val != "None" and new_val != old_val:
+                            is_identical = False
+                            break
+                            
+                    if is_identical:
+                        self.logger.info(f"Mirror Base sync skipped for {booking_nr} - Already up to date.")
+                        return
+                        
+                    self.logger.info(f"Updating Mirror Base for {booking_nr}")
+                    requests.patch(f"{self.mirror_api_url}/{m_rid}", headers=headers, json={"fields": fields, "typecast": True}, timeout=30)
+                else:
+                    self.logger.info(f"Creating record in Mirror Base for {booking_nr}")
+                    requests.post(self.mirror_api_url, headers=headers, json={"fields": fields, "typecast": True}, timeout=30)
+        except Exception as e:
+            self.logger.warning(f"Failed to sync to mirror base for {booking_nr}: {e}")
+
     def upsert_booking(self, booking: Dict, force_update_fields: Optional[List[str]] = None) -> Dict:
         if not self.api_key or not self.base_id or not self.table:
             return {"success": False, "error": "missing_airtable_config"}
@@ -372,19 +383,19 @@ class AirtableManager:
             "Option": booking.get("option_selected"),
             "Date Trip": str(booking.get("date_trip")) if booking.get("date_trip") else None,
             "Total price EUR": booking.get("total_price_eur"),
-            "Retail Price": (str(booking.get("retail_price")) if booking.get("retail_price") is not None else None),
-            "Revenue": (str(booking.get("revenue")) if booking.get("revenue") is not None else None),
-            "Commission Breakdown": (str(booking.get("commission_breakdown")) if booking.get("commission_breakdown") is not None else None),
+            "Retail Price": float(booking.get("retail_price")) if booking.get("retail_price") is not None else None,
+            "Revenue": float(booking.get("revenue")) if booking.get("revenue") is not None else None,
+            "Commission Breakdown": float(booking.get("commission_breakdown")) if booking.get("commission_breakdown") is not None else None,
             "Google Maps": booking.get("google_maps"),
             "Hotel Name": booking.get("hotel_name"),
             "Guide": booking.get("guide"),
             "Traveler name": booking.get("traveler_name"),
             "Add - Ons": booking.get("add_ons"),
-            "ADT": booking.get("adt"),
-            "STD": booking.get("std"),
-            "CHD": booking.get("chd"),
-            "Inf": booking.get("inf"),
-            "Youth": booking.get("youth"),
+            "ADT": int(booking.get("adt")) if booking.get("adt") is not None else 0,
+            "STD": int(booking.get("std")) if booking.get("std") is not None else 0,
+            "CHD": int(booking.get("chd")) if booking.get("chd") is not None else 0,
+            "Inf": int(booking.get("inf")) if booking.get("inf") is not None else 0,
+            "Youth": int(booking.get("youth")) if booking.get("youth") is not None else 0,
             "Booking Status": booking.get("booking_status"),
         }
         try:
@@ -397,18 +408,28 @@ class AirtableManager:
                     for rec in (data.get("records") or []):
                         for k in (rec.get("fields") or {}).keys():
                             av.add(k)
-                self._available_fields = av
+                if av:
+                    self._available_fields = av
+                else:
+                    self.logger.warning("Airtable schema detection yielded empty fields. Disabling field filtering.")
+                    self._available_fields = None # Fallback to no filtering if no fields detected
         except Exception:
             self._available_fields = None
         fields = {}
+        force_update_fields = force_update_fields or []
         for k in self._required_fields:
             v = full_fields.get(k)
             if v is None:
                 continue
-            # If we know the available fields, skip sending fields that Airtable doesn't have
-            if self._available_fields is not None and k not in self._available_fields:
+            # If we know the available fields, skip sending fields that Airtable doesn't have,
+            # UNLESS it is explicitly in force_update_fields.
+            if self._available_fields is not None and k not in self._available_fields and k not in force_update_fields:
                 continue
             fields[k] = v
+            
+        if force_update_fields:
+            self.logger.debug(f"Forcing update for fields: {force_update_fields} on {booking.get('booking_nr')}")
+
         try:
             import json as _json
             non_null_keys = [k for k, v in full_fields.items() if v is not None]
@@ -427,28 +448,10 @@ class AirtableManager:
             params = {"filterByFormula": f"{{Booking Nr.}}='{booking.get('booking_nr')}'"}
             
             # --- 1. CHECK MIRROR BASE FIRST ---
-            if self.mirror_api_url:
-                mirror_find = requests.get(self.mirror_api_url, headers=headers, params=params, timeout=30)
-                if mirror_find.status_code == 200:
-                    m_data = mirror_find.json() or {}
-                    m_records = m_data.get("records") or []
-                    if m_records:
-                        m_rid = m_records[0].get("id")
-                        existing_m_record = m_records[0].get("fields", {})
-                        
-                        # Compare incoming fields with mirror base fields
-                        is_identical = True
-                        for k, v in fields.items():
-                            old_val = str(existing_m_record.get(k, ""))
-                            new_val = str(v)
-                            if new_val and new_val != "None" and new_val != old_val:
-                                is_identical = False
-                                break
-                                
-                        if is_identical:
-                            self.logger.info(f"Skipping {booking.get('booking_nr')} - Matches Mirror Base perfectly.")
-                            return {"success": True, "record_id": m_rid, "skipped": True}
+            # Remove mirror base early-exit that skips main base update.
+            # We will handle mirror base after main base update.
             # ----------------------------------
+
             
             find = requests.get(self.api_url, headers=headers, params=params, timeout=30)
             if find.status_code == 200:
@@ -465,11 +468,7 @@ class AirtableManager:
                     
                     # --- 2. UPDATE MIRROR BASE ON PATCH ---
                     if self.mirror_api_url and patch.status_code in (200, 201):
-                        self.logger.info(f"Updating Mirror Base for {booking.get('booking_nr')}")
-                        if 'm_rid' in locals():
-                            requests.patch(f"{self.mirror_api_url}/{m_rid}", headers=headers, json={"fields": update_fields, "typecast": True}, timeout=30)
-                        else:
-                            requests.post(self.mirror_api_url, headers=headers, json={"fields": update_fields, "typecast": True}, timeout=30)
+                        self._sync_to_mirror_base(booking.get('booking_nr'), fields, headers)
                     # --------------------------------------
                     
                     try:
@@ -499,6 +498,9 @@ class AirtableManager:
                             }, ensure_ascii=False) + "\n")
                     except Exception:
                         pass
+                    if patch.status_code == 422:
+                        self.logger.warning(f"Airtable PATCH 422 for {booking.get('booking_nr')}. Possible schema mismatch or missing column.")
+                    
                     if patch.status_code in (200, 201):
                         return {"success": True, "record_id": rid}
                     return {"success": False, "code": patch.status_code}
@@ -536,8 +538,7 @@ class AirtableManager:
                 rid = create.json().get("id")
                 # --- 3. CREATE IN MIRROR BASE ---
                 if self.mirror_api_url:
-                    self.logger.info(f"Creating record in Mirror Base for {booking.get('booking_nr')}")
-                    requests.post(self.mirror_api_url, headers=headers, json={"fields": fields, "typecast": True}, timeout=30)
+                    self._sync_to_mirror_base(booking.get('booking_nr'), fields, headers)
                 # --------------------------------
                 return {"success": True, "record_id": rid}
             # Fallback: attempt minimal record creation if schema is empty or columns are missing
@@ -573,8 +574,7 @@ class AirtableManager:
                         rid = c2.json().get("id")
                         # --- 4. CREATE MINIMAL IN MIRROR BASE ---
                         if self.mirror_api_url:
-                            self.logger.info(f"Creating minimal record in Mirror Base for {booking.get('booking_nr')}")
-                            requests.post(self.mirror_api_url, headers=headers, json={"fields": minimal, "typecast": True}, timeout=30)
+                            self._sync_to_mirror_base(booking.get('booking_nr'), minimal, headers)
                         # ----------------------------------------
                         return {"success": True, "record_id": rid}
             return {"success": False, "code": create.status_code}
@@ -604,9 +604,7 @@ class GYGUnifiedSystem:
         self.session_counter = 0
         self.max_session_time = 60
         self.current_page = 1
-        # Force persistence to keep browser open as requested
-        self.persistent = True 
-        # self.persistent = os.getenv("BROWSER_PERSISTENT", "true").lower() == "true"
+        self.persistent = os.getenv("BROWSER_PERSISTENT", "true").lower() == "true"
         self.user_data_dir = os.getenv("BROWSER_USER_DATA_DIR", str(Path(__file__).parent / "browser_profile"))
         self.engine = os.getenv("BROWSER_ENGINE", "chromium").lower()
         self.channel = os.getenv("BROWSER_CHANNEL", "")
@@ -672,7 +670,7 @@ class GYGUnifiedSystem:
                 try:
                     await self.page.evaluate('() => { const el = Array.from(document.querySelectorAll("div,section,iframe"))\n                        .find(e => (e.textContent||"").includes("Support chat"));\n                        if (el) { el.style.display = "none"; } }')
                 except Exception:
-                    pass
+                     pass
             if not chat:
                 for fr in self.page.frames:
                     try:
@@ -859,130 +857,72 @@ class GYGUnifiedSystem:
             self.logger.error(f"Browser initialization failed: {e}")
             return False
 
-    async def login(self, allow_restart: bool = True) -> bool:
+    async def _navigate_to_login(self, allow_restart: bool) -> bool:
         try:
-            try:
-                await self.page.goto("https://supplier.getyourguide.com/auth/login", wait_until="domcontentloaded", timeout=60000)
-            except Exception as e:
-                # Handle "object has been collected" error specifically
-                if allow_restart and "collected" in str(e).lower() and "heap" in str(e).lower():
-                    self.logger.error("Critical: Page object collected (memory issue). Forcing restart.")
-                    await self._restart_from_beginning("login_page_collected")
-                    return False
-                pass
-                
+            await self.page.goto("https://supplier.getyourguide.com/auth/login", wait_until="domcontentloaded", timeout=60000)
             try:
                 await self.page.wait_for_load_state("networkidle", timeout=10000)
             except Exception:
                 pass
-                
             await asyncio.sleep(2)
             
-            # Check for white screen / empty body and reload if needed
-            try:
-                body_len = await self.page.evaluate("() => document.body.innerText.length")
-                if body_len < 50:
-                    self.logger.warning("Detected potential white screen on login. Reloading...")
-                    await self.page.reload(wait_until="domcontentloaded")
-                    await asyncio.sleep(3)
-                    
-                    # Re-check after reload
-                    body_len = await self.page.evaluate("() => document.body.innerText.length")
-                    if body_len < 50:
-                        self.logger.warning("Reload failed to fix white screen. Recreating page...")
-                        if self.page:
-                            try:
-                                await self.page.close()
-                            except Exception:
-                                pass
-                        if self.context:
-                            self.page = await self.context.new_page()
-                            # Re-inject style tag for chat blocking
-                            try:
-                                await self.page.add_style_tag(content="""
-                                    iframe[title*="Messaging"], iframe[title*="Support"],
-                                    button:has-text("Help"), [id*="conversation"],
-                                    [class*="chat-widget"], [class*="support-widget"] {
-                                        display: none !important;
-                                        visibility: hidden !important;
-                                    }
-                                """)
-                            except Exception:
-                                pass
-                            try:
-                                await self.page.goto("https://supplier.getyourguide.com/auth/login", wait_until="domcontentloaded", timeout=60000)
-                            except Exception:
-                                pass
-                            await asyncio.sleep(2)
-            except Exception:
-                pass
+            body_len = await self.page.evaluate("() => document.body.innerText.length")
+            if body_len < 50:
+                self.logger.warning("Detected potential white screen on login. Reloading...")
+                await self.page.reload(wait_until="domcontentloaded")
+                await asyncio.sleep(3)
+                if await self.page.evaluate("() => document.body.innerText.length") < 50:
+                    self.logger.warning("Reload failed to fix white screen. Recreating page...")
+                    if self.page:
+                        try:
+                            await self.page.close()
+                        except Exception:
+                            pass
+                    if self.context:
+                        self.page = await self.context.new_page()
+                        try:
+                            await self.page.goto("https://supplier.getyourguide.com/auth/login", wait_until="domcontentloaded", timeout=60000)
+                        except Exception:
+                            pass
+                        await asyncio.sleep(2)
+            return True
+        except Exception as e:
+            if allow_restart and "collected" in str(e).lower() and "heap" in str(e).lower():
+                self.logger.error("Critical: Page object collected (memory issue). Forcing restart.")
+                await self._restart_from_beginning("login_page_collected")
+                return False
+            return True
 
-            try:
-                await self.suppress_chat_widgets()
-            except Exception:
-                pass
-            
-            # Check for CAPTCHA
-            if await self.page.query_selector('iframe[src*="recaptcha"], iframe[src*="cloudflare"]'):
-                self.logger.warning("CAPTCHA detected on login page")
-                ts = datetime.now().strftime('%Y%m%d_%H%M%S')
-                await self.page.screenshot(path=f"captcha_detected_{ts}.png")
-            
-            # Check if we are already logged in (e.g. redirected to Home/Analytics/Bookings)
-            if await self.page.query_selector('text="Analytics"') or \
-               await self.page.query_selector('text="Revenue"') or \
-               await self.page.query_selector('text="Bookings"') or \
-               "bookings" in self.page.url:
-                 self.logger.info("Already logged in (Home/Analytics/Bookings detected). Navigating to Bookings...")
-                 if "bookings" not in self.page.url:
-                     url = "https://supplier.getyourguide.com/bookings"
-                     if self.managed_by:
-                         url += f"?managed_by={self.managed_by}"
-                     await self.page.goto(url, wait_until="domcontentloaded")
-                     await asyncio.sleep(2)
-                 
-                 self.session_counter = 0
-                 if self.context and not self.persistent:
-                     try:
-                         await self.context.storage_state(path=self.storage_state_path)
-                         self.logger.info("Session state saved (already logged in).")
-                     except Exception:
-                         pass
-                 return True
+    async def _check_already_logged_in(self) -> bool:
+        if await self.page.query_selector('text="Analytics"') or \
+           await self.page.query_selector('text="Revenue"') or \
+           await self.page.query_selector('text="Bookings"') or \
+           "bookings" in self.page.url:
+             self.logger.info("Already logged in (Home/Analytics/Bookings detected). Navigating to Bookings...")
+             if "bookings" not in self.page.url:
+                 url = "https://supplier.getyourguide.com/bookings"
+                 if self.managed_by:
+                     url += f"?managed_by={self.managed_by}"
+                 await self.page.goto(url, wait_until="domcontentloaded")
+                 await asyncio.sleep(2)
+             
+             self.session_counter = 0
+             if self.context and not self.persistent:
+                 try:
+                     await self.context.storage_state(path=self.storage_state_path)
+                     self.logger.info("Session state saved (already logged in).")
+                 except Exception:
+                     pass
+             return True
+        return False
 
+    async def _fill_credentials(self, allow_restart: bool) -> bool:
+        try:
             email_el = await self.page.query_selector('input[type="email"]')
             pass_el = await self.page.query_selector('input[type="password"]')
-            
             if not email_el or not pass_el:
-                # Double check if we landed on Home/Bookings page without detecting it earlier
-                try:
-                    if await self.page.query_selector('text="Analytics"') or \
-                       await self.page.query_selector('text="Revenue"') or \
-                       await self.page.query_selector('text="Bookings"') or \
-                       "bookings" in self.page.url:
-                         self.logger.info("Landed on Home/Analytics/Bookings. Ensuring we are on Bookings page...")
-                         if "bookings" not in self.page.url:
-                             url = "https://supplier.getyourguide.com/bookings"
-                             if self.managed_by:
-                                 url += f"?managed_by={self.managed_by}"
-                             await self.page.goto(url, wait_until="domcontentloaded")
-                             await asyncio.sleep(2)
-                         
-                         self.session_counter = 0
-                         if self.context and not self.persistent:
-                             try:
-                                 await self.context.storage_state(path=self.storage_state_path)
-                                 self.logger.info("Session state saved (recovered login).")
-                             except Exception:
-                                 pass
-                         return True
-                except Exception as e:
-                    if allow_restart and "collected" in str(e).lower() and "heap" in str(e).lower():
-                        self.logger.error("Critical: Page object collected during element check. Forcing restart.")
-                        await self._restart_from_beginning("login_element_check_collected")
-                        return False
-                    pass
-                     
+                if await self._check_already_logged_in():
+                    return True
                 self.logger.error("Login form elements not found")
                 ts = datetime.now().strftime('%Y%m%d_%H%M%S')
                 await self.page.screenshot(path=f"login_form_missing_{ts}.png")
@@ -996,91 +936,135 @@ class GYGUnifiedSystem:
             if login_btn:
                 await login_btn.click()
             await asyncio.sleep(3)
-            
-            # Check for error messages
-            error_msg = await self.page.query_selector('.error-message, [role="alert"]')
-            if error_msg:
-                txt = await error_msg.text_content()
-                self.logger.error(f"Login error message: {txt}")
-                
-                # Critical: If session error detected, our saved state is likely corrupt.
-                # We must clear it to break the restart loop.
-                if "error with your session" in txt.lower() or "log you out" in txt.lower():
-                    self.logger.critical("Corrupt session detected. Clearing saved state and retrying fresh.")
-                    try:
-                        await self._clear_browser_data()
-                        self.logger.info("Cleared browser cookies, storage state, and profile data")
-                        if allow_restart:
-                            return await self._restart_from_beginning("corrupt_session")
-                        return False
-                    except Exception as e:
-                        self.logger.error(f"Failed to clear corrupt session: {e}")
+            return True
+        except Exception as e:
+            if allow_restart and "collected" in str(e).lower() and "heap" in str(e).lower():
+                self.logger.error("Critical: Page object collected during element check. Forcing restart.")
+                await self._restart_from_beginning("login_element_check_collected")
+            return False
 
-            if self.totp_secret:
-                code = pyotp.TOTP(self.totp_secret).now()
-                # Try all common selectors for 6-digit inputs
-                code_inputs = await self.page.query_selector_all('input[type="text"], input[type="tel"], input[type="number"], input[inputmode="numeric"]')
+    async def _handle_login_errors(self, allow_restart: bool) -> bool:
+        error_msg = await self.page.query_selector('.error-message, [role="alert"]')
+        if error_msg:
+            txt = await error_msg.text_content()
+            self.logger.error(f"Login error message: {txt}")
+            if "error with your session" in txt.lower() or "log you out" in txt.lower():
+                self.logger.critical("Corrupt session detected. Clearing saved state and retrying fresh.")
+                try:
+                    await self._clear_browser_data()
+                    self.logger.info("Cleared browser cookies, storage state, and profile data")
+                    if allow_restart:
+                        return await self._restart_from_beginning("corrupt_session")
+                except Exception as e:
+                    self.logger.error(f"Failed to clear corrupt session: {e}")
+                return True
+        return False
+
+    async def _handle_totp(self) -> None:
+        if not self.totp_secret:
+            return
+        code = pyotp.TOTP(self.totp_secret).now()
+        code_inputs = await self.page.query_selector_all('input[type="text"], input[type="tel"], input[type="number"], input[inputmode="numeric"]')
+        
+        if len(code_inputs) >= 6:
+            for i in range(6):
+                if i < len(code):
+                    await code_inputs[i].fill(code[i])
+                    await asyncio.sleep(0.1)
+        elif len(code_inputs) == 1:
+            await code_inputs[0].fill(code)
+        else:
+            if code_inputs:
+                await code_inputs[0].fill(code)
+
+        verify_btn = await self.page.query_selector('button:has-text("Verify code")')
+        if verify_btn:
+            await verify_btn.click()
+        else:
+            await self.page.press('input[type="text"]', 'Enter')
+        await asyncio.sleep(3)
+        
+        try:
+            error_banner = await self.page.query_selector('text=verification code is either incorrect or has expired')
+            if error_banner:
+                self.logger.warning("OTP incorrect/expired. Waiting 30s for new code...")
+                await asyncio.sleep(30)
+                new_code = pyotp.TOTP(self.totp_secret).now()
+                if new_code == code:
+                     await asyncio.sleep(5)
+                     new_code = pyotp.TOTP(self.totp_secret).now()
                 
-                # Filter for likely OTP inputs (short, often 1 or 6 chars)
-                # If multiple inputs (like separate boxes), fill them sequentially
                 if len(code_inputs) >= 6:
-                    # Case: 6 separate boxes
                     for i in range(6):
-                        if i < len(code):
-                            await code_inputs[i].fill(code[i])
+                        if i < len(new_code):
+                            await code_inputs[i].fill(new_code[i])
                             await asyncio.sleep(0.1)
                 elif len(code_inputs) == 1:
-                    # Case: 1 single box
-                    await code_inputs[0].fill(code)
-                else:
-                    # Fallback: try the first text input found
-                    if code_inputs:
-                        await code_inputs[0].fill(code)
-
-                # Try clicking Verify code button first, fallback to Enter
-                verify_btn = await self.page.query_selector('button:has-text("Verify code")')
+                    await code_inputs[0].fill(new_code)
+                    
                 if verify_btn:
                     await verify_btn.click()
                 else:
-                    await self.page.press('input[type="text"]', 'Enter')
+                    await self.page.press('body', 'Enter')
                 await asyncio.sleep(3)
-                
-                # Check for "incorrect or has expired" error
-                try:
-                    error_banner = await self.page.query_selector('text=verification code is either incorrect or has expired')
-                    if error_banner:
-                        self.logger.warning("OTP incorrect/expired. Waiting 30s for new code...")
-                        await asyncio.sleep(30)
-                        # Generate new code
-                        new_code = pyotp.TOTP(self.totp_secret).now()
-                        if new_code == code:
-                             # Wait a bit more if code hasn't rotated
-                             await asyncio.sleep(5)
-                             new_code = pyotp.TOTP(self.totp_secret).now()
-                        
-                        # Retry filling
-                        if len(code_inputs) >= 6:
-                            for i in range(6):
-                                if i < len(new_code):
-                                    await code_inputs[i].fill(new_code[i])
-                                    await asyncio.sleep(0.1)
-                        elif len(code_inputs) == 1:
-                            await code_inputs[0].fill(new_code)
-                            
-                        if verify_btn:
-                            await verify_btn.click()
-                        else:
-                            await self.page.press('body', 'Enter')
-                        await asyncio.sleep(3)
-                except Exception:
-                    pass
+        except Exception:
+            pass
+
+    async def _verify_login_success(self) -> bool:
+        await self.page.wait_for_timeout(3000)
+        otp_field = await self.page.query_selector('input[type="text"], input[type="tel"], input[type="number"], input[inputmode="numeric"]')
+        if otp_field:
+            self.logger.info("OTP field detected. Processing 2FA...")
+            await self._handle_totp()
+
+        if await self._check_already_logged_in():
+            return True
+
+        if await self.page.query_selector('button[type="submit"]'):
+            self.logger.error("Login failed - still on login page")
+            ts = datetime.now().strftime('%Y%m%d_%H%M%S')
+            await self.page.screenshot(path=f"login_failed_stuck_{ts}.png")
+            return False
             
-            # Check for rate limit/too many requests error
+        self.session_counter = 0
+        if self.context and not self.persistent:
+            try:
+                await self.context.storage_state(path=self.storage_state_path)
+                self.logger.info("Session state saved (new login).")
+            except Exception:
+                pass
+        return True
+
+    async def login(self, allow_restart: bool = True) -> bool:
+        try:
+            if not await self._navigate_to_login(allow_restart):
+                return False
+                
+            try:
+                await self.suppress_chat_widgets()
+            except Exception:
+                pass
+            
+            if await self.page.query_selector('iframe[src*="recaptcha"], iframe[src*="cloudflare"]'):
+                self.logger.warning("CAPTCHA detected on login page")
+                ts = datetime.now().strftime('%Y%m%d_%H%M%S')
+                await self.page.screenshot(path=f"captcha_detected_{ts}.png")
+            
+            if await self._check_already_logged_in():
+                return True
+                
+            if not await self._fill_credentials(allow_restart):
+                return False
+                
+            if await self._handle_login_errors(allow_restart):
+                return False
+                
+            await self._handle_totp()
+            
             try:
                 rate_limit = await self.page.query_selector('text=exceeded the allowed number of requests')
                 if rate_limit:
                     self.logger.critical("LOGIN BLOCKED: Rate limit exceeded (too many 2FA attempts). Pausing execution for 30 minutes.")
-                    # Wait 30 minutes to clear the block
                     for i in range(30):
                          if i % 5 == 0:
                              self.logger.info(f"Cooling down... {30-i} minutes remaining.")
@@ -1089,54 +1073,8 @@ class GYGUnifiedSystem:
             except Exception:
                 pass
 
-            # Verify login success
-            await self.page.wait_for_timeout(3000)
+            return await self._verify_login_success()
             
-            # Additional check if it's asking for OTP again
-            otp_field = await self.page.query_selector('input[type="text"], input[type="tel"], input[type="number"], input[inputmode="numeric"]')
-            if otp_field:
-                self.logger.info("OTP field detected. Processing 2FA...")
-                # We handle TOTP logic here again just in case the first one missed it
-                if self.totp_secret:
-                    code = pyotp.TOTP(self.totp_secret).now()
-                    code_inputs = await self.page.query_selector_all('input[type="text"], input[type="tel"], input[type="number"], input[inputmode="numeric"]')
-                    if len(code_inputs) >= 6:
-                        for i in range(6):
-                            if i < len(code):
-                                await code_inputs[i].fill(code[i])
-                                await asyncio.sleep(0.1)
-                    elif len(code_inputs) == 1:
-                        await code_inputs[0].fill(code)
-                    
-                    verify_btn = await self.page.query_selector('button:has-text("Verify code")')
-                    if verify_btn:
-                        await verify_btn.click()
-                    else:
-                        await self.page.press('body', 'Enter')
-                    await asyncio.sleep(4)
-
-            # Check if we successfully logged in by looking for Home/Analytics/Bookings again
-            if await self.page.query_selector('text="Analytics"') or \
-               await self.page.query_selector('text="Revenue"') or \
-               await self.page.query_selector('text="Bookings"') or \
-               "bookings" in self.page.url:
-                 self.logger.info("Successfully logged in.")
-                 return True
-
-            if await self.page.query_selector('button[type="submit"]'): # Still on login page
-                self.logger.error("Login failed - still on login page")
-                ts = datetime.now().strftime('%Y%m%d_%H%M%S')
-                await self.page.screenshot(path=f"login_failed_stuck_{ts}.png")
-                return False
-                
-            self.session_counter = 0
-            if self.context and not self.persistent:
-                try:
-                    await self.context.storage_state(path=self.storage_state_path)
-                    self.logger.info("Session state saved (new login).")
-                except Exception:
-                    pass
-            return True
         except Exception as e:
             self.logger.error(f"Login exception: {str(e)}")
             if allow_restart and "collected" in str(e).lower() and "heap" in str(e).lower():
@@ -1702,8 +1640,8 @@ class GYGUnifiedSystem:
                             if details.get("add_ons"):
                                 add_ons = details.get("add_ons")
                                 self.logger.info(f"Found Add-Ons on subpage: {add_ons}")
-            except Exception:
-                pass
+            except Exception as e:
+                self.logger.warning(f"Failed to extract customer info or fetch details for {booking_nr}: {e}")
             google_maps = None
             try:
                 gm = await card.query_selector(self.SELECTORS["google_maps"]) 
@@ -1795,8 +1733,8 @@ class GYGUnifiedSystem:
             retail_price = None; revenue = None; commission_breakdown = None; supplier_commission = None; extra_commission = None
             try:
                 retail_price, revenue, commission_breakdown, supplier_commission, extra_commission = await self.extract_financial_breakdown(card, booking_nr)
-            except Exception:
-                pass
+            except Exception as e:
+                self.logger.warning(f"Failed to extract financial breakdown for {booking_nr}: {e}")
             status = 'Confirmed'
             try:
                 # Improved status extraction: Check the tag container first
@@ -1888,8 +1826,8 @@ class GYGUnifiedSystem:
                     rd["ai"] = improved or {}
                     booking["raw_data"] = rd
                     self.logger.info(f"AI enhanced {booking_nr} with keys: {list((improved or {}).keys())}")
-                except Exception:
-                    pass
+                except Exception as e:
+                    self.logger.warning(f"AI enhancement block failed for {booking_nr}: {e}")
             items.append(booking)
         return items
 
@@ -2118,19 +2056,10 @@ class GYGUnifiedSystem:
             self.logger.error(f"Airtable sync failed for {booking.get('booking_nr')} code={code}")
         return False
 
-    async def run_extraction(self):
-        # Check if already on the target page to avoid redundant navigation/abort errors
-        target_url = "https://supplier.getyourguide.com/bookings"
-        if self.managed_by:
-            target_url += f"?managed_by={self.managed_by}"
-            
+    async def _prepare_extraction_page(self, target_url: str) -> bool:
         should_navigate = True
         try:
             if "bookings" in self.page.url:
-                 # We are likely on the correct page or subpage.
-                 # If we are strictly on bookings (not a subpage), skip.
-                 # But we might need to refresh parameters.
-                 # For safety, let's just check if we are reasonably close.
                  should_navigate = False
                  self.logger.info("Already on bookings page. Skipping initial navigation.")
         except Exception:
@@ -2156,6 +2085,15 @@ class GYGUnifiedSystem:
             await self.suppress_chat_widgets()
         except Exception:
             pass
+        return True
+
+    async def run_extraction(self):
+        target_url = "https://supplier.getyourguide.com/bookings"
+        if self.managed_by:
+            target_url += f"?managed_by={self.managed_by}"
+            
+        await self._prepare_extraction_page(target_url)
+        
         total_synced = 0
         total_failed = 0
         page_num = max(1, int(self.current_page or 1))
@@ -2164,7 +2102,6 @@ class GYGUnifiedSystem:
         except Exception:
             pass
         
-        # Sequential extraction without total pages pre-calculation
         while True:
             ok = await self.check_session()
             if not ok:
@@ -2178,7 +2115,6 @@ class GYGUnifiedSystem:
                 pass
             bookings = await self.extract_bookings_from_page()
             
-            # Fallback to direct navigation if button click didn't work as expected
             if not bookings:
                  self.logger.warning(f"No bookings found on page {page_num} after click. Trying direct URL navigation.")
                  url = "https://supplier.getyourguide.com/bookings"
@@ -2190,14 +2126,12 @@ class GYGUnifiedSystem:
                  
                  try:
                      await self.page.goto(url, wait_until="domcontentloaded")
-                     await asyncio.sleep(5) # Wait for SPA hydration
+                     await asyncio.sleep(5)
                      await self.page.evaluate("document.body.style.zoom = '65%'")
                      bookings = await self.extract_bookings_from_page()
                  except Exception:
                      pass
 
-            # If no bookings found, it might be an empty page or an error.
-            # Instead of restarting immediately, let's try to reload once or navigate back.
             if not bookings:
                 try:
                     self.logger.warning(f"No bookings found on page {page_num}. Reloading page to verify...")
@@ -2208,14 +2142,9 @@ class GYGUnifiedSystem:
                     pass
             
             if not bookings:
-                # If still no bookings, maybe we reached a non-existent page or got logged out?
-                # Check session validity
                 if not await self.check_session():
-                     continue # check_session will handle login/restart
+                     continue
                      
-                # If session is valid but page is empty, it might be the end of pagination.
-                # Don't trigger a full restart (which causes NS_BINDING_ABORTED loop).
-                # Just go back to page 1.
                 self.logger.warning(f"No bookings found on page {page_num} after reload. Assuming end of list or transient error.")
                 await self._navigate_to_first_page()
                 page_num = 1
@@ -2228,7 +2157,6 @@ class GYGUnifiedSystem:
                 else:
                     total_failed += 1
             
-            # Sequential next navigation; wrap to first if next isn't available or limit reached
             if page_num < self.max_pages and await self._navigate_next_page():
                 page_num += 1
                 self.current_page = page_num
