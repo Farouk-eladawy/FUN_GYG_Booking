@@ -405,6 +405,9 @@ class AirtableManager:
             v = full_fields.get(k)
             if v is None:
                 continue
+            # If we know the available fields, skip sending fields that Airtable doesn't have
+            if self._available_fields is not None and k not in self._available_fields:
+                continue
             fields[k] = v
         try:
             import json as _json
@@ -454,36 +457,7 @@ class AirtableManager:
                 if records:
                     rid = records[0].get("id")
                     
-                    # Prevent overwriting specific fields on update to preserve manual edits
-                    # The user requested to protect: Trip Date, Hotel Name, or any other manually edited info.
-                    # We already protect "trip Name" and "Date Trip" below.
-                    # Let's add "Hotel Name" and "Google Maps" to the protected list for updates.
                     update_fields = fields.copy()
-                    
-                    # --- PROTECTED FIELDS LOGIC ---
-                    # These fields will NOT be updated if they already exist in Airtable record.
-                    # This preserves manual edits made by the operations team.
-                    protected_fields = ["trip Name", "Date Trip", "Hotel Name", "Google Maps"]
-                    
-                    # Note: "Real Date Trip" and "Real Product Name" are NOT in the protected list, 
-                    # so they WILL always be updated with the latest original data from GYG.
-                    
-                    force_update_fields = set(force_update_fields or [])
-
-                    # Fetch existing record data to check if fields are empty
-                    existing_record = records[0].get("fields", {})
-
-                    for pf in protected_fields:
-                        if pf in force_update_fields:
-                            continue
-
-                        # If Airtable field is empty, always allow update
-                        if not existing_record.get(pf):
-                            continue
-
-                        if pf in update_fields:
-                            del update_fields[pf]
-                    # ------------------------------
                     
                     self.logger.info(f"Patching Airtable {booking.get('booking_nr')} with fields: {list(update_fields.keys())}")
                         
