@@ -159,6 +159,14 @@ class BookingsDatabase:
             else:
                 s_new = normalize_val(v_new)
                 s_old = normalize_val(v_old)
+                
+                # Special handling for arrays/lists like add_ons that are stored as strings
+                if k == "add_ons":
+                    addons_old = sorted([x.strip() for x in s_old.split(';')]) if s_old else []
+                    addons_new = sorted([x.strip() for x in s_new.split(';')]) if s_new else []
+                    if addons_old == addons_new:
+                        continue
+                        
                 if s_new != s_old:
                     try:
                         f1 = float(s_new)
@@ -544,10 +552,17 @@ class AirtableManager:
                                 except Exception:
                                     pass
 
-                            # Handle strings that look like semicolon separated lists (like Add - Ons text)
+                            # Handle strings that look like semicolon or comma separated lists (like Add - Ons text)
                             if k == "Add - Ons":
-                                addons_old = sorted([x.strip() for x in str_old.split(';')]) if str_old else []
-                                addons_new = sorted([x.strip() for x in str_new.split(';')]) if str_new else []
+                                # Sometimes separated by ';' and sometimes by ',' depending on the source
+                                addons_old = sorted([x.strip() for x in str_old.replace(',', ';').split(';')]) if str_old else []
+                                addons_new = sorted([x.strip() for x in str_new.replace(',', ';').split(';')]) if str_new else []
+                                
+                                # Clean up common prefix like '2 x ' or '1 x ' before comparison
+                                import re
+                                addons_old = sorted([re.sub(r'^\d+\s*x\s*', '', x) for x in addons_old if x])
+                                addons_new = sorted([re.sub(r'^\d+\s*x\s*', '', x) for x in addons_new if x])
+                                
                                 if addons_old == addons_new:
                                     continue
                                 else:
