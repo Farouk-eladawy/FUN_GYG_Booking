@@ -1,31 +1,25 @@
-2026/05/06-01:49:53.626 97c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/05/06-01:54:10.731 980 Level-0 table #74147: started
-2026/05/06-01:54:10.738 980 Level-0 table #74147: 9925 bytes OK
-2026/05/06-01:54:10.739 980 Delete type=0 #74145
-2026/05/06-01:58:26.182 980 Level-0 table #74149: started
-2026/05/06-01:58:26.186 980 Level-0 table #74149: 11953 bytes OK
-2026/05/06-01:58:26.187 980 Delete type=0 #74146
-2026/05/06-01:58:26.187 980 Compacting 4@0 + 4@1 files
-2026/05/06-01:58:26.214 980 Generated table #74150@0: 14539 keys, 2108757 bytes
-2026/05/06-01:58:26.246 980 Generated table #74151@0: 75474 keys, 2150186 bytes
-2026/05/06-01:58:26.278 980 Generated table #74152@0: 75440 keys, 2150363 bytes
-2026/05/06-01:58:26.285 980 Generated table #74153@0: 14553 keys, 415193 bytes
-2026/05/06-01:58:26.285 980 Compacted 4@0 + 4@1 files => 6824499 bytes
-2026/05/06-01:58:26.285 980 compacted to: files[ 0 5 27 0 0 0 0 ]
-2026/05/06-01:58:26.286 980 Delete type=2 #74147
-2026/05/06-01:58:26.286 980 Delete type=2 #74135
-2026/05/06-01:58:26.286 980 Delete type=2 #74136
-2026/05/06-01:58:26.286 980 Delete type=2 #74143
-2026/05/06-01:58:26.286 980 Delete type=2 #74149
-2026/05/06-01:58:26.286 980 Delete type=2 #74141
-2026/05/06-01:58:26.286 980 Delete type=2 #74134
-2026/05/06-01:58:26.286 980 Delete type=2 #74137
-2026/05/06-02:03:52.139 97c Level-0 table #74155: started
-2026/05/06-02:03:52.162 97c Level-0 table #74155: 564782 bytes OK
-2026/05/06-02:03:52.166 97c Delete type=0 #74148
-2026/05/06-02:06:47.678 980 Level-0 table #74157: started
-2026/05/06-02:06:47.684 980 Level-0 table #74157: 12097 bytes OK
-2026/05/06-02:06:47.685 980 Delete type=0 #74154
-2026/05/06-02:08:04.172 980 Level-0 table #74159: started
-2026/05/06-02:08:04.192 980 Level-0 table #74159: 566822 bytes OK
-2026/05/06-02:08:04.193 980 Delete type=0 #74156
+2026/05/06-02:52:32.099 982 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/05/06-02:56:25.635 986 Level-0 table #74163: started
+2026/05/06-02:56:25.636 986 Level-0 table #74163: 11154 bytes OK
+2026/05/06-02:56:25.637 986 Delete type=0 #74161
+2026/05/06-02:56:25.637 986 Compacting 4@0 + 4@1 files
+2026/05/06-02:56:25.672 986 Generated table #74164@0: 72 keys, 2256875 bytes
+2026/05/06-02:56:25.760 986 Generated table #74165@0: 75494 keys, 2150302 bytes
+2026/05/06-02:56:25.841 986 Generated table #74166@0: 75456 keys, 2150584 bytes
+2026/05/06-02:56:25.867 986 Generated table #74167@0: 29095 keys, 829911 bytes
+2026/05/06-02:56:25.868 986 Compacted 4@0 + 4@1 files => 7387672 bytes
+2026/05/06-02:56:25.873 986 compacted to: files[ 0 5 27 0 0 0 0 ]
+2026/05/06-02:56:25.874 986 Delete type=2 #74150
+2026/05/06-02:56:25.874 986 Delete type=2 #74155
+2026/05/06-02:56:25.874 986 Delete type=2 #74159
+2026/05/06-02:56:25.874 986 Delete type=2 #74163
+2026/05/06-02:56:25.874 986 Delete type=2 #74157
+2026/05/06-02:56:25.874 986 Delete type=2 #74153
+2026/05/06-02:56:25.874 986 Delete type=2 #74151
+2026/05/06-02:56:25.874 986 Delete type=2 #74152
+2026/05/06-03:00:16.161 986 Level-0 table #74169: started
+2026/05/06-03:00:16.165 986 Level-0 table #74169: 11111 bytes OK
+2026/05/06-03:00:16.166 986 Delete type=0 #74162
+2026/05/06-03:10:13.363 982 Level-0 table #74171: started
+2026/05/06-03:10:13.370 982 Level-0 table #74171: 12862 bytes OK
+2026/05/06-03:10:13.371 982 Delete type=0 #74168
