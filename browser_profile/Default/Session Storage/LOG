@@ -1,18 +1,23 @@
-2026/05/08-03:44:34.793 972 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/05/08-03:44:34.795 976 Compacting 4@0 + 3@1 files
-2026/05/08-03:44:34.832 976 Generated table #74371@0: 54 keys, 2265574 bytes
-2026/05/08-03:44:34.868 976 Generated table #74372@0: 75437 keys, 2150015 bytes
-2026/05/08-03:44:34.906 976 Generated table #74373@0: 75469 keys, 2150847 bytes
-2026/05/08-03:44:34.931 976 Generated table #74374@0: 31744 keys, 905498 bytes
-2026/05/08-03:44:34.931 976 Compacted 4@0 + 3@1 files => 7471934 bytes
-2026/05/08-03:44:34.932 976 compacted to: files[ 0 5 28 0 0 0 0 ]
-2026/05/08-03:44:34.933 976 Delete type=2 #74368
-2026/05/08-03:44:34.933 976 Delete type=2 #74352
-2026/05/08-03:44:34.933 976 Delete type=2 #74356
-2026/05/08-03:44:34.933 976 Delete type=2 #74354
-2026/05/08-03:44:34.933 976 Delete type=2 #74364
-2026/05/08-03:44:34.933 976 Delete type=2 #74353
-2026/05/08-03:44:34.933 976 Delete type=2 #74360
-2026/05/08-03:49:26.884 976 Level-0 table #74376: started
-2026/05/08-03:49:26.914 976 Level-0 table #74376: 568618 bytes OK
-2026/05/08-03:49:26.915 976 Delete type=0 #74370
+2026/05/08-04:47:30.498 97a Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/05/08-04:51:40.422 97e Level-0 table #74380: started
+2026/05/08-04:51:40.426 97e Level-0 table #74380: 9723 bytes OK
+2026/05/08-04:51:40.427 97e Delete type=0 #74378
+2026/05/08-04:52:22.823 97e Level-0 table #74382: started
+2026/05/08-04:52:22.847 97e Level-0 table #74382: 566705 bytes OK
+2026/05/08-04:52:22.849 97e Delete type=0 #74379
+2026/05/08-04:56:12.637 97e Level-0 table #74384: started
+2026/05/08-04:56:12.642 97e Level-0 table #74384: 10102 bytes OK
+2026/05/08-04:56:12.643 97e Delete type=0 #74381
+2026/05/08-04:56:12.644 97e Compacting 4@0 + 3@1 files
+2026/05/08-04:56:12.689 97e Generated table #74385@0: 55122 keys, 2135287 bytes
+2026/05/08-04:56:12.721 97e Generated table #74386@0: 75397 keys, 2149283 bytes
+2026/05/08-04:56:12.744 97e Generated table #74387@0: 52299 keys, 1492439 bytes
+2026/05/08-04:56:12.744 97e Compacted 4@0 + 3@1 files => 5777009 bytes
+2026/05/08-04:56:12.744 97e compacted to: files[ 0 5 28 0 0 0 0 ]
+2026/05/08-04:56:12.745 97e Delete type=2 #74382
+2026/05/08-04:56:12.745 97e Delete type=2 #74380
+2026/05/08-04:56:12.745 97e Delete type=2 #74376
+2026/05/08-04:56:12.745 97e Delete type=2 #74373
+2026/05/08-04:56:12.745 97e Delete type=2 #74384
+2026/05/08-04:56:12.745 97e Delete type=2 #74372
+2026/05/08-04:56:12.745 97e Delete type=2 #74374
