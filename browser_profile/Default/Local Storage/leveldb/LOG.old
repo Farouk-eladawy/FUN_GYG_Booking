@@ -1,19 +1,16 @@
-2026/05/22-16:19:38.346 960 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/22-16:26:46.005 960 Level-0 table #8055: started
-2026/05/22-16:26:46.010 960 Level-0 table #8055: 16802 bytes OK
-2026/05/22-16:26:46.011 960 Delete type=0 #8053
-2026/05/22-16:26:46.011 960 Compacting 4@0 + 1@1 files
-2026/05/22-16:26:46.014 960 Generated table #8056@0: 1002 keys, 34872 bytes
-2026/05/22-16:26:46.014 960 Compacted 4@0 + 1@1 files => 34872 bytes
-2026/05/22-16:26:46.015 960 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/22-16:26:46.015 960 Delete type=2 #8047
-2026/05/22-16:26:46.015 960 Delete type=2 #8039
-2026/05/22-16:26:46.015 960 Delete type=2 #8055
-2026/05/22-16:26:46.015 960 Delete type=2 #8043
-2026/05/22-16:26:46.015 960 Delete type=2 #8051
-2026/05/22-16:30:19.809 95c Level-0 table #8058: started
-2026/05/22-16:30:19.816 95c Level-0 table #8058: 15194 bytes OK
-2026/05/22-16:30:19.817 95c Delete type=0 #8054
-2026/05/22-16:36:38.887 960 Level-0 table #8060: started
-2026/05/22-16:36:38.891 960 Level-0 table #8060: 16083 bytes OK
-2026/05/22-16:36:38.891 960 Delete type=0 #8057
+2026/05/22-17:10:48.051 97b Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/22-17:16:50.189 97b Level-0 table #8064: started
+2026/05/22-17:16:50.191 97b Level-0 table #8064: 15195 bytes OK
+2026/05/22-17:16:50.192 97b Delete type=0 #8062
+2026/05/22-17:20:30.876 97b Level-0 table #8066: started
+2026/05/22-17:20:30.878 97b Level-0 table #8066: 16731 bytes OK
+2026/05/22-17:20:30.880 97b Delete type=0 #8063
+2026/05/22-17:20:30.882 97b Compacting 4@0 + 1@1 files
+2026/05/22-17:20:30.886 97b Generated table #8067@0: 1004 keys, 35037 bytes
+2026/05/22-17:20:30.886 97b Compacted 4@0 + 1@1 files => 35037 bytes
+2026/05/22-17:20:30.886 97b compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/22-17:20:30.886 97b Delete type=2 #8056
+2026/05/22-17:20:30.886 97b Delete type=2 #8058
+2026/05/22-17:20:30.887 97b Delete type=2 #8064
+2026/05/22-17:20:30.887 97b Delete type=2 #8060
+2026/05/22-17:20:30.887 97b Delete type=2 #8066
