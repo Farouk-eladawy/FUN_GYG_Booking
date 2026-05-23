@@ -1,7 +1,26 @@
-2026/05/23-04:53:23.512 961 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/05/23-04:56:35.852 965 Level-0 table #77212: started
-2026/05/23-04:56:35.856 965 Level-0 table #77212: 11957 bytes OK
-2026/05/23-04:56:35.858 965 Delete type=0 #77210
-2026/05/23-04:57:56.791 965 Level-0 table #77214: started
-2026/05/23-04:57:56.811 965 Level-0 table #77214: 572533 bytes OK
-2026/05/23-04:57:56.812 965 Delete type=0 #77211
+2026/05/23-05:29:30.954 92e Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/05/23-05:32:47.282 92e Level-0 table #77218: started
+2026/05/23-05:32:47.285 92e Level-0 table #77218: 10799 bytes OK
+2026/05/23-05:32:47.290 92e Delete type=0 #77216
+2026/05/23-05:32:47.290 92e Compacting 4@0 + 4@1 files
+2026/05/23-05:32:47.335 92e Generated table #77219@0: 35 keys, 2275186 bytes
+2026/05/23-05:32:47.375 92e Generated table #77220@0: 75282 keys, 2149606 bytes
+2026/05/23-05:32:47.409 92e Generated table #77221@0: 75335 keys, 2151039 bytes
+2026/05/23-05:32:47.445 92e Generated table #77222@0: 64185 keys, 1832336 bytes
+2026/05/23-05:32:47.446 92e Compacted 4@0 + 4@1 files => 8408167 bytes
+2026/05/23-05:32:47.446 92e compacted to: files[ 0 5 44 0 0 0 0 ]
+2026/05/23-05:32:47.447 92e Delete type=2 #77206
+2026/05/23-05:32:47.447 92e Delete type=2 #77205
+2026/05/23-05:32:47.447 92e Delete type=2 #77203
+2026/05/23-05:32:47.447 92e Delete type=2 #77212
+2026/05/23-05:32:47.447 92e Delete type=2 #77204
+2026/05/23-05:32:47.447 92e Delete type=2 #77218
+2026/05/23-05:32:47.447 92e Delete type=2 #77208
+2026/05/23-05:32:47.447 92e Delete type=2 #77214
+2026/05/23-05:32:47.452 92e Moved #77097 to level-2 2277635 bytes OK: files[ 0 4 45 0 0 0 0 ]
+2026/05/23-05:36:09.317 932 Level-0 table #77224: started
+2026/05/23-05:36:09.324 932 Level-0 table #77224: 10947 bytes OK
+2026/05/23-05:36:09.326 932 Delete type=0 #77217
+2026/05/23-05:44:33.393 92e Level-0 table #77226: started
+2026/05/23-05:44:33.396 92e Level-0 table #77226: 14061 bytes OK
+2026/05/23-05:44:33.397 92e Delete type=0 #77223
