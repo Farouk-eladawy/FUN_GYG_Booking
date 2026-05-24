@@ -1,13 +1,22 @@
-2026/05/24-08:35:49.656 933 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/24-08:43:50.825 937 Level-0 table #8358: started
-2026/05/24-08:43:50.829 937 Level-0 table #8358: 15263 bytes OK
-2026/05/24-08:43:50.830 937 Delete type=0 #8356
-2026/05/24-08:43:50.830 937 Compacting 4@0 + 1@1 files
-2026/05/24-08:43:50.831 937 Generated table #8359@0: 1089 keys, 36532 bytes
-2026/05/24-08:43:50.831 937 Compacted 4@0 + 1@1 files => 36532 bytes
-2026/05/24-08:43:50.832 937 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/24-08:43:50.832 937 Delete type=2 #8350
-2026/05/24-08:43:50.832 937 Delete type=2 #8354
-2026/05/24-08:43:50.832 937 Delete type=2 #8342
-2026/05/24-08:43:50.832 937 Delete type=2 #8346
-2026/05/24-08:43:50.832 937 Delete type=2 #8358
+2026/05/24-09:11:12.268 9f3 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/24-09:18:07.717 9ef Level-0 table #8363: started
+2026/05/24-09:18:07.719 9ef Level-0 table #8363: 14772 bytes OK
+2026/05/24-09:18:07.720 9ef Delete type=0 #8361
+2026/05/24-09:19:39.288 9ef Level-0 table #8365: started
+2026/05/24-09:19:39.294 9ef Level-0 table #8365: 15943 bytes OK
+2026/05/24-09:19:39.295 9ef Delete type=0 #8362
+2026/05/24-09:23:12.766 9ef Level-0 table #8367: started
+2026/05/24-09:23:12.772 9ef Level-0 table #8367: 17437 bytes OK
+2026/05/24-09:23:12.773 9ef Delete type=0 #8364
+2026/05/24-09:29:12.766 9f3 Level-0 table #8369: started
+2026/05/24-09:29:12.770 9f3 Level-0 table #8369: 14676 bytes OK
+2026/05/24-09:29:12.771 9f3 Delete type=0 #8366
+2026/05/24-09:29:12.771 9f3 Compacting 4@0 + 1@1 files
+2026/05/24-09:29:12.772 9f3 Generated table #8370@0: 1091 keys, 36597 bytes
+2026/05/24-09:29:12.772 9f3 Compacted 4@0 + 1@1 files => 36597 bytes
+2026/05/24-09:29:12.773 9f3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/24-09:29:12.773 9f3 Delete type=2 #8369
+2026/05/24-09:29:12.773 9f3 Delete type=2 #8363
+2026/05/24-09:29:12.773 9f3 Delete type=2 #8365
+2026/05/24-09:29:12.773 9f3 Delete type=2 #8367
+2026/05/24-09:29:12.773 9f3 Delete type=2 #8359
