@@ -1,7 +1,24 @@
-2026/05/25-21:35:57.686 91f Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/05/25-21:39:18.505 923 Level-0 table #78020: started
-2026/05/25-21:39:18.511 923 Level-0 table #78020: 11832 bytes OK
-2026/05/25-21:39:18.513 923 Delete type=0 #78018
-2026/05/25-21:42:46.429 923 Level-0 table #78022: started
-2026/05/25-21:42:46.433 923 Level-0 table #78022: 11553 bytes OK
-2026/05/25-21:42:46.435 923 Delete type=0 #78019
+2026/05/25-22:49:48.291 926 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/05/25-22:54:46.053 926 Level-0 table #78026: started
+2026/05/25-22:54:46.065 926 Level-0 table #78026: 570333 bytes OK
+2026/05/25-22:54:46.067 926 Delete type=0 #78024
+2026/05/25-22:54:46.067 926 Compacting 4@0 + 3@1 files
+2026/05/25-22:54:46.108 926 Generated table #78027@0: 54876 keys, 2134692 bytes
+2026/05/25-22:54:46.148 926 Generated table #78028@0: 75271 keys, 2150090 bytes
+2026/05/25-22:54:46.175 926 Generated table #78029@0: 75308 keys, 2149130 bytes
+2026/05/25-22:54:46.180 926 Generated table #78030@0: 15258 keys, 435685 bytes
+2026/05/25-22:54:46.180 926 Compacted 4@0 + 3@1 files => 6869597 bytes
+2026/05/25-22:54:46.181 926 compacted to: files[ 0 5 47 3 0 0 0 ]
+2026/05/25-22:54:46.182 926 Delete type=2 #78016
+2026/05/25-22:54:46.182 926 Delete type=2 #78012
+2026/05/25-22:54:46.182 926 Delete type=2 #78013
+2026/05/25-22:54:46.182 926 Delete type=2 #78020
+2026/05/25-22:54:46.182 926 Delete type=2 #78026
+2026/05/25-22:54:46.182 926 Delete type=2 #78022
+2026/05/25-22:54:46.182 926 Delete type=2 #78014
+2026/05/25-23:06:33.761 92a Level-0 table #78032: started
+2026/05/25-23:06:33.766 92a Level-0 table #78032: 13633 bytes OK
+2026/05/25-23:06:33.768 92a Delete type=0 #78025
+2026/05/25-23:10:04.093 926 Level-0 table #78034: started
+2026/05/25-23:10:04.098 926 Level-0 table #78034: 12337 bytes OK
+2026/05/25-23:10:04.099 926 Delete type=0 #78031
