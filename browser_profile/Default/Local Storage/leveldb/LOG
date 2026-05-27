@@ -1,13 +1,22 @@
-2026/05/27-01:56:19.691 973 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/27-02:04:20.428 977 Level-0 table #8692: started
-2026/05/27-02:04:20.436 977 Level-0 table #8692: 16100 bytes OK
-2026/05/27-02:04:20.437 977 Delete type=0 #8690
-2026/05/27-02:04:20.437 977 Compacting 4@0 + 1@1 files
-2026/05/27-02:04:20.439 977 Generated table #8693@0: 1175 keys, 38663 bytes
-2026/05/27-02:04:20.439 977 Compacted 4@0 + 1@1 files => 38663 bytes
-2026/05/27-02:04:20.440 977 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/27-02:04:20.440 977 Delete type=2 #8686
-2026/05/27-02:04:20.440 977 Delete type=2 #8688
-2026/05/27-02:04:20.440 977 Delete type=2 #8680
-2026/05/27-02:04:20.440 977 Delete type=2 #8692
-2026/05/27-02:04:20.440 977 Delete type=2 #8684
+2026/05/27-03:10:07.391 9b8 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/27-03:17:07.851 9b3 Level-0 table #8697: started
+2026/05/27-03:17:07.856 9b3 Level-0 table #8697: 17667 bytes OK
+2026/05/27-03:17:07.857 9b3 Delete type=0 #8695
+2026/05/27-03:19:01.804 9b3 Level-0 table #8699: started
+2026/05/27-03:19:01.807 9b3 Level-0 table #8699: 14709 bytes OK
+2026/05/27-03:19:01.807 9b3 Delete type=0 #8696
+2026/05/27-03:21:12.102 9b3 Level-0 table #8701: started
+2026/05/27-03:21:12.103 9b3 Level-0 table #8701: 15560 bytes OK
+2026/05/27-03:21:12.104 9b3 Delete type=0 #8698
+2026/05/27-03:29:07.852 9b7 Level-0 table #8703: started
+2026/05/27-03:29:07.857 9b7 Level-0 table #8703: 16804 bytes OK
+2026/05/27-03:29:07.857 9b7 Delete type=0 #8700
+2026/05/27-03:29:07.858 9b7 Compacting 4@0 + 1@1 files
+2026/05/27-03:29:07.859 9b7 Generated table #8704@0: 1177 keys, 38547 bytes
+2026/05/27-03:29:07.859 9b7 Compacted 4@0 + 1@1 files => 38547 bytes
+2026/05/27-03:29:07.859 9b7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/27-03:29:07.860 9b7 Delete type=2 #8699
+2026/05/27-03:29:07.860 9b7 Delete type=2 #8693
+2026/05/27-03:29:07.860 9b7 Delete type=2 #8697
+2026/05/27-03:29:07.860 9b7 Delete type=2 #8703
+2026/05/27-03:29:07.860 9b7 Delete type=2 #8701
