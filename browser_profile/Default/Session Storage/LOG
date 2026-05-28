@@ -1,7 +1,24 @@
-2026/05/27-22:53:25.558 922 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/05/27-22:56:51.964 922 Level-0 table #78280: started
-2026/05/27-22:56:51.970 922 Level-0 table #78280: 11862 bytes OK
-2026/05/27-22:56:51.971 922 Delete type=0 #78278
-2026/05/27-23:00:22.864 926 Level-0 table #78282: started
-2026/05/27-23:00:22.867 926 Level-0 table #78282: 12683 bytes OK
-2026/05/27-23:00:22.868 926 Delete type=0 #78279
+2026/05/28-00:07:22.883 97c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/05/28-00:10:47.099 97c Level-0 table #78286: started
+2026/05/28-00:10:47.104 97c Level-0 table #78286: 11107 bytes OK
+2026/05/28-00:10:47.106 97c Delete type=0 #78284
+2026/05/28-00:12:22.921 980 Level-0 table #78288: started
+2026/05/28-00:12:22.932 980 Level-0 table #78288: 575226 bytes OK
+2026/05/28-00:12:22.934 980 Delete type=0 #78285
+2026/05/28-00:12:22.934 980 Compacting 4@0 + 3@1 files
+2026/05/28-00:12:22.969 980 Generated table #78289@0: 54777 keys, 2134787 bytes
+2026/05/28-00:12:23.015 980 Generated table #78290@0: 75328 keys, 2150687 bytes
+2026/05/28-00:12:23.054 980 Generated table #78291@0: 75348 keys, 2150040 bytes
+2026/05/28-00:12:23.063 980 Generated table #78292@0: 18349 keys, 524612 bytes
+2026/05/28-00:12:23.063 980 Compacted 4@0 + 3@1 files => 6960126 bytes
+2026/05/28-00:12:23.064 980 compacted to: files[ 0 5 48 3 0 0 0 ]
+2026/05/28-00:12:23.064 980 Delete type=2 #78282
+2026/05/28-00:12:23.064 980 Delete type=2 #78274
+2026/05/28-00:12:23.064 980 Delete type=2 #78275
+2026/05/28-00:12:23.064 980 Delete type=2 #78288
+2026/05/28-00:12:23.064 980 Delete type=2 #78276
+2026/05/28-00:12:23.064 980 Delete type=2 #78280
+2026/05/28-00:12:23.065 980 Delete type=2 #78286
+2026/05/28-00:15:57.827 97c Level-0 table #78294: started
+2026/05/28-00:15:57.831 97c Level-0 table #78294: 12139 bytes OK
+2026/05/28-00:15:57.832 97c Delete type=0 #78287
