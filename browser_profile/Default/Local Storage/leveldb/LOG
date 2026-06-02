@@ -1,14 +1,22 @@
-2026/06/02-13:07:11.701 963 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/06/02-13:07:11.710 963 Delete type=2 #9500
-2026/06/02-13:13:12.227 967 Level-0 table #9502: started
-2026/06/02-13:13:12.233 967 Level-0 table #9502: 21028 bytes OK
-2026/06/02-13:13:12.233 967 Delete type=0 #9500
-2026/06/02-13:13:12.234 967 Compacting 4@0 + 1@1 files
-2026/06/02-13:13:12.236 967 Generated table #9503@0: 1366 keys, 43790 bytes
-2026/06/02-13:13:12.236 967 Compacted 4@0 + 1@1 files => 43790 bytes
-2026/06/02-13:13:12.237 967 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/06/02-13:13:12.237 967 Delete type=2 #9502
-2026/06/02-13:13:12.237 967 Delete type=2 #9492
-2026/06/02-13:13:12.237 967 Delete type=2 #9498
-2026/06/02-13:13:12.237 967 Delete type=2 #9494
-2026/06/02-13:13:12.237 967 Delete type=2 #9490
+2026/06/02-14:21:16.427 96e Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/02-14:28:05.398 96a Level-0 table #9507: started
+2026/06/02-14:28:05.401 96a Level-0 table #9507: 24288 bytes OK
+2026/06/02-14:28:05.401 96a Delete type=0 #9505
+2026/06/02-14:29:27.804 96a Level-0 table #9509: started
+2026/06/02-14:29:27.813 96a Level-0 table #9509: 21236 bytes OK
+2026/06/02-14:29:27.814 96a Delete type=0 #9506
+2026/06/02-14:31:18.622 96a Level-0 table #9511: started
+2026/06/02-14:31:18.627 96a Level-0 table #9511: 22237 bytes OK
+2026/06/02-14:31:18.628 96a Delete type=0 #9508
+2026/06/02-14:37:00.533 96f Level-0 table #9513: started
+2026/06/02-14:37:00.536 96f Level-0 table #9513: 20552 bytes OK
+2026/06/02-14:37:00.538 96f Delete type=0 #9510
+2026/06/02-14:37:00.538 96f Compacting 4@0 + 1@1 files
+2026/06/02-14:37:00.541 96f Generated table #9514@0: 1368 keys, 43889 bytes
+2026/06/02-14:37:00.541 96f Compacted 4@0 + 1@1 files => 43889 bytes
+2026/06/02-14:37:00.541 96f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/02-14:37:00.541 96f Delete type=2 #9503
+2026/06/02-14:37:00.542 96f Delete type=2 #9507
+2026/06/02-14:37:00.542 96f Delete type=2 #9511
+2026/06/02-14:37:00.542 96f Delete type=2 #9513
+2026/06/02-14:37:00.542 96f Delete type=2 #9509
