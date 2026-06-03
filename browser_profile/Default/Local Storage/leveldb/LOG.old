@@ -1,22 +1,10 @@
-2026/06/02-22:59:01.674 97f Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/06/02-23:05:56.829 980 Level-0 table #9557: started
-2026/06/02-23:05:56.832 980 Level-0 table #9557: 21858 bytes OK
-2026/06/02-23:05:56.833 980 Delete type=0 #9555
-2026/06/02-23:09:02.257 97f Level-0 table #9559: started
-2026/06/02-23:09:02.258 97f Level-0 table #9559: 21189 bytes OK
-2026/06/02-23:09:02.259 97f Delete type=0 #9556
-2026/06/02-23:14:02.257 97f Level-0 table #9561: started
-2026/06/02-23:14:02.259 97f Level-0 table #9561: 20928 bytes OK
-2026/06/02-23:14:02.260 97f Delete type=0 #9558
-2026/06/02-23:17:02.257 97f Level-0 table #9563: started
-2026/06/02-23:17:02.262 97f Level-0 table #9563: 22422 bytes OK
-2026/06/02-23:17:02.263 97f Delete type=0 #9560
-2026/06/02-23:17:02.263 97f Compacting 4@0 + 1@1 files
-2026/06/02-23:17:02.265 97f Generated table #9564@0: 1382 keys, 44290 bytes
-2026/06/02-23:17:02.265 97f Compacted 4@0 + 1@1 files => 44290 bytes
-2026/06/02-23:17:02.265 97f compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/06/02-23:17:02.265 97f Delete type=2 #9557
-2026/06/02-23:17:02.265 97f Delete type=2 #9559
-2026/06/02-23:17:02.265 97f Delete type=2 #9561
-2026/06/02-23:17:02.265 97f Delete type=2 #9553
-2026/06/02-23:17:02.265 97f Delete type=2 #9563
+2026/06/03-00:12:57.514 92c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/03-00:19:35.846 92c Level-0 table #9568: started
+2026/06/03-00:19:35.850 92c Level-0 table #9568: 23905 bytes OK
+2026/06/03-00:19:35.852 92c Delete type=0 #9566
+2026/06/03-00:21:05.325 930 Level-0 table #9570: started
+2026/06/03-00:21:05.329 930 Level-0 table #9570: 21864 bytes OK
+2026/06/03-00:21:05.330 930 Delete type=0 #9567
+2026/06/03-00:26:58.006 930 Level-0 table #9572: started
+2026/06/03-00:26:58.010 930 Level-0 table #9572: 22780 bytes OK
+2026/06/03-00:26:58.010 930 Delete type=0 #9569
