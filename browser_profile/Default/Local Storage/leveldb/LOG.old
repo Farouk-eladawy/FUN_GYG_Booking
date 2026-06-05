@@ -1,13 +1,25 @@
-2026/06/04-21:47:52.751 98b Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/06/04-21:53:53.556 987 Level-0 table #9873: started
-2026/06/04-21:53:53.561 987 Level-0 table #9873: 20546 bytes OK
-2026/06/04-21:53:53.562 987 Delete type=0 #9871
-2026/06/04-21:53:53.562 987 Compacting 4@0 + 1@1 files
-2026/06/04-21:53:53.564 987 Generated table #9874@0: 1458 keys, 46398 bytes
-2026/06/04-21:53:53.564 987 Compacted 4@0 + 1@1 files => 46398 bytes
-2026/06/04-21:53:53.565 987 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/06/04-21:53:53.565 987 Delete type=2 #9861
-2026/06/04-21:53:53.565 987 Delete type=2 #9873
-2026/06/04-21:53:53.565 987 Delete type=2 #9863
-2026/06/04-21:53:53.565 987 Delete type=2 #9869
-2026/06/04-21:53:53.565 987 Delete type=2 #9865
+2026/06/04-23:01:46.084 8aa Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/04-23:07:46.895 8aa Level-0 table #9878: started
+2026/06/04-23:07:46.899 8aa Level-0 table #9878: 20470 bytes OK
+2026/06/04-23:07:46.899 8aa Delete type=0 #9876
+2026/06/04-23:09:30.667 8a6 Level-0 table #9880: started
+2026/06/04-23:09:30.675 8a6 Level-0 table #9880: 21860 bytes OK
+2026/06/04-23:09:30.676 8a6 Delete type=0 #9877
+2026/06/04-23:11:46.895 8aa Level-0 table #9882: started
+2026/06/04-23:11:46.896 8aa Level-0 table #9882: 22400 bytes OK
+2026/06/04-23:11:46.897 8aa Delete type=0 #9879
+2026/06/04-23:16:46.895 8a6 Level-0 table #9884: started
+2026/06/04-23:16:46.923 8a6 Level-0 table #9884: 21572 bytes OK
+2026/06/04-23:16:46.956 8a6 Delete type=0 #9881
+2026/06/04-23:16:46.956 8a6 Compacting 4@0 + 1@1 files
+2026/06/04-23:16:46.961 8a6 Generated table #9885@0: 1460 keys, 46449 bytes
+2026/06/04-23:16:46.961 8a6 Compacted 4@0 + 1@1 files => 46449 bytes
+2026/06/04-23:16:46.977 8a6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/04-23:16:46.977 8a6 Delete type=2 #9880
+2026/06/04-23:16:46.977 8a6 Delete type=2 #9878
+2026/06/04-23:16:46.977 8a6 Delete type=2 #9874
+2026/06/04-23:16:46.977 8a6 Delete type=2 #9884
+2026/06/04-23:16:46.977 8a6 Delete type=2 #9882
+2026/06/04-23:20:46.896 8aa Level-0 table #9887: started
+2026/06/04-23:20:46.897 8aa Level-0 table #9887: 20743 bytes OK
+2026/06/04-23:20:46.899 8aa Delete type=0 #9883
