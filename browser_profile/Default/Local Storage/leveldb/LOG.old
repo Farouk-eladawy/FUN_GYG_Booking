@@ -1,25 +1,9 @@
-2026/06/05-05:10:56.493 9bd Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/06/05-05:16:57.100 9c1 Level-0 table #9926: started
-2026/06/05-05:16:57.104 9c1 Level-0 table #9926: 20049 bytes OK
-2026/06/05-05:16:57.105 9c1 Delete type=0 #9924
-2026/06/05-05:19:14.326 9bd Level-0 table #9928: started
-2026/06/05-05:19:14.332 9bd Level-0 table #9928: 23817 bytes OK
-2026/06/05-05:19:14.332 9bd Delete type=0 #9925
-2026/06/05-05:20:57.101 9c1 Level-0 table #9930: started
-2026/06/05-05:20:57.103 9c1 Level-0 table #9930: 22553 bytes OK
-2026/06/05-05:20:57.104 9c1 Delete type=0 #9927
-2026/06/05-05:20:57.104 9c1 Compacting 4@0 + 1@1 files
-2026/06/05-05:20:57.106 9c1 Generated table #9931@0: 1470 keys, 46677 bytes
-2026/06/05-05:20:57.106 9c1 Compacted 4@0 + 1@1 files => 46677 bytes
-2026/06/05-05:20:57.106 9c1 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/06/05-05:20:57.106 9c1 Delete type=2 #9922
-2026/06/05-05:20:57.106 9c1 Delete type=2 #9930
-2026/06/05-05:20:57.106 9c1 Delete type=2 #9926
-2026/06/05-05:20:57.106 9c1 Delete type=2 #9928
-2026/06/05-05:20:57.106 9c1 Delete type=2 #9918
-2026/06/05-05:25:57.101 9c1 Level-0 table #9933: started
-2026/06/05-05:25:57.111 9c1 Level-0 table #9933: 20631 bytes OK
-2026/06/05-05:25:57.113 9c1 Delete type=0 #9929
-2026/06/05-05:29:57.100 9c1 Level-0 table #9935: started
-2026/06/05-05:29:57.106 9c1 Level-0 table #9935: 23261 bytes OK
-2026/06/05-05:29:57.106 9c1 Delete type=0 #9932
+2026/06/05-06:24:40.803 97d Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/05-06:30:41.354 97d Level-0 table #9939: started
+2026/06/05-06:30:41.357 97d Level-0 table #9939: 20210 bytes OK
+2026/06/05-06:30:41.357 97d Delete type=0 #9937
+2026/06/05-06:34:05.836 97d Level-0 table #9941: started
+2026/06/05-06:34:05.846 97d Level-0 table #9941: 21231 bytes OK
+2026/06/05-06:34:05.848 97d Delete type=0 #9938
+2026/06/05-06:34:05.848 97d Compacting 4@0 + 1@1 files
+2026/06/05-06:34:05.850 97d compacted to: files[ 4 1 1 0 0 0 0 ]
