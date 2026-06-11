@@ -1,7 +1,26 @@
-2026/06/11-13:46:06.490 96d Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/06/11-13:49:45.963 96d Level-0 table #80834: started
-2026/06/11-13:49:45.966 96d Level-0 table #80834: 9704 bytes OK
-2026/06/11-13:49:45.968 96d Delete type=0 #80832
-2026/06/11-13:53:03.085 971 Level-0 table #80836: started
-2026/06/11-13:53:03.091 971 Level-0 table #80836: 9513 bytes OK
-2026/06/11-13:53:03.092 971 Delete type=0 #80833
+2026/06/11-15:00:17.601 999 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/06/11-15:43:37.356 999 Level-0 table #80840: started
+2026/06/11-15:43:37.374 999 Level-0 table #80840: 579564 bytes OK
+2026/06/11-15:43:37.378 999 Delete type=0 #80838
+2026/06/11-15:43:37.379 99d Compacting 4@0 + 4@1 files
+2026/06/11-15:43:37.410 99d Generated table #80841@0: 15 keys, 2290147 bytes
+2026/06/11-15:43:37.450 99d Generated table #80842@0: 75267 keys, 2150118 bytes
+2026/06/11-15:43:37.488 99d Generated table #80843@0: 75264 keys, 2150291 bytes
+2026/06/11-15:43:37.520 99d Generated table #80844@0: 75326 keys, 2149705 bytes
+2026/06/11-15:43:37.530 99d Generated table #80845@0: 23288 keys, 665913 bytes
+2026/06/11-15:43:37.530 99d Compacted 4@0 + 4@1 files => 9406174 bytes
+2026/06/11-15:43:37.531 99d compacted to: files[ 0 5 47 18 0 0 0 ]
+2026/06/11-15:43:37.531 99d Delete type=2 #80825
+2026/06/11-15:43:37.531 99d Delete type=2 #80840
+2026/06/11-15:43:37.531 99d Delete type=2 #80826
+2026/06/11-15:43:37.531 99d Delete type=2 #80824
+2026/06/11-15:43:37.531 99d Delete type=2 #80836
+2026/06/11-15:43:37.531 99d Delete type=2 #80823
+2026/06/11-15:43:37.531 99d Delete type=2 #80834
+2026/06/11-15:43:37.531 99d Delete type=2 #80830
+2026/06/11-15:44:04.284 99d Level-0 table #80847: started
+2026/06/11-15:44:04.298 99d Level-0 table #80847: 573664 bytes OK
+2026/06/11-15:44:04.299 99d Delete type=0 #80839
+2026/06/11-15:52:06.063 99d Level-0 table #80849: started
+2026/06/11-15:52:06.068 99d Level-0 table #80849: 12298 bytes OK
+2026/06/11-15:52:06.071 99d Delete type=0 #80846
