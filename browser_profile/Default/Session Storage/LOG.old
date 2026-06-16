@@ -1,4 +1,27 @@
-2026/06/16-14:27:01.762 983 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/06/16-14:32:52.230 987 Level-0 table #81541: started
-2026/06/16-14:32:52.247 987 Level-0 table #81541: 579182 bytes OK
-2026/06/16-14:32:52.249 987 Delete type=0 #81539
+2026/06/16-15:41:06.820 9af Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/06/16-15:44:24.063 9b3 Level-0 table #81545: started
+2026/06/16-15:44:24.067 9b3 Level-0 table #81545: 9752 bytes OK
+2026/06/16-15:44:24.069 9b3 Delete type=0 #81543
+2026/06/16-15:46:43.388 9b3 Level-0 table #81547: started
+2026/06/16-15:46:43.406 9b3 Level-0 table #81547: 582142 bytes OK
+2026/06/16-15:46:43.408 9b3 Delete type=0 #81544
+2026/06/16-16:30:41.853 9af Level-0 table #81549: started
+2026/06/16-16:30:41.858 9af Level-0 table #81549: 13162 bytes OK
+2026/06/16-16:30:41.860 9af Delete type=0 #81546
+2026/06/16-16:30:41.860 9af Compacting 4@0 + 4@1 files
+2026/06/16-16:30:41.909 9af Generated table #81550@0: 34184 keys, 2122462 bytes
+2026/06/16-16:30:41.970 9af Generated table #81551@0: 75243 keys, 2148742 bytes
+2026/06/16-16:30:42.012 9af Generated table #81552@0: 75191 keys, 2150176 bytes
+2026/06/16-16:30:42.049 9af Generated table #81553@0: 73703 keys, 2105337 bytes
+2026/06/16-16:30:42.049 9af Compacted 4@0 + 4@1 files => 8526717 bytes
+2026/06/16-16:30:42.049 9af compacted to: files[ 0 5 47 27 0 0 0 ]
+2026/06/16-16:30:42.050 9af Delete type=2 #81536
+2026/06/16-16:30:42.050 9af Delete type=2 #81541
+2026/06/16-16:30:42.050 9af Delete type=2 #81534
+2026/06/16-16:30:42.050 9af Delete type=2 #81545
+2026/06/16-16:30:42.050 9af Delete type=2 #81549
+2026/06/16-16:30:42.050 9af Delete type=2 #81535
+2026/06/16-16:30:42.050 9af Delete type=2 #81537
+2026/06/16-16:30:42.050 9af Delete type=2 #81547
+2026/06/16-16:30:42.051 9af Moved #81505 to level-2 2290641 bytes OK: files[ 0 4 48 27 0 0 0 ]
+2026/06/16-16:30:42.052 9af Moved #74503 to level-3 2260858 bytes OK: files[ 0 4 47 28 0 0 0 ]
