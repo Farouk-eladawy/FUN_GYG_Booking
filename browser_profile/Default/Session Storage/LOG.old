@@ -1,26 +1,7 @@
-2026/06/22-10:47:50.862 97c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/06/22-10:51:26.667 981 Level-0 table #82113: started
-2026/06/22-10:51:26.677 981 Level-0 table #82113: 9787 bytes OK
-2026/06/22-10:51:26.683 981 Delete type=0 #82111
-2026/06/22-10:51:26.683 97c Compacting 4@0 + 4@1 files
-2026/06/22-10:51:26.717 97c Generated table #82114@0: 12670 keys, 2107144 bytes
-2026/06/22-10:51:26.758 97c Generated table #82115@0: 75299 keys, 2149057 bytes
-2026/06/22-10:51:26.791 97c Generated table #82116@0: 75300 keys, 2148781 bytes
-2026/06/22-10:51:26.827 97c Generated table #82117@0: 75284 keys, 2149760 bytes
-2026/06/22-10:51:26.840 97c Generated table #82118@0: 26034 keys, 743453 bytes
-2026/06/22-10:51:26.840 97c Compacted 4@0 + 4@1 files => 9298195 bytes
-2026/06/22-10:51:26.840 97c compacted to: files[ 0 6 47 36 0 0 0 ]
-2026/06/22-10:51:26.841 97c Delete type=2 #82098
-2026/06/22-10:51:26.841 97c Delete type=2 #82100
-2026/06/22-10:51:26.841 97c Delete type=2 #82113
-2026/06/22-10:51:26.841 97c Delete type=2 #82107
-2026/06/22-10:51:26.841 97c Delete type=2 #82099
-2026/06/22-10:51:26.841 97c Delete type=2 #82101
-2026/06/22-10:51:26.841 97c Delete type=2 #82103
-2026/06/22-10:51:26.841 97c Delete type=2 #82109
-2026/06/22-10:51:26.843 97c Moved #81887 to level-2 2311432 bytes OK: files[ 0 5 48 36 0 0 0 ]
-2026/06/22-10:51:26.843 97c Moved #76320 to level-3 2265605 bytes OK: files[ 0 5 47 37 0 0 0 ]
-2026/06/22-10:51:26.844 97c Moved #76504 to level-3 2274862 bytes OK: files[ 0 5 46 38 0 0 0 ]
-2026/06/22-10:54:33.824 980 Level-0 table #82120: started
-2026/06/22-10:54:33.830 980 Level-0 table #82120: 9856 bytes OK
-2026/06/22-10:54:33.832 980 Delete type=0 #82112
+2026/06/22-12:01:49.166 98b Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/06/22-12:05:20.459 98b Level-0 table #82124: started
+2026/06/22-12:05:20.467 98b Level-0 table #82124: 9767 bytes OK
+2026/06/22-12:05:20.469 98b Delete type=0 #82122
+2026/06/22-12:07:32.375 98f Level-0 table #82126: started
+2026/06/22-12:07:32.396 98f Level-0 table #82126: 585393 bytes OK
+2026/06/22-12:07:32.398 98f Delete type=0 #82123
