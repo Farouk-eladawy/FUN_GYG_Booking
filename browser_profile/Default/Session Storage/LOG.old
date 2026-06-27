@@ -1,4 +1,26 @@
-2026/06/26-23:06:35.069 98c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/06/26-23:15:13.561 990 Level-0 table #82526: started
-2026/06/26-23:15:13.576 990 Level-0 table #82526: 573613 bytes OK
-2026/06/26-23:15:13.578 990 Delete type=0 #82524
+2026/06/27-00:20:21.658 96e Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/06/27-00:25:32.632 973 Level-0 table #82530: started
+2026/06/27-00:25:32.638 973 Level-0 table #82530: 9719 bytes OK
+2026/06/27-00:25:32.641 973 Delete type=0 #82528
+2026/06/27-00:25:32.642 973 Compacting 4@0 + 5@1 files
+2026/06/27-00:25:32.675 973 Generated table #82531@0: 20 keys, 2279658 bytes
+2026/06/27-00:25:32.706 973 Generated table #82532@0: 54823 keys, 2135666 bytes
+2026/06/27-00:25:32.737 973 Generated table #82533@0: 75224 keys, 2149889 bytes
+2026/06/27-00:25:32.769 973 Generated table #82534@0: 75284 keys, 2148542 bytes
+2026/06/27-00:25:32.796 973 Generated table #82535@0: 63712 keys, 1819016 bytes
+2026/06/27-00:25:32.796 973 Compacted 4@0 + 5@1 files => 10532771 bytes
+2026/06/27-00:25:32.796 973 compacted to: files[ 0 5 46 45 0 0 0 ]
+2026/06/27-00:25:32.797 973 Delete type=2 #82522
+2026/06/27-00:25:32.797 973 Delete type=2 #82530
+2026/06/27-00:25:32.797 973 Delete type=2 #82516
+2026/06/27-00:25:32.797 973 Delete type=2 #82513
+2026/06/27-00:25:32.797 973 Delete type=2 #82514
+2026/06/27-00:25:32.797 973 Delete type=2 #82520
+2026/06/27-00:25:32.797 973 Delete type=2 #82512
+2026/06/27-00:25:32.797 973 Delete type=2 #82526
+2026/06/27-00:25:32.797 973 Delete type=2 #82515
+2026/06/27-00:25:32.799 973 Moved #82531 to level-2 2279658 bytes OK: files[ 0 4 47 45 0 0 0 ]
+2026/06/27-00:25:32.799 973 Moved #77603 to level-3 2269975 bytes OK: files[ 0 4 46 46 0 0 0 ]
+2026/06/27-00:30:35.886 96e Level-0 table #82537: started
+2026/06/27-00:30:35.890 96e Level-0 table #82537: 9811 bytes OK
+2026/06/27-00:30:35.892 96e Delete type=0 #82529
