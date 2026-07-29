@@ -1,31 +1,37 @@
-2026/07/29-11:54:31.802 953 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/07/29-11:58:32.345 953 Level-0 table #13197: started
-2026/07/29-11:58:32.350 953 Level-0 table #13197: 19437 bytes OK
-2026/07/29-11:58:32.350 953 Delete type=0 #13195
-2026/07/29-12:03:32.344 953 Level-0 table #13199: started
-2026/07/29-12:03:32.350 953 Level-0 table #13199: 19962 bytes OK
-2026/07/29-12:03:32.351 953 Delete type=0 #13196
-2026/07/29-12:05:32.344 953 Level-0 table #13201: started
-2026/07/29-12:05:32.349 953 Level-0 table #13201: 21473 bytes OK
-2026/07/29-12:05:32.349 953 Delete type=0 #13198
-2026/07/29-12:09:33.554 953 Level-0 table #13203: started
-2026/07/29-12:09:33.558 953 Level-0 table #13203: 19968 bytes OK
-2026/07/29-12:09:33.559 953 Delete type=0 #13200
-2026/07/29-12:09:33.559 953 Compacting 4@0 + 1@1 files
-2026/07/29-12:09:33.562 953 Generated table #13204@0: 2307 keys, 67396 bytes
-2026/07/29-12:09:33.562 953 Compacted 4@0 + 1@1 files => 67396 bytes
-2026/07/29-12:09:33.562 953 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/07/29-12:09:33.563 953 Delete type=2 #13193
-2026/07/29-12:09:33.563 953 Delete type=2 #13199
-2026/07/29-12:09:33.563 953 Delete type=2 #13203
-2026/07/29-12:09:33.563 953 Delete type=2 #13201
-2026/07/29-12:09:33.563 953 Delete type=2 #13197
-2026/07/29-12:12:32.345 953 Level-0 table #13206: started
-2026/07/29-12:12:32.348 953 Level-0 table #13206: 21219 bytes OK
-2026/07/29-12:12:32.349 953 Delete type=0 #13202
-2026/07/29-12:16:32.344 953 Level-0 table #13208: started
-2026/07/29-12:16:32.348 953 Level-0 table #13208: 22219 bytes OK
-2026/07/29-12:16:32.348 953 Delete type=0 #13205
-2026/07/29-12:18:55.927 94f Level-0 table #13210: started
-2026/07/29-12:18:55.933 94f Level-0 table #13210: 21406 bytes OK
-2026/07/29-12:18:55.934 94f Delete type=0 #13207
+2026/07/29-12:24:36.129 94c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/07/29-12:28:36.828 94a Level-0 table #13214: started
+2026/07/29-12:28:36.833 94a Level-0 table #13214: 19428 bytes OK
+2026/07/29-12:28:36.834 94a Delete type=0 #13212
+2026/07/29-12:28:36.834 946 Compacting 4@0 + 1@1 files
+2026/07/29-12:28:36.836 946 Generated table #13215@0: 2309 keys, 68376 bytes
+2026/07/29-12:28:36.836 946 Compacted 4@0 + 1@1 files => 68376 bytes
+2026/07/29-12:28:36.837 946 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/29-12:28:36.837 946 Delete type=2 #13214
+2026/07/29-12:28:36.837 946 Delete type=2 #13210
+2026/07/29-12:28:36.837 946 Delete type=2 #13204
+2026/07/29-12:28:36.837 946 Delete type=2 #13206
+2026/07/29-12:28:36.837 946 Delete type=2 #13208
+2026/07/29-12:33:36.828 94a Level-0 table #13217: started
+2026/07/29-12:33:36.834 94a Level-0 table #13217: 19717 bytes OK
+2026/07/29-12:33:36.835 94a Delete type=0 #13213
+2026/07/29-12:38:36.828 94a Level-0 table #13219: started
+2026/07/29-12:38:36.833 94a Level-0 table #13219: 19994 bytes OK
+2026/07/29-12:38:36.834 94a Delete type=0 #13216
+2026/07/29-12:40:54.208 94c Level-0 table #13221: started
+2026/07/29-12:40:54.211 94c Level-0 table #13221: 21988 bytes OK
+2026/07/29-12:40:54.212 94c Delete type=0 #13218
+2026/07/29-12:45:36.829 94c Level-0 table #13223: started
+2026/07/29-12:45:36.834 94c Level-0 table #13223: 19746 bytes OK
+2026/07/29-12:45:36.835 94c Delete type=0 #13220
+2026/07/29-12:45:36.835 94c Compacting 4@0 + 1@1 files
+2026/07/29-12:45:36.837 94c Generated table #13224@0: 2309 keys, 68397 bytes
+2026/07/29-12:45:36.837 94c Compacted 4@0 + 1@1 files => 68397 bytes
+2026/07/29-12:45:36.838 94c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/29-12:45:36.838 94c Delete type=2 #13217
+2026/07/29-12:45:36.838 94c Delete type=2 #13219
+2026/07/29-12:45:36.838 94c Delete type=2 #13221
+2026/07/29-12:45:36.838 94c Delete type=2 #13215
+2026/07/29-12:45:36.838 94c Delete type=2 #13223
+2026/07/29-12:47:36.828 946 Level-0 table #13226: started
+2026/07/29-12:47:36.834 946 Level-0 table #13226: 22009 bytes OK
+2026/07/29-12:47:36.834 946 Delete type=0 #13222
