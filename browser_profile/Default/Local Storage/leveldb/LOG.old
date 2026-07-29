@@ -1,28 +1,43 @@
-2026/07/29-15:32:56.789 8fb Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/07/29-15:36:58.176 8fa Level-0 table #13270: started
-2026/07/29-15:36:58.177 8fa Level-0 table #13270: 20005 bytes OK
-2026/07/29-15:36:58.178 8fa Delete type=0 #13268
-2026/07/29-15:41:58.176 8fa Level-0 table #13272: started
-2026/07/29-15:41:58.177 8fa Level-0 table #13272: 19831 bytes OK
-2026/07/29-15:41:58.178 8fa Delete type=0 #13269
-2026/07/29-15:46:58.176 8fa Level-0 table #13274: started
-2026/07/29-15:46:58.179 8fa Level-0 table #13274: 19582 bytes OK
-2026/07/29-15:46:58.179 8fa Delete type=0 #13271
-2026/07/29-15:46:58.180 8fa Compacting 4@0 + 1@1 files
-2026/07/29-15:46:58.181 8fa Generated table #13275@0: 2315 keys, 69540 bytes
-2026/07/29-15:46:58.181 8fa Compacted 4@0 + 1@1 files => 69540 bytes
-2026/07/29-15:46:58.182 8fa compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/07/29-15:46:58.182 8fa Delete type=2 #13270
-2026/07/29-15:46:58.182 8fa Delete type=2 #13264
-2026/07/29-15:46:58.182 8fa Delete type=2 #13274
-2026/07/29-15:46:58.182 8fa Delete type=2 #13266
-2026/07/29-15:46:58.182 8fa Delete type=2 #13272
-2026/07/29-15:51:58.177 8fa Level-0 table #13277: started
-2026/07/29-15:51:58.183 8fa Level-0 table #13277: 19808 bytes OK
-2026/07/29-15:51:58.184 8fa Delete type=0 #13273
-2026/07/29-15:56:58.176 8f6 Level-0 table #13279: started
-2026/07/29-15:56:58.182 8f6 Level-0 table #13279: 19553 bytes OK
-2026/07/29-15:56:58.184 8f6 Delete type=0 #13276
-2026/07/29-16:01:58.176 8fa Level-0 table #13281: started
-2026/07/29-16:01:58.209 8fa Level-0 table #13281: 19584 bytes OK
-2026/07/29-16:01:58.210 8fa Delete type=0 #13278
+2026/07/29-16:35:40.238 888 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/07/29-16:39:40.860 88c Level-0 table #13285: started
+2026/07/29-16:39:40.965 88c Level-0 table #13285: 20060 bytes OK
+2026/07/29-16:39:40.966 88c Delete type=0 #13283
+2026/07/29-16:39:40.966 88c Compacting 4@0 + 1@1 files
+2026/07/29-16:39:40.968 88c Generated table #13286@0: 2317 keys, 69520 bytes
+2026/07/29-16:39:40.968 88c Compacted 4@0 + 1@1 files => 69520 bytes
+2026/07/29-16:39:40.968 88c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/29-16:39:40.968 88c Delete type=2 #13275
+2026/07/29-16:39:40.968 88c Delete type=2 #13285
+2026/07/29-16:39:40.968 88c Delete type=2 #13279
+2026/07/29-16:39:40.968 88c Delete type=2 #13277
+2026/07/29-16:39:40.968 88c Delete type=2 #13281
+2026/07/29-16:44:40.861 88c Level-0 table #13288: started
+2026/07/29-16:44:40.864 88c Level-0 table #13288: 19764 bytes OK
+2026/07/29-16:44:40.865 88c Delete type=0 #13284
+2026/07/29-16:49:40.861 88c Level-0 table #13290: started
+2026/07/29-16:49:40.864 88c Level-0 table #13290: 19605 bytes OK
+2026/07/29-16:49:40.865 88c Delete type=0 #13287
+2026/07/29-16:51:34.662 88c Level-0 table #13292: started
+2026/07/29-16:51:34.668 88c Level-0 table #13292: 21353 bytes OK
+2026/07/29-16:51:34.669 88c Delete type=0 #13289
+2026/07/29-16:54:40.861 88c Level-0 table #13294: started
+2026/07/29-16:54:40.863 88c Level-0 table #13294: 22583 bytes OK
+2026/07/29-16:54:40.864 88c Delete type=0 #13291
+2026/07/29-16:54:40.864 88c Compacting 4@0 + 1@1 files
+2026/07/29-16:54:40.866 88c Generated table #13295@0: 2317 keys, 69533 bytes
+2026/07/29-16:54:40.866 88c Compacted 4@0 + 1@1 files => 69533 bytes
+2026/07/29-16:54:40.867 88c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/29-16:54:40.867 88c Delete type=2 #13288
+2026/07/29-16:54:40.867 88c Delete type=2 #13294
+2026/07/29-16:54:40.867 88c Delete type=2 #13286
+2026/07/29-16:54:40.867 88c Delete type=2 #13292
+2026/07/29-16:54:40.867 88c Delete type=2 #13290
+2026/07/29-16:56:40.860 88e Level-0 table #13297: started
+2026/07/29-16:56:40.922 88e Level-0 table #13297: 21695 bytes OK
+2026/07/29-16:56:40.944 88e Delete type=0 #13293
+2026/07/29-17:01:40.861 88c Level-0 table #13299: started
+2026/07/29-17:01:40.865 88c Level-0 table #13299: 19573 bytes OK
+2026/07/29-17:01:40.865 88c Delete type=0 #13296
+2026/07/29-17:03:52.104 88c Level-0 table #13301: started
+2026/07/29-17:03:52.111 88c Level-0 table #13301: 21715 bytes OK
+2026/07/29-17:03:52.112 88c Delete type=0 #13298
