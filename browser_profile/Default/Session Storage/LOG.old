@@ -1,27 +1,39 @@
-2026/07/30-17:12:51.553 8fd Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/07/30-17:24:11.511 901 Level-0 table #84014: started
-2026/07/30-17:24:11.526 901 Level-0 table #84014: 590863 bytes OK
-2026/07/30-17:24:11.528 901 Delete type=0 #84012
-2026/07/30-17:32:52.243 901 Level-0 table #84016: started
-2026/07/30-17:32:52.245 901 Level-0 table #84016: 12833 bytes OK
-2026/07/30-17:32:52.247 901 Delete type=0 #84013
-2026/07/30-17:37:17.396 8fd Level-0 table #84018: started
-2026/07/30-17:37:17.401 8fd Level-0 table #84018: 9939 bytes OK
-2026/07/30-17:37:17.403 8fd Delete type=0 #84015
-2026/07/30-17:37:17.403 8fd Compacting 4@0 + 5@1 files
-2026/07/30-17:37:17.471 8fd Generated table #84019@0: 54140 keys, 2136116 bytes
-2026/07/30-17:37:17.525 8fd Generated table #84020@0: 75290 keys, 2149350 bytes
-2026/07/30-17:37:17.576 8fd Generated table #84021@0: 75276 keys, 2149663 bytes
-2026/07/30-17:37:17.626 8fd Generated table #84022@0: 75215 keys, 2148955 bytes
-2026/07/30-17:37:17.632 8fd Generated table #84023@0: 5185 keys, 148464 bytes
-2026/07/30-17:37:17.632 8fd Compacted 4@0 + 5@1 files => 8732548 bytes
-2026/07/30-17:37:17.632 8fd compacted to: files[ 0 5 46 54 0 0 0 ]
-2026/07/30-17:37:17.633 8fd Delete type=2 #84008
-2026/07/30-17:37:17.633 8fd Delete type=2 #84014
-2026/07/30-17:37:17.633 8fd Delete type=2 #84018
-2026/07/30-17:37:17.633 8fd Delete type=2 #84004
-2026/07/30-17:37:17.633 8fd Delete type=2 #84007
-2026/07/30-17:37:17.633 8fd Delete type=2 #84006
-2026/07/30-17:37:17.634 8fd Delete type=2 #84016
-2026/07/30-17:37:17.634 8fd Delete type=2 #84005
-2026/07/30-17:37:17.634 8fd Delete type=2 #84010
+2026/07/30-17:59:07.262 831 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/07/30-18:13:27.527 835 Level-0 table #84027: started
+2026/07/30-18:13:27.533 835 Level-0 table #84027: 13192 bytes OK
+2026/07/30-18:13:27.535 835 Delete type=0 #84025
+2026/07/30-18:22:32.781 835 Level-0 table #84029: started
+2026/07/30-18:22:32.787 835 Level-0 table #84029: 12560 bytes OK
+2026/07/30-18:22:32.789 835 Delete type=0 #84026
+2026/07/30-18:26:23.312 835 Level-0 table #84031: started
+2026/07/30-18:26:23.317 835 Level-0 table #84031: 11856 bytes OK
+2026/07/30-18:26:23.319 835 Delete type=0 #84028
+2026/07/30-18:28:59.475 835 Level-0 table #84033: started
+2026/07/30-18:28:59.481 835 Level-0 table #84033: 11505 bytes OK
+2026/07/30-18:28:59.483 835 Delete type=0 #84030
+2026/07/30-18:28:59.483 835 Compacting 4@0 + 5@1 files
+2026/07/30-18:28:59.521 835 Generated table #84034@0: 54107 keys, 2134432 bytes
+2026/07/30-18:28:59.554 835 Generated table #84035@0: 75310 keys, 2149747 bytes
+2026/07/30-18:28:59.589 835 Generated table #84036@0: 75231 keys, 2148931 bytes
+2026/07/30-18:28:59.612 835 Generated table #84037@0: 75231 keys, 2149747 bytes
+2026/07/30-18:28:59.623 835 Generated table #84038@0: 5536 keys, 157857 bytes
+2026/07/30-18:28:59.623 835 Compacted 4@0 + 5@1 files => 8740714 bytes
+2026/07/30-18:28:59.624 835 compacted to: files[ 0 5 46 54 0 0 0 ]
+2026/07/30-18:28:59.624 835 Delete type=2 #84023
+2026/07/30-18:28:59.624 835 Delete type=2 #84029
+2026/07/30-18:28:59.624 835 Delete type=2 #84019
+2026/07/30-18:28:59.624 835 Delete type=2 #84027
+2026/07/30-18:28:59.624 835 Delete type=2 #84033
+2026/07/30-18:28:59.624 835 Delete type=2 #84031
+2026/07/30-18:28:59.624 835 Delete type=2 #84020
+2026/07/30-18:28:59.624 835 Delete type=2 #84022
+2026/07/30-18:28:59.624 835 Delete type=2 #84021
+2026/07/30-18:31:46.732 835 Level-0 table #84040: started
+2026/07/30-18:31:46.735 835 Level-0 table #84040: 11601 bytes OK
+2026/07/30-18:31:46.736 835 Delete type=0 #84032
+2026/07/30-18:34:27.710 831 Level-0 table #84042: started
+2026/07/30-18:34:27.718 831 Level-0 table #84042: 11652 bytes OK
+2026/07/30-18:34:27.719 831 Delete type=0 #84039
+2026/07/30-18:37:29.795 831 Level-0 table #84044: started
+2026/07/30-18:37:29.800 831 Level-0 table #84044: 14645 bytes OK
+2026/07/30-18:37:29.802 831 Delete type=0 #84041
