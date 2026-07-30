@@ -1,28 +1,40 @@
-2026/07/30-00:15:06.671 95c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/07/30-00:19:07.347 960 Level-0 table #13477: started
-2026/07/30-00:19:07.357 960 Level-0 table #13477: 20586 bytes OK
-2026/07/30-00:19:07.358 960 Delete type=0 #13475
-2026/07/30-00:24:07.347 960 Level-0 table #13479: started
-2026/07/30-00:24:07.351 960 Level-0 table #13479: 20073 bytes OK
-2026/07/30-00:24:07.352 960 Delete type=0 #13476
-2026/07/30-00:25:38.664 960 Level-0 table #13481: started
-2026/07/30-00:25:38.686 960 Level-0 table #13481: 21590 bytes OK
-2026/07/30-00:25:38.692 960 Delete type=0 #13478
-2026/07/30-00:29:07.806 960 Level-0 table #13483: started
-2026/07/30-00:29:07.815 960 Level-0 table #13483: 20163 bytes OK
-2026/07/30-00:29:07.816 960 Delete type=0 #13480
-2026/07/30-00:29:07.816 960 Compacting 4@0 + 1@1 files
-2026/07/30-00:29:07.820 960 Generated table #13484@0: 2335 keys, 70054 bytes
-2026/07/30-00:29:07.820 960 Compacted 4@0 + 1@1 files => 70054 bytes
-2026/07/30-00:29:07.821 960 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/07/30-00:29:07.821 960 Delete type=2 #13481
-2026/07/30-00:29:07.821 960 Delete type=2 #13477
-2026/07/30-00:29:07.821 960 Delete type=2 #13473
-2026/07/30-00:29:07.821 960 Delete type=2 #13479
-2026/07/30-00:29:07.821 960 Delete type=2 #13483
-2026/07/30-00:35:07.348 960 Level-0 table #13486: started
-2026/07/30-00:35:07.350 960 Level-0 table #13486: 20037 bytes OK
-2026/07/30-00:35:07.351 960 Delete type=0 #13482
-2026/07/30-00:40:07.347 960 Level-0 table #13488: started
-2026/07/30-00:40:07.352 960 Level-0 table #13488: 20069 bytes OK
-2026/07/30-00:40:07.353 960 Delete type=0 #13485
+2026/07/30-01:01:25.129 90b Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/07/30-01:05:25.726 90f Level-0 table #13492: started
+2026/07/30-01:05:25.731 90f Level-0 table #13492: 20659 bytes OK
+2026/07/30-01:05:25.732 90f Delete type=0 #13490
+2026/07/30-01:08:13.125 90b Level-0 table #13494: started
+2026/07/30-01:08:13.127 90b Level-0 table #13494: 22430 bytes OK
+2026/07/30-01:08:13.128 90b Delete type=0 #13491
+2026/07/30-01:08:13.129 910 Compacting 4@0 + 1@1 files
+2026/07/30-01:08:13.144 910 Generated table #13495@0: 2337 keys, 70047 bytes
+2026/07/30-01:08:13.144 910 Compacted 4@0 + 1@1 files => 70047 bytes
+2026/07/30-01:08:13.144 910 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/30-01:08:13.145 910 Delete type=2 #13492
+2026/07/30-01:08:13.145 910 Delete type=2 #13488
+2026/07/30-01:08:13.145 910 Delete type=2 #13486
+2026/07/30-01:08:13.145 910 Delete type=2 #13494
+2026/07/30-01:08:13.145 910 Delete type=2 #13484
+2026/07/30-01:09:04.999 90b Level-0 table #13497: started
+2026/07/30-01:09:05.002 90b Level-0 table #13497: 20691 bytes OK
+2026/07/30-01:09:05.003 90b Delete type=0 #13493
+2026/07/30-01:11:25.725 90f Level-0 table #13499: started
+2026/07/30-01:11:25.732 90f Level-0 table #13499: 22053 bytes OK
+2026/07/30-01:11:25.733 90f Delete type=0 #13496
+2026/07/30-01:15:25.726 90f Level-0 table #13501: started
+2026/07/30-01:15:25.727 90f Level-0 table #13501: 19808 bytes OK
+2026/07/30-01:15:25.727 90f Delete type=0 #13498
+2026/07/30-01:20:25.726 90f Level-0 table #13503: started
+2026/07/30-01:20:25.727 90f Level-0 table #13503: 20205 bytes OK
+2026/07/30-01:20:25.728 90f Delete type=0 #13500
+2026/07/30-01:20:25.728 90f Compacting 4@0 + 1@1 files
+2026/07/30-01:20:25.730 90f Generated table #13504@0: 2337 keys, 70031 bytes
+2026/07/30-01:20:25.730 90f Compacted 4@0 + 1@1 files => 70031 bytes
+2026/07/30-01:20:25.731 90f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/30-01:20:25.731 90f Delete type=2 #13499
+2026/07/30-01:20:25.731 90f Delete type=2 #13495
+2026/07/30-01:20:25.731 90f Delete type=2 #13497
+2026/07/30-01:20:25.731 90f Delete type=2 #13503
+2026/07/30-01:20:25.731 90f Delete type=2 #13501
+2026/07/30-01:25:25.726 90f Level-0 table #13506: started
+2026/07/30-01:25:25.731 90f Level-0 table #13506: 19797 bytes OK
+2026/07/30-01:25:25.732 90f Delete type=0 #13502
