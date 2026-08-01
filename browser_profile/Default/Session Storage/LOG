@@ -1,27 +1,7 @@
-2026/08/01-19:21:28.556 910 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/01-19:25:16.756 910 Level-0 table #85751: started
-2026/08/01-19:25:16.762 910 Level-0 table #85751: 9509 bytes OK
-2026/08/01-19:25:16.764 910 Delete type=0 #85749
-2026/08/01-19:26:29.021 914 Level-0 table #85753: started
-2026/08/01-19:26:29.040 914 Level-0 table #85753: 586309 bytes OK
-2026/08/01-19:26:29.042 914 Delete type=0 #85750
-2026/08/01-19:29:40.318 914 Level-0 table #85755: started
-2026/08/01-19:29:40.323 914 Level-0 table #85755: 11905 bytes OK
-2026/08/01-19:29:40.325 914 Delete type=0 #85752
-2026/08/01-19:29:40.325 914 Compacting 4@0 + 5@1 files
-2026/08/01-19:29:40.371 914 Generated table #85756@0: 33438 keys, 2120231 bytes
-2026/08/01-19:29:40.412 914 Generated table #85757@0: 75374 keys, 2147398 bytes
-2026/08/01-19:29:40.444 914 Generated table #85758@0: 75491 keys, 2147065 bytes
-2026/08/01-19:29:40.484 914 Generated table #85759@0: 75475 keys, 2148271 bytes
-2026/08/01-19:29:40.535 914 Generated table #85760@0: 41579 keys, 1184699 bytes
-2026/08/01-19:29:40.535 914 Compacted 4@0 + 5@1 files => 9747664 bytes
-2026/08/01-19:29:40.536 914 compacted to: files[ 0 5 47 60 0 0 0 ]
-2026/08/01-19:29:40.538 914 Delete type=2 #85745
-2026/08/01-19:29:40.538 914 Delete type=2 #85755
-2026/08/01-19:29:40.538 914 Delete type=2 #85747
-2026/08/01-19:29:40.538 914 Delete type=2 #85751
-2026/08/01-19:29:40.538 914 Delete type=2 #85753
-2026/08/01-19:29:40.538 914 Delete type=2 #85744
-2026/08/01-19:29:40.538 914 Delete type=2 #85741
-2026/08/01-19:29:40.538 914 Delete type=2 #85742
-2026/08/01-19:29:40.538 914 Delete type=2 #85743
+2026/08/01-19:55:40.599 95b Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/01-19:59:25.367 95b Level-0 table #85764: started
+2026/08/01-19:59:25.375 95b Level-0 table #85764: 10088 bytes OK
+2026/08/01-19:59:25.379 95b Delete type=0 #85762
+2026/08/01-20:02:48.536 95f Level-0 table #85766: started
+2026/08/01-20:02:48.543 95f Level-0 table #85766: 9963 bytes OK
+2026/08/01-20:02:48.546 95f Delete type=0 #85763
