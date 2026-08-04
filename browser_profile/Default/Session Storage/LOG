@@ -1,16 +1,19 @@
-2026/08/04-20:27:20.492 955 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/04-20:31:04.800 959 Level-0 table #86480: started
-2026/08/04-20:31:04.802 959 Level-0 table #86480: 9867 bytes OK
-2026/08/04-20:31:04.806 959 Delete type=0 #86478
-2026/08/04-20:31:04.806 959 Compacting 4@0 + 1@1 files
-2026/08/04-20:31:04.821 959 Generated table #86481@0: 1208 keys, 606682 bytes
-2026/08/04-20:31:04.821 959 Compacted 4@0 + 1@1 files => 606682 bytes
-2026/08/04-20:31:04.821 959 compacted to: files[ 0 1 46 72 0 0 0 ]
-2026/08/04-20:31:04.823 959 Delete type=2 #86476
-2026/08/04-20:31:04.823 959 Delete type=2 #86466
-2026/08/04-20:31:04.823 959 Delete type=2 #86470
-2026/08/04-20:31:04.823 959 Delete type=2 #86472
-2026/08/04-20:31:04.823 959 Delete type=2 #86480
-2026/08/04-20:34:28.942 959 Level-0 table #86483: started
-2026/08/04-20:34:28.950 959 Level-0 table #86483: 9760 bytes OK
-2026/08/04-20:34:28.952 959 Delete type=0 #86479
+2026/08/04-21:09:37.852 a00 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/04-21:13:13.381 a04 Level-0 table #86487: started
+2026/08/04-21:13:13.388 a04 Level-0 table #86487: 9939 bytes OK
+2026/08/04-21:13:13.391 a04 Delete type=0 #86485
+2026/08/04-21:14:20.948 a00 Level-0 table #86489: started
+2026/08/04-21:14:20.967 a00 Level-0 table #86489: 587879 bytes OK
+2026/08/04-21:14:20.969 a00 Delete type=0 #86486
+2026/08/04-21:17:09.611 a04 Level-0 table #86491: started
+2026/08/04-21:17:09.614 a04 Level-0 table #86491: 12119 bytes OK
+2026/08/04-21:17:09.616 a04 Delete type=0 #86488
+2026/08/04-21:17:09.616 a04 Compacting 4@0 + 1@1 files
+2026/08/04-21:17:09.630 a04 Generated table #86492@0: 1646 keys, 614430 bytes
+2026/08/04-21:17:09.630 a04 Compacted 4@0 + 1@1 files => 614430 bytes
+2026/08/04-21:17:09.630 a04 compacted to: files[ 0 1 46 72 0 0 0 ]
+2026/08/04-21:17:09.631 a04 Delete type=2 #86487
+2026/08/04-21:17:09.631 a04 Delete type=2 #86491
+2026/08/04-21:17:09.631 a04 Delete type=2 #86481
+2026/08/04-21:17:09.631 a04 Delete type=2 #86483
+2026/08/04-21:17:09.631 a04 Delete type=2 #86489
