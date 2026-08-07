@@ -1,4 +1,27 @@
-2026/08/07-20:46:36.664 959 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/07-20:51:35.765 95d Level-0 table #87097: started
-2026/08/07-20:51:35.779 95d Level-0 table #87097: 586652 bytes OK
-2026/08/07-20:51:35.783 95d Delete type=0 #87095
+2026/08/07-21:21:00.227 94a Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/07-21:24:47.448 94e Level-0 table #87101: started
+2026/08/07-21:24:47.449 94e Level-0 table #87101: 10059 bytes OK
+2026/08/07-21:24:47.451 94e Delete type=0 #87099
+2026/08/07-21:24:47.452 94e Compacting 4@0 + 1@1 files
+2026/08/07-21:24:47.479 94e Generated table #87102@0: 8509 keys, 1400698 bytes
+2026/08/07-21:24:47.479 94e Compacted 4@0 + 1@1 files => 1400698 bytes
+2026/08/07-21:24:47.480 94e compacted to: files[ 0 5 46 78 0 0 0 ]
+2026/08/07-21:24:47.481 94e Delete type=2 #87101
+2026/08/07-21:24:47.481 94e Delete type=2 #87087
+2026/08/07-21:24:47.481 94e Delete type=2 #87097
+2026/08/07-21:24:47.481 94e Delete type=2 #87091
+2026/08/07-21:24:47.481 94e Delete type=2 #87093
+2026/08/07-21:24:47.482 94e Compacting 1@1 + 1@2 files
+2026/08/07-21:24:47.514 94e Generated table #87103@1: 25 keys, 2334150 bytes
+2026/08/07-21:24:47.542 94e Generated table #87104@1: 27 keys, 2269555 bytes
+2026/08/07-21:24:47.543 94e Compacted 1@1 + 1@2 files => 4603705 bytes
+2026/08/07-21:24:47.543 94e compacted to: files[ 0 4 47 78 0 0 0 ]
+2026/08/07-21:24:47.544 94e Delete type=2 #86944
+2026/08/07-21:24:47.544 94e Delete type=2 #87021
+2026/08/07-21:24:47.545 94e Moved #81810 to level-3 2296548 bytes OK: files[ 0 4 46 79 0 0 0 ]
+2026/08/07-21:25:54.796 94f Level-0 table #87106: started
+2026/08/07-21:25:54.823 94f Level-0 table #87106: 587124 bytes OK
+2026/08/07-21:25:54.825 94f Delete type=0 #87100
+2026/08/07-21:28:55.594 94e Level-0 table #87108: started
+2026/08/07-21:28:55.597 94e Level-0 table #87108: 12310 bytes OK
+2026/08/07-21:28:55.599 94e Delete type=0 #87105
