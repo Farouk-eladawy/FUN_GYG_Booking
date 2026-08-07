@@ -1,17 +1,16 @@
-2026/08/07-13:22:35.098 954 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/07-13:22:35.101 954 Delete type=2 #16417
-2026/08/07-13:22:35.101 958 Compacting 4@0 + 1@1 files
-2026/08/07-13:22:35.109 958 Generated table #16419@0: 2973 keys, 81247 bytes
-2026/08/07-13:22:35.109 958 Compacted 4@0 + 1@1 files => 81247 bytes
-2026/08/07-13:22:35.110 958 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/07-13:22:35.110 958 Delete type=2 #16404
-2026/08/07-13:22:35.110 958 Delete type=2 #16416
-2026/08/07-13:22:35.110 958 Delete type=2 #16414
-2026/08/07-13:22:35.110 958 Delete type=2 #16408
-2026/08/07-13:22:35.110 958 Delete type=2 #16410
-2026/08/07-13:26:35.693 958 Level-0 table #16421: started
-2026/08/07-13:26:35.694 958 Level-0 table #16421: 20538 bytes OK
-2026/08/07-13:26:35.695 958 Delete type=0 #16418
-2026/08/07-13:30:35.693 959 Level-0 table #16423: started
-2026/08/07-13:30:35.700 959 Level-0 table #16423: 20558 bytes OK
-2026/08/07-13:30:35.700 959 Delete type=0 #16420
+2026/08/07-14:01:39.910 8af Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/07-14:05:40.455 8ae Level-0 table #16427: started
+2026/08/07-14:05:40.462 8ae Level-0 table #16427: 20882 bytes OK
+2026/08/07-14:05:40.463 8ae Delete type=0 #16425
+2026/08/07-14:09:40.455 8ae Level-0 table #16429: started
+2026/08/07-14:09:40.461 8ae Level-0 table #16429: 20523 bytes OK
+2026/08/07-14:09:40.462 8ae Delete type=0 #16426
+2026/08/07-14:09:40.462 8ae Compacting 4@0 + 1@1 files
+2026/08/07-14:09:40.464 8ae Generated table #16430@0: 2977 keys, 81413 bytes
+2026/08/07-14:09:40.464 8ae Compacted 4@0 + 1@1 files => 81413 bytes
+2026/08/07-14:09:40.464 8ae compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/07-14:09:40.464 8ae Delete type=2 #16427
+2026/08/07-14:09:40.465 8ae Delete type=2 #16429
+2026/08/07-14:09:40.465 8ae Delete type=2 #16421
+2026/08/07-14:09:40.465 8ae Delete type=2 #16419
+2026/08/07-14:09:40.465 8ae Delete type=2 #16423
