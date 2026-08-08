@@ -1,7 +1,24 @@
-2026/08/08-17:13:41.114 95b Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/08-17:17:21.045 95f Level-0 table #87246: started
-2026/08/08-17:17:21.052 95f Level-0 table #87246: 10226 bytes OK
-2026/08/08-17:17:21.055 95f Delete type=0 #87244
-2026/08/08-17:20:37.899 95f Level-0 table #87248: started
-2026/08/08-17:20:37.906 95f Level-0 table #87248: 10024 bytes OK
-2026/08/08-17:20:37.908 95f Delete type=0 #87245
+2026/08/08-18:06:43.884 95e Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/08-18:10:21.746 962 Level-0 table #87252: started
+2026/08/08-18:10:21.748 962 Level-0 table #87252: 9572 bytes OK
+2026/08/08-18:10:21.750 962 Delete type=0 #87250
+2026/08/08-18:10:21.751 962 Compacting 4@0 + 1@1 files
+2026/08/08-18:10:21.777 962 Generated table #87253@0: 9474 keys, 1442809 bytes
+2026/08/08-18:10:21.777 962 Compacted 4@0 + 1@1 files => 1442809 bytes
+2026/08/08-18:10:21.778 962 compacted to: files[ 0 5 46 80 0 0 0 ]
+2026/08/08-18:10:21.779 962 Delete type=2 #87248
+2026/08/08-18:10:21.779 962 Delete type=2 #87242
+2026/08/08-18:10:21.779 962 Delete type=2 #87238
+2026/08/08-18:10:21.779 962 Delete type=2 #87246
+2026/08/08-18:10:21.779 962 Delete type=2 #87252
+2026/08/08-18:10:21.780 962 Compacting 1@1 + 1@2 files
+2026/08/08-18:10:21.811 962 Generated table #87254@1: 16 keys, 2333331 bytes
+2026/08/08-18:10:21.844 962 Generated table #87255@1: 17 keys, 2266590 bytes
+2026/08/08-18:10:21.844 962 Compacted 1@1 + 1@2 files => 4599921 bytes
+2026/08/08-18:10:21.844 962 compacted to: files[ 0 4 47 80 0 0 0 ]
+2026/08/08-18:10:21.845 962 Delete type=2 #87183
+2026/08/08-18:10:21.845 962 Delete type=2 #87005
+2026/08/08-18:10:21.846 962 Moved #81887 to level-3 2311432 bytes OK: files[ 0 4 46 81 0 0 0 ]
+2026/08/08-18:13:46.666 962 Level-0 table #87257: started
+2026/08/08-18:13:46.674 962 Level-0 table #87257: 9473 bytes OK
+2026/08/08-18:13:46.676 962 Delete type=0 #87251
