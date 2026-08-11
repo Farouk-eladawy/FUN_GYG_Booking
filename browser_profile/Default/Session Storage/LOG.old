@@ -1,4 +1,27 @@
-2026/08/11-17:24:55.360 90f Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/11-17:28:51.926 913 Level-0 table #87862: started
-2026/08/11-17:28:51.942 913 Level-0 table #87862: 586293 bytes OK
-2026/08/11-17:28:51.945 913 Delete type=0 #87860
+2026/08/11-17:34:23.590 95a Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/11-17:37:41.804 95e Level-0 table #87866: started
+2026/08/11-17:37:41.810 95e Level-0 table #87866: 10767 bytes OK
+2026/08/11-17:37:41.813 95e Delete type=0 #87864
+2026/08/11-17:38:21.818 95e Level-0 table #87868: started
+2026/08/11-17:38:21.843 95e Level-0 table #87868: 585921 bytes OK
+2026/08/11-17:38:21.847 95e Delete type=0 #87865
+2026/08/11-17:41:25.287 95e Level-0 table #87870: started
+2026/08/11-17:41:25.294 95e Level-0 table #87870: 11499 bytes OK
+2026/08/11-17:41:25.297 95e Delete type=0 #87867
+2026/08/11-17:41:25.298 95e Compacting 4@0 + 1@1 files
+2026/08/11-17:41:25.325 95e Generated table #87871@0: 15834 keys, 1060131 bytes
+2026/08/11-17:41:25.325 95e Compacted 4@0 + 1@1 files => 1060131 bytes
+2026/08/11-17:41:25.326 95e compacted to: files[ 0 5 46 88 0 0 0 ]
+2026/08/11-17:41:25.328 95e Delete type=2 #87870
+2026/08/11-17:41:25.328 95e Delete type=2 #87868
+2026/08/11-17:41:25.328 95e Delete type=2 #87866
+2026/08/11-17:41:25.328 95e Delete type=2 #87858
+2026/08/11-17:41:25.328 95e Delete type=2 #87862
+2026/08/11-17:41:25.328 95e Compacting 1@1 + 1@2 files
+2026/08/11-17:41:25.361 95e Generated table #87872@1: 41 keys, 2337142 bytes
+2026/08/11-17:41:25.390 95e Generated table #87873@1: 14 keys, 2265214 bytes
+2026/08/11-17:41:25.391 95e Compacted 1@1 + 1@2 files => 4602356 bytes
+2026/08/11-17:41:25.391 95e compacted to: files[ 0 4 47 88 0 0 0 ]
+2026/08/11-17:41:25.393 95e Delete type=2 #87799
+2026/08/11-17:41:25.393 95e Delete type=2 #87543
+2026/08/11-17:41:25.394 95a Moved #82531 to level-3 2279658 bytes OK: files[ 0 4 46 89 0 0 0 ]
