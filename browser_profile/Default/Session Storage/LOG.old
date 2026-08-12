@@ -1,4 +1,26 @@
-2026/08/12-12:15:10.074 950 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/12-12:19:07.136 954 Level-0 table #88050: started
-2026/08/12-12:19:07.151 954 Level-0 table #88050: 586462 bytes OK
-2026/08/12-12:19:07.153 954 Delete type=0 #88048
+2026/08/12-12:29:37.978 9d6 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/12-12:32:36.648 9da Level-0 table #88054: started
+2026/08/12-12:32:36.655 9da Level-0 table #88054: 11533 bytes OK
+2026/08/12-12:32:36.660 9da Delete type=0 #88052
+2026/08/12-12:32:36.660 9da Compacting 4@0 + 2@1 files
+2026/08/12-12:32:36.698 9da Generated table #88055@0: 1730 keys, 2361371 bytes
+2026/08/12-12:32:36.717 9da Generated table #88056@0: 17009 keys, 1111413 bytes
+2026/08/12-12:32:36.717 9da Compacted 4@0 + 2@1 files => 3472784 bytes
+2026/08/12-12:32:36.717 9da compacted to: files[ 0 5 46 90 0 0 0 ]
+2026/08/12-12:32:36.718 9da Delete type=2 #88039
+2026/08/12-12:32:36.718 9da Delete type=2 #88050
+2026/08/12-12:32:36.718 9da Delete type=2 #88054
+2026/08/12-12:32:36.718 9da Delete type=2 #88046
+2026/08/12-12:32:36.719 9da Delete type=2 #88042
+2026/08/12-12:32:36.719 9da Delete type=2 #88040
+2026/08/12-12:32:36.719 9da Compacting 1@1 + 1@2 files
+2026/08/12-12:32:36.751 9da Generated table #88057@1: 32 keys, 2336903 bytes
+2026/08/12-12:32:36.775 9da Generated table #88058@1: 35 keys, 2272012 bytes
+2026/08/12-12:32:36.775 9da Compacted 1@1 + 1@2 files => 4608915 bytes
+2026/08/12-12:32:36.776 9da compacted to: files[ 0 4 47 90 0 0 0 ]
+2026/08/12-12:32:36.777 9da Delete type=2 #87962
+2026/08/12-12:32:36.777 9da Delete type=2 #87706
+2026/08/12-12:32:36.778 9da Moved #82654 to level-3 2277418 bytes OK: files[ 0 4 46 91 0 0 0 ]
+2026/08/12-12:35:17.813 9d6 Level-0 table #88060: started
+2026/08/12-12:35:17.820 9d6 Level-0 table #88060: 11393 bytes OK
+2026/08/12-12:35:17.822 9d6 Delete type=0 #88053
