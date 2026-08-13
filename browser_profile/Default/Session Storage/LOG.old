@@ -1,20 +1,11 @@
-2026/08/13-08:08:13.206 8cd Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/13-08:11:28.593 8cd Level-0 table #88224: started
-2026/08/13-08:11:28.599 8cd Level-0 table #88224: 10689 bytes OK
-2026/08/13-08:11:28.601 8cd Delete type=0 #88222
-2026/08/13-08:11:28.602 8cd Compacting 4@0 + 1@1 files
-2026/08/13-08:11:28.637 8cd Generated table #88225@0: 838 keys, 2349836 bytes
-2026/08/13-08:11:28.647 8cd Generated table #88226@0: 18680 keys, 585983 bytes
-2026/08/13-08:11:28.647 8cd Compacted 4@0 + 1@1 files => 2935819 bytes
-2026/08/13-08:11:28.647 8cd compacted to: files[ 0 5 46 93 0 0 0 ]
-2026/08/13-08:11:28.648 8cd Delete type=2 #88216
-2026/08/13-08:11:28.648 8cd Delete type=2 #88212
-2026/08/13-08:11:28.648 8cd Delete type=2 #88224
-2026/08/13-08:11:28.648 8cd Delete type=2 #88220
-2026/08/13-08:11:28.648 8cd Delete type=2 #88210
-2026/08/13-08:12:08.203 8d1 Level-0 table #88228: started
-2026/08/13-08:12:08.219 8d1 Level-0 table #88228: 586887 bytes OK
-2026/08/13-08:12:08.221 8d1 Delete type=0 #88223
-2026/08/13-08:15:28.744 8d1 Level-0 table #88230: started
-2026/08/13-08:15:28.745 8d1 Level-0 table #88230: 10949 bytes OK
-2026/08/13-08:15:28.747 8d1 Delete type=0 #88227
+2026/08/13-09:03:40.788 91e Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/13-09:07:13.391 922 Compacting 2@0 + 1@1 files
+2026/08/13-09:07:13.427 922 Generated table #88233@0: 18844 keys, 586134 bytes
+2026/08/13-09:07:13.427 922 Compacted 2@0 + 1@1 files => 586134 bytes
+2026/08/13-09:07:13.428 922 compacted to: files[ 0 5 46 93 0 0 0 ]
+2026/08/13-09:07:13.431 922 Delete type=2 #88226
+2026/08/13-09:07:13.431 922 Delete type=2 #88230
+2026/08/13-09:07:13.431 922 Delete type=2 #88228
+2026/08/13-09:07:45.990 922 Level-0 table #88235: started
+2026/08/13-09:07:46.004 922 Level-0 table #88235: 587197 bytes OK
+2026/08/13-09:07:46.007 922 Delete type=0 #88232
