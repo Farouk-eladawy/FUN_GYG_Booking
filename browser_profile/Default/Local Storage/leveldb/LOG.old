@@ -1,16 +1,22 @@
-2026/08/14-13:26:47.648 990 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/14-13:29:48.316 994 Level-0 table #18249: started
-2026/08/14-13:29:48.321 994 Level-0 table #18249: 20982 bytes OK
-2026/08/14-13:29:48.322 994 Delete type=0 #18247
-2026/08/14-13:29:48.322 994 Compacting 4@0 + 1@1 files
-2026/08/14-13:29:48.325 994 Generated table #18250@0: 3555 keys, 90896 bytes
-2026/08/14-13:29:48.325 994 Compacted 4@0 + 1@1 files => 90896 bytes
-2026/08/14-13:29:48.325 994 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/14-13:29:48.325 994 Delete type=2 #18249
-2026/08/14-13:29:48.325 994 Delete type=2 #18245
-2026/08/14-13:29:48.325 994 Delete type=2 #18243
-2026/08/14-13:29:48.326 994 Delete type=2 #18239
-2026/08/14-13:29:48.326 994 Delete type=2 #18241
-2026/08/14-13:34:41.874 990 Level-0 table #18252: started
-2026/08/14-13:34:41.876 990 Level-0 table #18252: 21467 bytes OK
-2026/08/14-13:34:41.877 990 Delete type=0 #18248
+2026/08/14-13:51:43.409 8a9 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/14-13:55:44.109 8ad Level-0 table #18256: started
+2026/08/14-13:55:44.280 8ad Level-0 table #18256: 21687 bytes OK
+2026/08/14-13:55:44.280 8ad Delete type=0 #18254
+2026/08/14-13:58:05.531 8ad Level-0 table #18258: started
+2026/08/14-13:58:05.550 8ad Level-0 table #18258: 20712 bytes OK
+2026/08/14-13:58:05.551 8ad Delete type=0 #18255
+2026/08/14-13:59:32.854 8ad Level-0 table #18260: started
+2026/08/14-13:59:32.957 8ad Level-0 table #18260: 22798 bytes OK
+2026/08/14-13:59:32.963 8ad Delete type=0 #18257
+2026/08/14-13:59:32.963 8ad Compacting 4@0 + 1@1 files
+2026/08/14-13:59:32.968 8ad Generated table #18261@0: 3557 keys, 90784 bytes
+2026/08/14-13:59:32.968 8ad Compacted 4@0 + 1@1 files => 90784 bytes
+2026/08/14-13:59:32.970 8ad compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/14-13:59:32.970 8ad Delete type=2 #18260
+2026/08/14-13:59:32.970 8ad Delete type=2 #18252
+2026/08/14-13:59:32.971 8ad Delete type=2 #18258
+2026/08/14-13:59:32.971 8ad Delete type=2 #18256
+2026/08/14-13:59:32.971 8ad Delete type=2 #18250
+2026/08/14-14:01:44.110 8ad Level-0 table #18263: started
+2026/08/14-14:01:44.293 8ad Level-0 table #18263: 20263 bytes OK
+2026/08/14-14:01:44.294 8ad Delete type=0 #18259
