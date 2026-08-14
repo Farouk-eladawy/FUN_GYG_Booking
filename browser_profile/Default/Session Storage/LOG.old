@@ -1,4 +1,34 @@
-2026/08/13-23:03:46.553 8d7 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/13-23:08:05.342 8db Level-0 table #88357: started
-2026/08/13-23:08:05.356 8db Level-0 table #88357: 587808 bytes OK
-2026/08/13-23:08:05.358 8db Delete type=0 #88355
+2026/08/13-23:50:29.381 9a8 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/13-23:52:54.937 9ac Level-0 table #88361: started
+2026/08/13-23:52:54.944 9ac Level-0 table #88361: 12819 bytes OK
+2026/08/13-23:52:54.947 9ac Delete type=0 #88359
+2026/08/13-23:52:54.947 9ad Compacting 4@0 + 1@1 files
+2026/08/13-23:52:54.983 9ad Generated table #88362@0: 21793 keys, 1827704 bytes
+2026/08/13-23:52:54.984 9ad Compacted 4@0 + 1@1 files => 1827704 bytes
+2026/08/13-23:52:54.984 9ad compacted to: files[ 0 4 46 95 0 0 0 ]
+2026/08/13-23:52:54.986 9ad Delete type=2 #88351
+2026/08/13-23:52:54.986 9ad Delete type=2 #88349
+2026/08/13-23:52:54.986 9ad Delete type=2 #88357
+2026/08/13-23:52:54.986 9ad Delete type=2 #88361
+2026/08/13-23:52:54.986 9ad Delete type=2 #88353
+2026/08/13-23:55:08.200 9ac Level-0 table #88364: started
+2026/08/13-23:55:08.205 9ac Level-0 table #88364: 12834 bytes OK
+2026/08/13-23:55:08.208 9ac Delete type=0 #88360
+2026/08/14-00:33:50.467 9ac Level-0 table #88366: started
+2026/08/14-00:33:50.475 9ac Level-0 table #88366: 13473 bytes OK
+2026/08/14-00:33:50.479 9ac Delete type=0 #88363
+2026/08/14-00:36:06.618 9ac Level-0 table #88368: started
+2026/08/14-00:36:06.619 9ac Level-0 table #88368: 14233 bytes OK
+2026/08/14-00:36:06.622 9ac Delete type=0 #88365
+2026/08/14-00:38:41.983 9ac Level-0 table #88370: started
+2026/08/14-00:38:41.984 9ac Level-0 table #88370: 13359 bytes OK
+2026/08/14-00:38:41.987 9ac Delete type=0 #88367
+2026/08/14-00:38:41.987 9ac Compacting 4@0 + 1@1 files
+2026/08/14-00:38:42.021 9ac Generated table #88371@0: 22184 keys, 1833136 bytes
+2026/08/14-00:38:42.021 9ac Compacted 4@0 + 1@1 files => 1833136 bytes
+2026/08/14-00:38:42.022 9ac compacted to: files[ 0 4 46 95 0 0 0 ]
+2026/08/14-00:38:42.024 9ac Delete type=2 #88370
+2026/08/14-00:38:42.024 9ac Delete type=2 #88368
+2026/08/14-00:38:42.025 9ac Delete type=2 #88366
+2026/08/14-00:38:42.025 9ac Delete type=2 #88364
+2026/08/14-00:38:42.025 9ac Delete type=2 #88362
