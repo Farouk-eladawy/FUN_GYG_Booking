@@ -1,10 +1,21 @@
-2026/08/15-18:38:13.058 839 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/15-18:40:39.868 839 Level-0 table #89065: started
-2026/08/15-18:40:39.878 839 Level-0 table #89065: 16797 bytes OK
-2026/08/15-18:40:39.880 839 Delete type=0 #89063
-2026/08/15-18:42:11.954 839 Level-0 table #89067: started
-2026/08/15-18:42:11.972 839 Level-0 table #89067: 597359 bytes OK
-2026/08/15-18:42:11.974 839 Delete type=0 #89064
-2026/08/15-18:44:24.603 83d Level-0 table #89069: started
-2026/08/15-18:44:24.639 83d Level-0 table #89069: 17016 bytes OK
-2026/08/15-18:44:24.641 83d Delete type=0 #89066
+2026/08/15-19:27:38.108 8d4 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/15-19:31:40.403 8d8 Level-0 table #89073: started
+2026/08/15-19:31:40.416 8d8 Level-0 table #89073: 586416 bytes OK
+2026/08/15-19:31:40.419 8d8 Delete type=0 #89071
+2026/08/15-19:31:40.420 8d8 Compacting 4@0 + 1@1 files
+2026/08/15-19:31:40.448 8d8 Generated table #89074@0: 24986 keys, 1366147 bytes
+2026/08/15-19:31:40.448 8d8 Compacted 4@0 + 1@1 files => 1366147 bytes
+2026/08/15-19:31:40.449 8d8 compacted to: files[ 0 5 46 100 0 0 0 ]
+2026/08/15-19:31:40.450 8d8 Delete type=2 #89067
+2026/08/15-19:31:40.450 8d8 Delete type=2 #89073
+2026/08/15-19:31:40.450 8d8 Delete type=2 #89069
+2026/08/15-19:31:40.450 8d8 Delete type=2 #89065
+2026/08/15-19:31:40.450 8d8 Delete type=2 #89061
+2026/08/15-19:31:40.450 8d8 Compacting 1@1 + 1@2 files
+2026/08/15-19:31:40.487 8d8 Generated table #89075@1: 24 keys, 2340778 bytes
+2026/08/15-19:31:40.517 8d8 Generated table #89076@1: 12 keys, 2271495 bytes
+2026/08/15-19:31:40.517 8d8 Compacted 1@1 + 1@2 files => 4612273 bytes
+2026/08/15-19:31:40.517 8d8 compacted to: files[ 0 4 47 100 0 0 0 ]
+2026/08/15-19:31:40.519 8d8 Delete type=2 #88658
+2026/08/15-19:31:40.519 8d8 Delete type=2 #88921
+2026/08/15-19:31:40.520 8d8 Moved #85380 to level-3 2331807 bytes OK: files[ 0 4 46 101 0 0 0 ]
