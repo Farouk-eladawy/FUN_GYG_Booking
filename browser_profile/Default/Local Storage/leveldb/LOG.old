@@ -1,7 +1,25 @@
-2026/08/15-11:25:19.838 992 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/15-11:29:20.593 996 Level-0 table #18543: started
-2026/08/15-11:29:20.597 996 Level-0 table #18543: 21484 bytes OK
-2026/08/15-11:29:20.598 996 Delete type=0 #18541
-2026/08/15-11:33:20.592 992 Level-0 table #18545: started
-2026/08/15-11:33:20.598 992 Level-0 table #18545: 21722 bytes OK
-2026/08/15-11:33:20.598 992 Delete type=0 #18542
+2026/08/15-12:03:33.872 98a Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/15-12:06:37.085 98e Level-0 table #18549: started
+2026/08/15-12:06:37.089 98e Level-0 table #18549: 22134 bytes OK
+2026/08/15-12:06:37.089 98e Delete type=0 #18547
+2026/08/15-12:09:45.641 98a Level-0 table #18551: started
+2026/08/15-12:09:45.645 98a Level-0 table #18551: 24606 bytes OK
+2026/08/15-12:09:45.646 98a Delete type=0 #18548
+2026/08/15-12:09:45.646 98a Compacting 4@0 + 1@1 files
+2026/08/15-12:09:45.650 98a Generated table #18552@0: 3623 keys, 91621 bytes
+2026/08/15-12:09:45.650 98a Compacted 4@0 + 1@1 files => 91621 bytes
+2026/08/15-12:09:45.651 98a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/15-12:09:45.651 98a Delete type=2 #18551
+2026/08/15-12:09:45.651 98a Delete type=2 #18545
+2026/08/15-12:09:45.651 98a Delete type=2 #18543
+2026/08/15-12:09:45.651 98a Delete type=2 #18549
+2026/08/15-12:09:45.651 98a Delete type=2 #18539
+2026/08/15-12:11:34.708 98e Level-0 table #18554: started
+2026/08/15-12:11:34.711 98e Level-0 table #18554: 23682 bytes OK
+2026/08/15-12:11:34.712 98e Delete type=0 #18550
+2026/08/15-12:15:34.708 98e Level-0 table #18556: started
+2026/08/15-12:15:34.712 98e Level-0 table #18556: 20344 bytes OK
+2026/08/15-12:15:34.713 98e Delete type=0 #18553
+2026/08/15-12:18:34.708 98e Level-0 table #18558: started
+2026/08/15-12:18:34.712 98e Level-0 table #18558: 21179 bytes OK
+2026/08/15-12:18:34.713 98e Delete type=0 #18555
