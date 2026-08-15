@@ -1,10 +1,22 @@
-2026/08/15-15:36:30.434 90f Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/15-15:38:54.070 90f Level-0 table #88888: started
-2026/08/15-15:38:54.077 90f Level-0 table #88888: 12751 bytes OK
-2026/08/15-15:38:54.079 90f Delete type=0 #88886
-2026/08/15-15:41:09.025 913 Level-0 table #88890: started
-2026/08/15-15:41:09.031 913 Level-0 table #88890: 12797 bytes OK
-2026/08/15-15:41:09.033 913 Delete type=0 #88887
-2026/08/15-15:43:21.426 913 Level-0 table #88892: started
-2026/08/15-15:43:21.430 913 Level-0 table #88892: 12847 bytes OK
-2026/08/15-15:43:21.433 913 Delete type=0 #88889
+2026/08/15-16:10:09.294 95d Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/15-16:13:11.629 95d Level-0 table #88896: started
+2026/08/15-16:13:11.634 95d Level-0 table #88896: 13097 bytes OK
+2026/08/15-16:13:11.636 95d Delete type=0 #88894
+2026/08/15-16:13:11.636 95d Compacting 4@0 + 1@1 files
+2026/08/15-16:13:11.658 95d Generated table #88897@0: 25053 keys, 770715 bytes
+2026/08/15-16:13:11.659 95d Compacted 4@0 + 1@1 files => 770715 bytes
+2026/08/15-16:13:11.659 95d compacted to: files[ 0 5 46 99 0 0 0 ]
+2026/08/15-16:13:11.660 95d Delete type=2 #88884
+2026/08/15-16:13:11.660 95d Delete type=2 #88890
+2026/08/15-16:13:11.660 95d Delete type=2 #88892
+2026/08/15-16:13:11.660 95d Delete type=2 #88896
+2026/08/15-16:13:11.660 95d Delete type=2 #88888
+2026/08/15-16:14:45.867 95d Level-0 table #88899: started
+2026/08/15-16:14:45.880 95d Level-0 table #88899: 596571 bytes OK
+2026/08/15-16:14:45.882 95d Delete type=0 #88895
+2026/08/15-16:16:59.341 961 Level-0 table #88901: started
+2026/08/15-16:16:59.345 961 Level-0 table #88901: 13060 bytes OK
+2026/08/15-16:16:59.348 961 Delete type=0 #88898
+2026/08/15-16:29:54.296 95d Level-0 table #88903: started
+2026/08/15-16:29:54.301 95d Level-0 table #88903: 13988 bytes OK
+2026/08/15-16:29:54.304 95d Delete type=0 #88900
