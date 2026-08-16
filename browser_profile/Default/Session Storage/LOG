@@ -1,27 +1,4 @@
-2026/08/16-03:07:18.284 90c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/16-03:09:48.210 910 Level-0 table #89176: started
-2026/08/16-03:09:48.219 910 Level-0 table #89176: 12902 bytes OK
-2026/08/16-03:09:48.223 910 Delete type=0 #89174
-2026/08/16-03:11:24.384 90c Level-0 table #89178: started
-2026/08/16-03:11:24.407 90c Level-0 table #89178: 596354 bytes OK
-2026/08/16-03:11:24.411 90c Delete type=0 #89175
-2026/08/16-03:11:24.412 90c Compacting 4@0 + 1@1 files
-2026/08/16-03:11:24.448 90c Generated table #89179@0: 25959 keys, 1393672 bytes
-2026/08/16-03:11:24.448 90c Compacted 4@0 + 1@1 files => 1393672 bytes
-2026/08/16-03:11:24.448 90c compacted to: files[ 0 5 46 101 0 0 0 ]
-2026/08/16-03:11:24.450 90c Delete type=2 #89176
-2026/08/16-03:11:24.450 90c Delete type=2 #89170
-2026/08/16-03:11:24.450 90c Delete type=2 #89172
-2026/08/16-03:11:24.450 90c Delete type=2 #89168
-2026/08/16-03:11:24.450 90c Delete type=2 #89178
-2026/08/16-03:11:24.450 90c Compacting 1@1 + 1@2 files
-2026/08/16-03:11:24.483 90c Generated table #89180@1: 26 keys, 2344028 bytes
-2026/08/16-03:11:24.511 90c Generated table #89181@1: 15 keys, 2275001 bytes
-2026/08/16-03:11:24.512 90c Compacted 1@1 + 1@2 files => 4619029 bytes
-2026/08/16-03:11:24.512 90c compacted to: files[ 0 4 47 101 0 0 0 ]
-2026/08/16-03:11:24.514 90c Delete type=2 #89076
-2026/08/16-03:11:24.514 90c Delete type=2 #88739
-2026/08/16-03:11:24.515 910 Moved #85504 to level-3 2331215 bytes OK: files[ 0 4 46 102 0 0 0 ]
-2026/08/16-03:13:38.516 90c Level-0 table #89183: started
-2026/08/16-03:13:38.522 90c Level-0 table #89183: 12960 bytes OK
-2026/08/16-03:13:38.525 90c Delete type=0 #89177
+2026/08/16-03:40:48.555 953 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/16-03:45:14.232 953 Level-0 table #89187: started
+2026/08/16-03:45:14.244 953 Level-0 table #89187: 586405 bytes OK
+2026/08/16-03:45:14.247 953 Delete type=0 #89185
