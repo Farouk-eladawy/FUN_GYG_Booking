@@ -1,31 +1,16 @@
-2026/08/17-18:19:33.128 8d7 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/17-18:22:34.419 8db Level-0 table #19318: started
-2026/08/17-18:22:34.471 8db Level-0 table #19318: 21151 bytes OK
-2026/08/17-18:22:34.471 8db Delete type=0 #19316
-2026/08/17-18:25:52.458 8d7 Level-0 table #19320: started
-2026/08/17-18:25:52.459 8d7 Level-0 table #19320: 21356 bytes OK
-2026/08/17-18:25:52.568 8d7 Delete type=0 #19317
-2026/08/17-18:26:52.036 8d7 Level-0 table #19322: started
-2026/08/17-18:26:52.046 8d7 Level-0 table #19322: 19237 bytes OK
-2026/08/17-18:26:52.047 8d7 Delete type=0 #19319
-2026/08/17-18:28:34.419 8dc Level-0 table #19324: started
-2026/08/17-18:28:34.420 8dc Level-0 table #19324: 20176 bytes OK
-2026/08/17-18:28:34.420 8dc Delete type=0 #19321
-2026/08/17-18:28:34.420 8dc Compacting 4@0 + 1@1 files
-2026/08/17-18:28:34.423 8dc Generated table #19325@0: 3775 keys, 94261 bytes
-2026/08/17-18:28:34.423 8dc Compacted 4@0 + 1@1 files => 94261 bytes
-2026/08/17-18:28:34.423 8dc compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/17-18:28:34.423 8dc Delete type=2 #19320
-2026/08/17-18:28:34.423 8dc Delete type=2 #19324
-2026/08/17-18:28:34.423 8dc Delete type=2 #19314
-2026/08/17-18:28:34.423 8dc Delete type=2 #19322
-2026/08/17-18:28:34.423 8dc Delete type=2 #19318
-2026/08/17-18:30:52.470 8d7 Level-0 table #19327: started
-2026/08/17-18:30:52.522 8d7 Level-0 table #19327: 20193 bytes OK
-2026/08/17-18:30:52.523 8d7 Delete type=0 #19323
-2026/08/17-18:33:36.391 8db Level-0 table #19329: started
-2026/08/17-18:33:36.425 8db Level-0 table #19329: 21265 bytes OK
-2026/08/17-18:33:36.425 8db Delete type=0 #19326
-2026/08/17-18:39:12.509 8d7 Level-0 table #19331: started
-2026/08/17-18:39:12.517 8d7 Level-0 table #19331: 22177 bytes OK
-2026/08/17-18:39:12.519 8d7 Delete type=0 #19328
+2026/08/17-18:53:33.136 94a Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/17-18:56:33.723 94f Level-0 table #19335: started
+2026/08/17-18:56:33.731 94f Level-0 table #19335: 21109 bytes OK
+2026/08/17-18:56:33.732 94f Delete type=0 #19333
+2026/08/17-18:56:33.732 94f Compacting 4@0 + 1@1 files
+2026/08/17-18:56:33.735 94f Generated table #19336@0: 3777 keys, 94097 bytes
+2026/08/17-18:56:33.736 94f Compacted 4@0 + 1@1 files => 94097 bytes
+2026/08/17-18:56:33.736 94f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/17-18:56:33.736 94f Delete type=2 #19329
+2026/08/17-18:56:33.737 94f Delete type=2 #19331
+2026/08/17-18:56:33.737 94f Delete type=2 #19325
+2026/08/17-18:56:33.737 94f Delete type=2 #19327
+2026/08/17-18:56:33.737 94f Delete type=2 #19335
+2026/08/17-19:01:33.722 94f Level-0 table #19338: started
+2026/08/17-19:01:33.735 94f Level-0 table #19338: 21838 bytes OK
+2026/08/17-19:01:33.736 94f Delete type=0 #19334
