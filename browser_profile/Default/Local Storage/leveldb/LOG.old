@@ -1,28 +1,7 @@
-2026/08/18-09:32:44.553 8ad Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/18-09:36:45.828 8b1 Level-0 table #19551: started
-2026/08/18-09:36:45.878 8b1 Level-0 table #19551: 21187 bytes OK
-2026/08/18-09:36:45.880 8b1 Delete type=0 #19549
-2026/08/18-09:39:26.439 8ad Level-0 table #19553: started
-2026/08/18-09:39:26.441 8ad Level-0 table #19553: 21287 bytes OK
-2026/08/18-09:39:26.452 8ad Delete type=0 #19550
-2026/08/18-09:40:23.891 8b1 Level-0 table #19555: started
-2026/08/18-09:40:23.900 8b1 Level-0 table #19555: 19164 bytes OK
-2026/08/18-09:40:23.901 8b1 Delete type=0 #19552
-2026/08/18-09:43:23.224 8b2 Level-0 table #19557: started
-2026/08/18-09:43:23.383 8b2 Level-0 table #19557: 20093 bytes OK
-2026/08/18-09:43:23.385 8b2 Delete type=0 #19554
-2026/08/18-09:43:23.385 8ad Compacting 4@0 + 1@1 files
-2026/08/18-09:43:23.630 8ad Generated table #19558@0: 3819 keys, 95082 bytes
-2026/08/18-09:43:23.630 8ad Compacted 4@0 + 1@1 files => 95082 bytes
-2026/08/18-09:43:23.644 8ad compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/18-09:43:23.644 8ad Delete type=2 #19557
-2026/08/18-09:43:23.644 8ad Delete type=2 #19555
-2026/08/18-09:43:23.644 8ad Delete type=2 #19547
-2026/08/18-09:43:23.644 8ad Delete type=2 #19551
-2026/08/18-09:43:23.644 8ad Delete type=2 #19553
-2026/08/18-09:45:45.829 8ad Level-0 table #19560: started
-2026/08/18-09:45:45.877 8ad Level-0 table #19560: 21335 bytes OK
-2026/08/18-09:45:46.066 8ad Delete type=0 #19556
-2026/08/18-09:49:45.829 8b1 Level-0 table #19562: started
-2026/08/18-09:49:45.858 8b1 Level-0 table #19562: 21537 bytes OK
-2026/08/18-09:49:45.859 8b1 Delete type=0 #19559
+2026/08/18-09:56:41.250 836 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/18-10:00:41.700 83a Level-0 table #19566: started
+2026/08/18-10:00:41.704 83a Level-0 table #19566: 20994 bytes OK
+2026/08/18-10:00:41.705 83a Delete type=0 #19564
+2026/08/18-10:04:55.757 83a Level-0 table #19568: started
+2026/08/18-10:04:55.758 83a Level-0 table #19568: 25657 bytes OK
+2026/08/18-10:04:55.761 83a Delete type=0 #19565
