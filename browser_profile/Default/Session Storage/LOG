@@ -1,22 +1,17 @@
-2026/08/21-16:54:37.847 8b0 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/21-16:57:00.069 8b4 Level-0 table #91674: started
-2026/08/21-16:57:00.075 8b4 Level-0 table #91674: 14575 bytes OK
-2026/08/21-16:57:00.078 8b4 Delete type=0 #91672
-2026/08/21-16:57:00.078 8b4 Compacting 4@0 + 1@1 files
-2026/08/21-16:57:00.110 8b4 Generated table #91675@0: 43129 keys, 1896168 bytes
-2026/08/21-16:57:00.110 8b4 Compacted 4@0 + 1@1 files => 1896168 bytes
-2026/08/21-16:57:00.110 8b4 compacted to: files[ 0 4 45 123 0 0 0 ]
-2026/08/21-16:57:00.112 8b4 Delete type=2 #91662
-2026/08/21-16:57:00.112 8b4 Delete type=2 #91670
-2026/08/21-16:57:00.112 8b4 Delete type=2 #91674
-2026/08/21-16:57:00.112 8b4 Delete type=2 #91666
-2026/08/21-16:57:00.112 8b4 Delete type=2 #91668
-2026/08/21-16:58:57.841 8b4 Level-0 table #91677: started
-2026/08/21-16:58:57.853 8b4 Level-0 table #91677: 14626 bytes OK
-2026/08/21-16:58:57.856 8b4 Delete type=0 #91673
-2026/08/21-17:01:02.108 8b5 Level-0 table #91679: started
-2026/08/21-17:01:02.164 8b5 Level-0 table #91679: 14535 bytes OK
-2026/08/21-17:01:02.173 8b5 Delete type=0 #91676
-2026/08/21-17:02:10.184 8b4 Level-0 table #91681: started
-2026/08/21-17:02:10.194 8b4 Level-0 table #91681: 595164 bytes OK
-2026/08/21-17:02:10.196 8b4 Delete type=0 #91678
+2026/08/21-17:04:54.582 90d Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/21-17:07:09.526 911 Level-0 table #91685: started
+2026/08/21-17:07:09.532 911 Level-0 table #91685: 13245 bytes OK
+2026/08/21-17:07:09.536 911 Delete type=0 #91683
+2026/08/21-17:07:09.536 911 Compacting 4@0 + 1@1 files
+2026/08/21-17:07:09.577 911 Generated table #91686@0: 31357 keys, 2117172 bytes
+2026/08/21-17:07:09.585 911 Generated table #91687@0: 12203 keys, 373029 bytes
+2026/08/21-17:07:09.585 911 Compacted 4@0 + 1@1 files => 2490201 bytes
+2026/08/21-17:07:09.585 911 compacted to: files[ 0 5 45 123 0 0 0 ]
+2026/08/21-17:07:09.587 911 Delete type=2 #91685
+2026/08/21-17:07:09.587 911 Delete type=2 #91679
+2026/08/21-17:07:09.587 911 Delete type=2 #91681
+2026/08/21-17:07:09.587 911 Delete type=2 #91677
+2026/08/21-17:07:09.587 911 Delete type=2 #91675
+2026/08/21-17:09:10.582 911 Level-0 table #91689: started
+2026/08/21-17:09:10.589 911 Level-0 table #91689: 13212 bytes OK
+2026/08/21-17:09:10.591 911 Delete type=0 #91684

@@ -1,22 +1,13 @@
-2026/08/21-16:02:23.441 93f Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/21-16:05:23.949 943 Level-0 table #20686: started
-2026/08/21-16:05:23.954 943 Level-0 table #20686: 21800 bytes OK
-2026/08/21-16:05:23.955 943 Delete type=0 #20684
-2026/08/21-16:05:23.955 943 Compacting 4@0 + 1@1 files
-2026/08/21-16:05:23.958 943 Generated table #20687@0: 4075 keys, 104854 bytes
-2026/08/21-16:05:23.958 943 Compacted 4@0 + 1@1 files => 104854 bytes
-2026/08/21-16:05:23.959 943 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/21-16:05:23.959 943 Delete type=2 #20682
-2026/08/21-16:05:23.959 943 Delete type=2 #20678
-2026/08/21-16:05:23.959 943 Delete type=2 #20676
-2026/08/21-16:05:23.959 943 Delete type=2 #20680
-2026/08/21-16:05:23.959 943 Delete type=2 #20686
-2026/08/21-16:08:45.954 93f Level-0 table #20689: started
-2026/08/21-16:08:45.963 93f Level-0 table #20689: 22335 bytes OK
-2026/08/21-16:08:45.965 93f Delete type=0 #20685
-2026/08/21-16:09:39.811 943 Level-0 table #20691: started
-2026/08/21-16:09:39.817 943 Level-0 table #20691: 20479 bytes OK
-2026/08/21-16:09:39.817 943 Delete type=0 #20688
-2026/08/21-16:11:23.950 93f Level-0 table #20693: started
-2026/08/21-16:11:23.956 93f Level-0 table #20693: 21334 bytes OK
-2026/08/21-16:11:23.957 93f Delete type=0 #20690
+2026/08/21-16:54:36.656 8b0 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/21-16:58:37.749 8b4 Level-0 table #20697: started
+2026/08/21-16:58:37.857 8b4 Level-0 table #20697: 21946 bytes OK
+2026/08/21-16:58:37.859 8b4 Delete type=0 #20695
+2026/08/21-16:58:37.859 8b4 Compacting 4@0 + 1@1 files
+2026/08/21-16:58:37.862 8b4 Generated table #20698@0: 4077 keys, 105115 bytes
+2026/08/21-16:58:37.862 8b4 Compacted 4@0 + 1@1 files => 105115 bytes
+2026/08/21-16:58:37.864 8b4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/21-16:58:37.864 8b4 Delete type=2 #20691
+2026/08/21-16:58:37.864 8b4 Delete type=2 #20687
+2026/08/21-16:58:37.864 8b4 Delete type=2 #20693
+2026/08/21-16:58:37.864 8b4 Delete type=2 #20689
+2026/08/21-16:58:37.864 8b4 Delete type=2 #20697
