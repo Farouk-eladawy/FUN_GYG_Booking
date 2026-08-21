@@ -1,31 +1,40 @@
-2026/08/21-07:02:26.771 998 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/21-07:05:28.982 998 Level-0 table #20566: started
-2026/08/21-07:05:28.988 998 Level-0 table #20566: 21155 bytes OK
-2026/08/21-07:05:28.989 998 Delete type=0 #20564
-2026/08/21-07:08:27.308 998 Level-0 table #20568: started
-2026/08/21-07:08:27.311 998 Level-0 table #20568: 21122 bytes OK
-2026/08/21-07:08:27.312 998 Delete type=0 #20565
-2026/08/21-07:10:00.115 994 Level-0 table #20570: started
-2026/08/21-07:10:00.117 994 Level-0 table #20570: 19989 bytes OK
-2026/08/21-07:10:00.117 994 Delete type=0 #20567
-2026/08/21-07:12:27.308 998 Level-0 table #20572: started
-2026/08/21-07:12:27.309 998 Level-0 table #20572: 20422 bytes OK
-2026/08/21-07:12:27.310 998 Delete type=0 #20569
-2026/08/21-07:12:27.310 998 Compacting 4@0 + 1@1 files
-2026/08/21-07:12:27.313 998 Generated table #20573@0: 4034 keys, 99366 bytes
-2026/08/21-07:12:27.313 998 Compacted 4@0 + 1@1 files => 99366 bytes
-2026/08/21-07:12:27.313 998 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/21-07:12:27.313 998 Delete type=2 #20562
-2026/08/21-07:12:27.313 998 Delete type=2 #20570
-2026/08/21-07:12:27.313 998 Delete type=2 #20568
-2026/08/21-07:12:27.313 998 Delete type=2 #20566
-2026/08/21-07:12:27.313 998 Delete type=2 #20572
-2026/08/21-07:13:28.982 994 Level-0 table #20575: started
-2026/08/21-07:13:28.983 994 Level-0 table #20575: 20789 bytes OK
-2026/08/21-07:13:28.984 994 Delete type=0 #20571
-2026/08/21-07:17:27.309 998 Level-0 table #20577: started
-2026/08/21-07:17:27.313 998 Level-0 table #20577: 25415 bytes OK
-2026/08/21-07:17:27.314 998 Delete type=0 #20574
-2026/08/21-07:20:27.307 998 Level-0 table #20579: started
-2026/08/21-07:20:27.312 998 Level-0 table #20579: 21597 bytes OK
-2026/08/21-07:20:27.313 998 Delete type=0 #20576
+2026/08/21-07:51:53.003 8b9 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/21-07:54:55.016 8b8 Level-0 table #20583: started
+2026/08/21-07:54:55.085 8b8 Level-0 table #20583: 21088 bytes OK
+2026/08/21-07:54:55.086 8b8 Delete type=0 #20581
+2026/08/21-07:54:55.086 8b8 Compacting 4@0 + 1@1 files
+2026/08/21-07:54:55.088 8b8 Generated table #20584@0: 4053 keys, 103367 bytes
+2026/08/21-07:54:55.088 8b8 Compacted 4@0 + 1@1 files => 103367 bytes
+2026/08/21-07:54:55.089 8b8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/21-07:54:55.089 8b8 Delete type=2 #20579
+2026/08/21-07:54:55.089 8b8 Delete type=2 #20583
+2026/08/21-07:54:55.089 8b8 Delete type=2 #20575
+2026/08/21-07:54:55.089 8b8 Delete type=2 #20573
+2026/08/21-07:54:55.089 8b8 Delete type=2 #20577
+2026/08/21-07:58:06.030 8b4 Level-0 table #20586: started
+2026/08/21-07:58:06.033 8b4 Level-0 table #20586: 21337 bytes OK
+2026/08/21-07:58:06.035 8b4 Delete type=0 #20582
+2026/08/21-07:58:55.016 8b8 Level-0 table #20588: started
+2026/08/21-07:58:55.019 8b8 Level-0 table #20588: 19877 bytes OK
+2026/08/21-07:58:55.021 8b8 Delete type=0 #20585
+2026/08/21-08:00:30.503 8be Level-0 table #20590: started
+2026/08/21-08:00:30.686 8be Level-0 table #20590: 19766 bytes OK
+2026/08/21-08:00:30.703 8be Delete type=0 #20587
+2026/08/21-08:03:30.381 8b4 Level-0 table #20592: started
+2026/08/21-08:03:30.409 8b4 Level-0 table #20592: 20401 bytes OK
+2026/08/21-08:03:30.410 8b4 Delete type=0 #20589
+2026/08/21-08:03:30.410 8b4 Compacting 4@0 + 1@1 files
+2026/08/21-08:03:30.412 8b4 Generated table #20593@0: 4053 keys, 103379 bytes
+2026/08/21-08:03:30.412 8b4 Compacted 4@0 + 1@1 files => 103379 bytes
+2026/08/21-08:03:30.413 8b4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/21-08:03:30.413 8b4 Delete type=2 #20588
+2026/08/21-08:03:30.413 8b4 Delete type=2 #20590
+2026/08/21-08:03:30.413 8b4 Delete type=2 #20586
+2026/08/21-08:03:30.413 8b4 Delete type=2 #20584
+2026/08/21-08:03:30.413 8b4 Delete type=2 #20592
+2026/08/21-08:06:55.015 8b8 Level-0 table #20595: started
+2026/08/21-08:06:55.017 8b8 Level-0 table #20595: 21272 bytes OK
+2026/08/21-08:06:55.081 8b8 Delete type=0 #20591
+2026/08/21-08:11:23.308 8b8 Level-0 table #20597: started
+2026/08/21-08:11:23.309 8b8 Level-0 table #20597: 21472 bytes OK
+2026/08/21-08:11:23.310 8b8 Delete type=0 #20594
