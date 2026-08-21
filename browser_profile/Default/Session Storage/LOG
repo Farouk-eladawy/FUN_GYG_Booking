@@ -1,10 +1,22 @@
-2026/08/21-16:02:23.976 93f Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/08/21-16:05:01.404 93f Level-0 table #91666: started
-2026/08/21-16:05:01.406 93f Level-0 table #91666: 14465 bytes OK
-2026/08/21-16:05:01.409 93f Delete type=0 #91664
-2026/08/21-16:07:18.584 93f Level-0 table #91668: started
-2026/08/21-16:07:18.590 93f Level-0 table #91668: 15441 bytes OK
-2026/08/21-16:07:18.593 93f Delete type=0 #91665
-2026/08/21-16:11:12.950 943 Level-0 table #91670: started
-2026/08/21-16:11:12.961 943 Level-0 table #91670: 598446 bytes OK
-2026/08/21-16:11:12.964 943 Delete type=0 #91667
+2026/08/21-16:54:37.847 8b0 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/08/21-16:57:00.069 8b4 Level-0 table #91674: started
+2026/08/21-16:57:00.075 8b4 Level-0 table #91674: 14575 bytes OK
+2026/08/21-16:57:00.078 8b4 Delete type=0 #91672
+2026/08/21-16:57:00.078 8b4 Compacting 4@0 + 1@1 files
+2026/08/21-16:57:00.110 8b4 Generated table #91675@0: 43129 keys, 1896168 bytes
+2026/08/21-16:57:00.110 8b4 Compacted 4@0 + 1@1 files => 1896168 bytes
+2026/08/21-16:57:00.110 8b4 compacted to: files[ 0 4 45 123 0 0 0 ]
+2026/08/21-16:57:00.112 8b4 Delete type=2 #91662
+2026/08/21-16:57:00.112 8b4 Delete type=2 #91670
+2026/08/21-16:57:00.112 8b4 Delete type=2 #91674
+2026/08/21-16:57:00.112 8b4 Delete type=2 #91666
+2026/08/21-16:57:00.112 8b4 Delete type=2 #91668
+2026/08/21-16:58:57.841 8b4 Level-0 table #91677: started
+2026/08/21-16:58:57.853 8b4 Level-0 table #91677: 14626 bytes OK
+2026/08/21-16:58:57.856 8b4 Delete type=0 #91673
+2026/08/21-17:01:02.108 8b5 Level-0 table #91679: started
+2026/08/21-17:01:02.164 8b5 Level-0 table #91679: 14535 bytes OK
+2026/08/21-17:01:02.173 8b5 Delete type=0 #91676
+2026/08/21-17:02:10.184 8b4 Level-0 table #91681: started
+2026/08/21-17:02:10.194 8b4 Level-0 table #91681: 595164 bytes OK
+2026/08/21-17:02:10.196 8b4 Delete type=0 #91678
