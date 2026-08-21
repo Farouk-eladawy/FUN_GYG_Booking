@@ -1,0 +1,20 @@
+2026/08/21-07:13:43.599 994 Creating DB /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/IndexedDB/https_player.vimeo.com_0.indexeddb.leveldb since it was missing.
+2026/08/21-07:13:43.602 994 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/IndexedDB/https_player.vimeo.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/21-07:13:43.990 998 Level-0 table #5: started
+2026/08/21-07:13:43.991 998 Level-0 table #5: 1617 bytes OK
+2026/08/21-07:13:43.991 998 Delete type=0 #3
+2026/08/21-07:13:43.991 994 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/21-07:13:44.796 994 Level-0 table #7: started
+2026/08/21-07:13:44.796 994 Level-0 table #7: 1669 bytes OK
+2026/08/21-07:13:44.797 994 Delete type=0 #4
+2026/08/21-07:13:44.797 994 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/21-07:13:45.365 999 Level-0 table #9: started
+2026/08/21-07:13:45.366 999 Level-0 table #9: 2891 bytes OK
+2026/08/21-07:13:45.367 999 Delete type=0 #6
+2026/08/21-07:13:45.367 994 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 145 : 1
+2026/08/21-07:13:45.368 994 Compacting 1@0 + 1@1 files
+2026/08/21-07:13:45.369 994 Generated table #10@0: 44 keys, 1828 bytes
+2026/08/21-07:13:45.369 994 Compacted 1@0 + 1@1 files => 1828 bytes
+2026/08/21-07:13:45.369 994 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/21-07:13:45.369 994 Delete type=2 #9
+2026/08/21-07:13:45.369 994 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 145 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
