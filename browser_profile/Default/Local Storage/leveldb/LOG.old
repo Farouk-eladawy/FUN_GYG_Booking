@@ -1,25 +1,43 @@
-2026/08/24-22:31:46.251 921 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/24-22:34:46.877 925 Level-0 table #21770: started
-2026/08/24-22:34:46.882 925 Level-0 table #21770: 18543 bytes OK
-2026/08/24-22:34:46.883 925 Delete type=0 #21768
-2026/08/24-22:37:46.878 925 Level-0 table #21772: started
-2026/08/24-22:37:46.879 925 Level-0 table #21772: 18622 bytes OK
-2026/08/24-22:37:46.880 925 Delete type=0 #21769
-2026/08/24-22:38:34.400 925 Level-0 table #21774: started
-2026/08/24-22:38:34.407 925 Level-0 table #21774: 21483 bytes OK
-2026/08/24-22:38:34.408 925 Delete type=0 #21771
-2026/08/24-22:39:36.377 921 Level-0 table #21776: started
-2026/08/24-22:39:36.382 921 Level-0 table #21776: 20536 bytes OK
-2026/08/24-22:39:36.382 921 Delete type=0 #21773
-2026/08/24-22:39:36.382 921 Compacting 4@0 + 1@1 files
-2026/08/24-22:39:36.387 921 Generated table #21777@0: 4296 keys, 108939 bytes
-2026/08/24-22:39:36.387 921 Compacted 4@0 + 1@1 files => 108939 bytes
-2026/08/24-22:39:36.388 921 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/24-22:39:36.388 921 Delete type=2 #21776
-2026/08/24-22:39:36.388 921 Delete type=2 #21772
-2026/08/24-22:39:36.388 921 Delete type=2 #21770
-2026/08/24-22:39:36.388 921 Delete type=2 #21774
-2026/08/24-22:39:36.388 921 Delete type=2 #21766
-2026/08/24-22:41:46.878 925 Level-0 table #21779: started
-2026/08/24-22:41:46.883 925 Level-0 table #21779: 21589 bytes OK
-2026/08/24-22:41:46.883 925 Delete type=0 #21775
+2026/08/24-22:59:25.843 83c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/24-23:02:30.767 840 Level-0 table #21783: started
+2026/08/24-23:02:30.768 840 Level-0 table #21783: 22451 bytes OK
+2026/08/24-23:02:30.807 840 Delete type=0 #21781
+2026/08/24-23:05:26.346 840 Level-0 table #21785: started
+2026/08/24-23:05:26.526 840 Level-0 table #21785: 18838 bytes OK
+2026/08/24-23:05:26.526 840 Delete type=0 #21782
+2026/08/24-23:08:26.345 840 Level-0 table #21787: started
+2026/08/24-23:08:26.459 840 Level-0 table #21787: 22471 bytes OK
+2026/08/24-23:08:26.461 840 Delete type=0 #21784
+2026/08/24-23:08:26.461 840 Compacting 4@0 + 1@1 files
+2026/08/24-23:08:26.465 840 Generated table #21788@0: 4297 keys, 109068 bytes
+2026/08/24-23:08:26.465 840 Compacted 4@0 + 1@1 files => 109068 bytes
+2026/08/24-23:08:26.466 840 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/24-23:08:26.466 840 Delete type=2 #21783
+2026/08/24-23:08:26.466 840 Delete type=2 #21787
+2026/08/24-23:08:26.466 840 Delete type=2 #21785
+2026/08/24-23:08:26.466 840 Delete type=2 #21779
+2026/08/24-23:08:26.466 840 Delete type=2 #21777
+2026/08/24-23:11:26.346 840 Level-0 table #21790: started
+2026/08/24-23:11:26.349 840 Level-0 table #21790: 22243 bytes OK
+2026/08/24-23:11:26.349 840 Delete type=0 #21786
+2026/08/24-23:12:26.345 83c Level-0 table #21792: started
+2026/08/24-23:12:26.350 83c Level-0 table #21792: 21201 bytes OK
+2026/08/24-23:12:26.351 83c Delete type=0 #21789
+2026/08/24-23:15:26.346 840 Level-0 table #21794: started
+2026/08/24-23:15:26.347 840 Level-0 table #21794: 18384 bytes OK
+2026/08/24-23:15:26.348 840 Delete type=0 #21791
+2026/08/24-23:16:30.767 840 Level-0 table #21796: started
+2026/08/24-23:16:30.770 840 Level-0 table #21796: 21889 bytes OK
+2026/08/24-23:16:30.776 840 Delete type=0 #21793
+2026/08/24-23:16:30.776 840 Compacting 4@0 + 1@1 files
+2026/08/24-23:16:30.778 840 Generated table #21797@0: 4298 keys, 109085 bytes
+2026/08/24-23:16:30.779 840 Compacted 4@0 + 1@1 files => 109085 bytes
+2026/08/24-23:16:30.779 840 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/24-23:16:30.779 840 Delete type=2 #21792
+2026/08/24-23:16:30.779 840 Delete type=2 #21790
+2026/08/24-23:16:30.779 840 Delete type=2 #21796
+2026/08/24-23:16:30.779 840 Delete type=2 #21794
+2026/08/24-23:16:30.779 840 Delete type=2 #21788
+2026/08/24-23:19:30.767 840 Level-0 table #21799: started
+2026/08/24-23:19:30.781 840 Level-0 table #21799: 22515 bytes OK
+2026/08/24-23:19:30.782 840 Delete type=0 #21795
