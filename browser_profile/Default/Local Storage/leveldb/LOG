@@ -1,22 +1,19 @@
-2026/08/25-02:42:49.686 8bc Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/25-02:45:50.266 8c1 Level-0 table #21842: started
-2026/08/25-02:45:50.272 8c1 Level-0 table #21842: 18829 bytes OK
-2026/08/25-02:45:50.272 8c1 Delete type=0 #21840
-2026/08/25-02:45:50.273 8c1 Compacting 4@0 + 1@1 files
-2026/08/25-02:45:50.276 8c1 Generated table #21843@0: 4306 keys, 108975 bytes
-2026/08/25-02:45:50.276 8c1 Compacted 4@0 + 1@1 files => 108975 bytes
-2026/08/25-02:45:50.276 8c1 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/25-02:45:50.277 8c1 Delete type=2 #21834
-2026/08/25-02:45:50.277 8c1 Delete type=2 #21838
-2026/08/25-02:45:50.277 8c1 Delete type=2 #21836
-2026/08/25-02:45:50.277 8c1 Delete type=2 #21842
-2026/08/25-02:45:50.277 8c1 Delete type=2 #21832
-2026/08/25-02:48:55.035 8bc Level-0 table #21845: started
-2026/08/25-02:48:55.039 8bc Level-0 table #21845: 22789 bytes OK
-2026/08/25-02:48:55.040 8bc Delete type=0 #21841
-2026/08/25-02:49:50.266 8c0 Level-0 table #21847: started
-2026/08/25-02:49:50.269 8c0 Level-0 table #21847: 20816 bytes OK
-2026/08/25-02:49:50.354 8c0 Delete type=0 #21844
-2026/08/25-02:51:50.267 8c0 Level-0 table #21849: started
-2026/08/25-02:51:50.268 8c0 Level-0 table #21849: 21797 bytes OK
-2026/08/25-02:51:50.269 8c0 Delete type=0 #21846
+2026/08/25-03:12:56.848 bcb Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/25-03:16:57.473 bcf Level-0 table #21853: started
+2026/08/25-03:16:57.483 bcf Level-0 table #21853: 18853 bytes OK
+2026/08/25-03:16:57.484 bcf Delete type=0 #21851
+2026/08/25-03:16:57.484 bcf Compacting 4@0 + 1@1 files
+2026/08/25-03:16:57.492 bcf Generated table #21854@0: 4308 keys, 109286 bytes
+2026/08/25-03:16:57.492 bcf Compacted 4@0 + 1@1 files => 109286 bytes
+2026/08/25-03:16:57.493 bcf compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/25-03:16:57.493 bcf Delete type=2 #21849
+2026/08/25-03:16:57.493 bcf Delete type=2 #21843
+2026/08/25-03:16:57.493 bcf Delete type=2 #21845
+2026/08/25-03:16:57.493 bcf Delete type=2 #21847
+2026/08/25-03:16:57.493 bcf Delete type=2 #21853
+2026/08/25-03:19:18.116 bcb Level-0 table #21856: started
+2026/08/25-03:19:18.119 bcb Level-0 table #21856: 22636 bytes OK
+2026/08/25-03:19:18.120 bcb Delete type=0 #21852
+2026/08/25-03:20:36.553 bd0 Level-0 table #21858: started
+2026/08/25-03:20:36.559 bd0 Level-0 table #21858: 20813 bytes OK
+2026/08/25-03:20:36.560 bd0 Delete type=0 #21855
