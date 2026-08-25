@@ -1,19 +1,16 @@
-2026/08/25-17:23:06.287 95d Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/25-17:28:06.761 961 Level-0 table #22068: started
-2026/08/25-17:28:06.769 961 Level-0 table #22068: 23266 bytes OK
-2026/08/25-17:28:06.770 961 Delete type=0 #22066
-2026/08/25-17:28:06.770 961 Compacting 4@0 + 1@1 files
-2026/08/25-17:28:06.774 961 Generated table #22069@0: 4343 keys, 109730 bytes
-2026/08/25-17:28:06.774 961 Compacted 4@0 + 1@1 files => 109730 bytes
-2026/08/25-17:28:06.775 961 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/25-17:28:06.775 961 Delete type=2 #22068
-2026/08/25-17:28:06.775 961 Delete type=2 #22056
-2026/08/25-17:28:06.775 961 Delete type=2 #22062
-2026/08/25-17:28:06.775 961 Delete type=2 #22064
-2026/08/25-17:28:06.775 961 Delete type=2 #22058
-2026/08/25-17:29:29.401 95d Level-0 table #22071: started
-2026/08/25-17:29:29.405 95d Level-0 table #22071: 21863 bytes OK
-2026/08/25-17:29:29.406 95d Delete type=0 #22067
-2026/08/25-17:31:10.817 95d Level-0 table #22073: started
-2026/08/25-17:31:10.824 95d Level-0 table #22073: 21706 bytes OK
-2026/08/25-17:31:10.824 95d Delete type=0 #22070
+2026/08/25-17:36:42.742 94e Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/25-17:39:43.326 94e Level-0 table #22077: started
+2026/08/25-17:39:43.327 94e Level-0 table #22077: 22336 bytes OK
+2026/08/25-17:39:43.327 94e Delete type=0 #22075
+2026/08/25-17:43:43.326 94e Level-0 table #22079: started
+2026/08/25-17:43:43.330 94e Level-0 table #22079: 22402 bytes OK
+2026/08/25-17:43:43.331 94e Delete type=0 #22076
+2026/08/25-17:43:43.331 94e Compacting 4@0 + 1@1 files
+2026/08/25-17:43:43.334 94e Generated table #22080@0: 4345 keys, 109583 bytes
+2026/08/25-17:43:43.334 94e Compacted 4@0 + 1@1 files => 109583 bytes
+2026/08/25-17:43:43.334 94e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/25-17:43:43.335 94e Delete type=2 #22077
+2026/08/25-17:43:43.335 94e Delete type=2 #22069
+2026/08/25-17:43:43.335 94e Delete type=2 #22073
+2026/08/25-17:43:43.335 94e Delete type=2 #22079
+2026/08/25-17:43:43.335 94e Delete type=2 #22071
