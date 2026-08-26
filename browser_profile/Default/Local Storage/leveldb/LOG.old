@@ -1,31 +1,16 @@
-2026/08/26-13:53:46.441 8fc Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/26-13:57:51.476 900 Level-0 table #22371: started
-2026/08/26-13:57:51.481 900 Level-0 table #22371: 23029 bytes OK
-2026/08/26-13:57:51.482 900 Delete type=0 #22369
-2026/08/26-14:00:11.509 8fc Level-0 table #22373: started
-2026/08/26-14:00:11.511 8fc Level-0 table #22373: 22130 bytes OK
-2026/08/26-14:00:11.511 8fc Delete type=0 #22370
-2026/08/26-14:02:46.958 900 Level-0 table #22375: started
-2026/08/26-14:02:46.971 900 Level-0 table #22375: 21438 bytes OK
-2026/08/26-14:02:46.971 900 Delete type=0 #22372
-2026/08/26-14:03:51.476 900 Level-0 table #22377: started
-2026/08/26-14:03:51.481 900 Level-0 table #22377: 21810 bytes OK
-2026/08/26-14:03:51.482 900 Delete type=0 #22374
-2026/08/26-14:03:51.482 900 Compacting 4@0 + 1@1 files
-2026/08/26-14:03:51.488 900 Generated table #22378@0: 4392 keys, 110267 bytes
-2026/08/26-14:03:51.488 900 Compacted 4@0 + 1@1 files => 110267 bytes
-2026/08/26-14:03:51.488 900 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/26-14:03:51.488 900 Delete type=2 #22377
-2026/08/26-14:03:51.488 900 Delete type=2 #22373
-2026/08/26-14:03:51.489 900 Delete type=2 #22371
-2026/08/26-14:03:51.489 900 Delete type=2 #22367
-2026/08/26-14:03:51.489 900 Delete type=2 #22375
-2026/08/26-14:06:51.477 900 Level-0 table #22380: started
-2026/08/26-14:06:51.482 900 Level-0 table #22380: 22347 bytes OK
-2026/08/26-14:06:51.482 900 Delete type=0 #22376
-2026/08/26-14:08:29.630 901 Level-0 table #22382: started
-2026/08/26-14:08:29.633 901 Level-0 table #22382: 21795 bytes OK
-2026/08/26-14:08:29.634 901 Delete type=0 #22379
-2026/08/26-14:10:43.647 901 Level-0 table #22384: started
-2026/08/26-14:10:43.649 901 Level-0 table #22384: 22106 bytes OK
-2026/08/26-14:10:43.650 901 Delete type=0 #22381
+2026/08/26-14:18:22.712 944 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/26-14:23:23.522 948 Level-0 table #22388: started
+2026/08/26-14:23:23.529 948 Level-0 table #22388: 23275 bytes OK
+2026/08/26-14:23:23.530 948 Delete type=0 #22386
+2026/08/26-14:23:23.531 948 Compacting 4@0 + 1@1 files
+2026/08/26-14:23:23.536 948 Generated table #22389@0: 4393 keys, 110639 bytes
+2026/08/26-14:23:23.536 948 Compacted 4@0 + 1@1 files => 110639 bytes
+2026/08/26-14:23:23.536 948 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/26-14:23:23.537 948 Delete type=2 #22388
+2026/08/26-14:23:23.537 948 Delete type=2 #22384
+2026/08/26-14:23:23.537 948 Delete type=2 #22378
+2026/08/26-14:23:23.537 948 Delete type=2 #22382
+2026/08/26-14:23:23.537 948 Delete type=2 #22380
+2026/08/26-14:26:06.796 948 Level-0 table #22391: started
+2026/08/26-14:26:06.798 948 Level-0 table #22391: 26184 bytes OK
+2026/08/26-14:26:06.799 948 Delete type=0 #22387
