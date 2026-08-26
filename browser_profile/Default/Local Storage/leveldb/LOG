@@ -1,10 +1,15 @@
-2026/08/26-07:07:26.197 8ac Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/26-07:10:27.696 8b0 Level-0 table #22252: started
-2026/08/26-07:10:27.698 8b0 Level-0 table #22252: 22332 bytes OK
-2026/08/26-07:10:27.698 8b0 Delete type=0 #22250
-2026/08/26-07:13:27.697 8b0 Level-0 table #22254: started
-2026/08/26-07:13:27.701 8b0 Level-0 table #22254: 22346 bytes OK
-2026/08/26-07:13:27.725 8b0 Delete type=0 #22251
-2026/08/26-07:15:01.974 8ac Level-0 table #22256: started
-2026/08/26-07:15:01.975 8ac Level-0 table #22256: 22088 bytes OK
-2026/08/26-07:15:01.978 8ac Delete type=0 #22253
+2026/08/26-07:58:16.567 8ab Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/26-08:01:18.367 8af Level-0 table #22260: started
+2026/08/26-08:01:18.370 8af Level-0 table #22260: 22325 bytes OK
+2026/08/26-08:01:18.371 8af Delete type=0 #22258
+2026/08/26-08:01:18.371 8af Compacting 4@0 + 1@1 files
+2026/08/26-08:01:18.374 8af Generated table #22261@0: 4377 keys, 110405 bytes
+2026/08/26-08:01:18.374 8af Compacted 4@0 + 1@1 files => 110405 bytes
+2026/08/26-08:01:18.374 8af compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/26-08:01:18.375 8af Delete type=2 #22254
+2026/08/26-08:01:18.375 8af Delete type=2 #22248
+2026/08/26-08:01:18.375 8af Delete type=2 #22252
+2026/08/26-08:01:18.375 8af Delete type=2 #22256
+2026/08/26-08:01:18.375 8af Delete type=2 #22260
+2026/08/26-08:06:00.943 8ab Level-0 table #22263: started
+2026/08/26-08:06:00.948 8ab Level-0 table #22263: 26602 bytes OK
