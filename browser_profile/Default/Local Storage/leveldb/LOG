@@ -1,17 +1,16 @@
-2026/08/28-11:37:13.038 93d Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/28-11:37:13.048 93d Delete type=2 #23111
-2026/08/28-11:37:13.048 941 Compacting 4@0 + 1@1 files
-2026/08/28-11:37:13.055 941 Generated table #23113@0: 4507 keys, 113234 bytes
-2026/08/28-11:37:13.055 941 Compacted 4@0 + 1@1 files => 113234 bytes
-2026/08/28-11:37:13.056 941 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/28-11:37:13.056 941 Delete type=2 #23110
-2026/08/28-11:37:13.056 941 Delete type=2 #23104
-2026/08/28-11:37:13.056 941 Delete type=2 #23098
-2026/08/28-11:37:13.056 941 Delete type=2 #23108
-2026/08/28-11:37:13.056 941 Delete type=2 #23102
-2026/08/28-11:40:13.600 93d Level-0 table #23115: started
-2026/08/28-11:40:13.604 93d Level-0 table #23115: 22731 bytes OK
-2026/08/28-11:40:13.605 93d Delete type=0 #23112
-2026/08/28-11:43:13.599 941 Level-0 table #23117: started
-2026/08/28-11:43:13.606 941 Level-0 table #23117: 22764 bytes OK
-2026/08/28-11:43:13.607 941 Delete type=0 #23114
+2026/08/28-12:28:01.881 93d Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/28-12:32:02.352 941 Level-0 table #23121: started
+2026/08/28-12:32:02.357 941 Level-0 table #23121: 23583 bytes OK
+2026/08/28-12:32:02.357 941 Delete type=0 #23119
+2026/08/28-12:34:06.402 941 Level-0 table #23123: started
+2026/08/28-12:34:06.403 941 Level-0 table #23123: 22852 bytes OK
+2026/08/28-12:34:06.404 941 Delete type=0 #23120
+2026/08/28-12:34:06.404 941 Compacting 4@0 + 1@1 files
+2026/08/28-12:34:06.407 941 Generated table #23124@0: 4509 keys, 113075 bytes
+2026/08/28-12:34:06.407 941 Compacted 4@0 + 1@1 files => 113075 bytes
+2026/08/28-12:34:06.407 941 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/28-12:34:06.407 941 Delete type=2 #23115
+2026/08/28-12:34:06.407 941 Delete type=2 #23123
+2026/08/28-12:34:06.407 941 Delete type=2 #23117
+2026/08/28-12:34:06.407 941 Delete type=2 #23121
+2026/08/28-12:34:06.407 941 Delete type=2 #23113
