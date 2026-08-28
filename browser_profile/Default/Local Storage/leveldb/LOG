@@ -1,10 +1,24 @@
-2026/08/28-13:18:42.120 94f Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/28-13:21:42.601 953 Level-0 table #23128: started
-2026/08/28-13:21:42.611 953 Level-0 table #23128: 19742 bytes OK
-2026/08/28-13:21:42.611 953 Delete type=0 #23126
-2026/08/28-13:24:42.601 953 Level-0 table #23130: started
-2026/08/28-13:24:42.603 953 Level-0 table #23130: 19295 bytes OK
-2026/08/28-13:24:42.603 953 Delete type=0 #23127
-2026/08/28-13:26:41.161 953 Level-0 table #23132: started
-2026/08/28-13:26:41.163 953 Level-0 table #23132: 22544 bytes OK
-2026/08/28-13:26:41.166 953 Delete type=0 #23129
+2026/08/28-14:20:13.200 13f0 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/28-14:20:13.206 13f0 Recovering log #23142
+2026/08/28-14:20:13.207 13f0 Reusing old log /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/023142.log 
+2026/08/28-14:21:03.537 13f5 Level-0 table #23146: started
+2026/08/28-14:21:03.546 13f5 Level-0 table #23146: 21166 bytes OK
+2026/08/28-14:21:03.547 13f5 Delete type=0 #23142
+2026/08/28-14:21:03.547 13f5 Compacting 4@0 + 1@1 files
+2026/08/28-14:21:03.551 13f5 Generated table #23147@0: 4514 keys, 113218 bytes
+2026/08/28-14:21:03.552 13f5 Compacted 4@0 + 1@1 files => 113218 bytes
+2026/08/28-14:21:03.552 13f5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/28-14:21:03.552 13f5 Delete type=2 #23141
+2026/08/28-14:21:03.552 13f5 Delete type=2 #23146
+2026/08/28-14:21:03.552 13f5 Delete type=2 #23137
+2026/08/28-14:21:03.552 13f5 Delete type=2 #23143
+2026/08/28-14:21:03.552 13f5 Delete type=2 #23139
+2026/08/28-14:23:13.692 13f4 Level-0 table #23149: started
+2026/08/28-14:23:13.697 13f4 Level-0 table #23149: 19767 bytes OK
+2026/08/28-14:23:13.697 13f4 Delete type=0 #23145
+2026/08/28-14:27:13.691 13f4 Level-0 table #23151: started
+2026/08/28-14:27:13.694 13f4 Level-0 table #23151: 19230 bytes OK
+2026/08/28-14:27:13.694 13f4 Delete type=0 #23148
+2026/08/28-14:31:13.692 13f4 Level-0 table #23153: started
+2026/08/28-14:31:13.696 13f4 Level-0 table #23153: 23243 bytes OK
+2026/08/28-14:31:13.697 13f4 Delete type=0 #23150
