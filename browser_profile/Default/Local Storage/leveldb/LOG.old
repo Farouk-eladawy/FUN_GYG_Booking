@@ -1,19 +1,16 @@
-2026/09/02-13:47:17.193 949 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/02-13:50:17.704 94d Level-0 table #24999: started
-2026/09/02-13:50:17.705 94d Level-0 table #24999: 20067 bytes OK
-2026/09/02-13:50:17.706 94d Delete type=0 #24997
-2026/09/02-13:50:17.706 94d Compacting 4@0 + 1@1 files
-2026/09/02-13:50:17.709 94d Generated table #25000@0: 4790 keys, 119902 bytes
-2026/09/02-13:50:17.709 94d Compacted 4@0 + 1@1 files => 119902 bytes
-2026/09/02-13:50:17.709 94d compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/02-13:50:17.710 94d Delete type=2 #24999
-2026/09/02-13:50:17.710 94d Delete type=2 #24993
-2026/09/02-13:50:17.710 94d Delete type=2 #24987
-2026/09/02-13:50:17.710 94d Delete type=2 #24991
-2026/09/02-13:50:17.710 94d Delete type=2 #24995
-2026/09/02-13:52:21.244 94d Level-0 table #25002: started
-2026/09/02-13:52:21.248 94d Level-0 table #25002: 20095 bytes OK
-2026/09/02-13:52:21.249 94d Delete type=0 #24998
-2026/09/02-13:56:09.024 949 Level-0 table #25004: started
-2026/09/02-13:56:09.025 949 Level-0 table #25004: 20477 bytes OK
-2026/09/02-13:56:09.026 949 Delete type=0 #25001
+2026/09/02-14:16:59.404 866 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/02-14:19:03.532 86a Level-0 table #25008: started
+2026/09/02-14:19:03.571 86a Level-0 table #25008: 20919 bytes OK
+2026/09/02-14:19:03.608 86a Delete type=0 #25006
+2026/09/02-14:23:03.532 86a Level-0 table #25010: started
+2026/09/02-14:23:03.565 86a Level-0 table #25010: 20857 bytes OK
+2026/09/02-14:23:03.567 86a Delete type=0 #25007
+2026/09/02-14:23:03.567 866 Compacting 4@0 + 1@1 files
+2026/09/02-14:23:03.571 866 Generated table #25011@0: 4791 keys, 119700 bytes
+2026/09/02-14:23:03.571 866 Compacted 4@0 + 1@1 files => 119700 bytes
+2026/09/02-14:23:03.572 866 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/02-14:23:03.572 866 Delete type=2 #25004
+2026/09/02-14:23:03.572 866 Delete type=2 #25008
+2026/09/02-14:23:03.572 866 Delete type=2 #25002
+2026/09/02-14:23:03.572 866 Delete type=2 #25010
+2026/09/02-14:23:03.572 866 Delete type=2 #25000
