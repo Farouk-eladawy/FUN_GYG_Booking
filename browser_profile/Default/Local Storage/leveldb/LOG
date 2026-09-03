@@ -1,15 +1,17 @@
-2026/09/03-19:53:59.785 96a Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/03-19:56:04.355 96a Level-0 table #25528: started
-2026/09/03-19:56:04.356 96a Level-0 table #25528: 20336 bytes OK
-2026/09/03-19:56:04.356 96a Delete type=0 #25526
-2026/09/03-19:59:04.355 96a Level-0 table #25530: started
-2026/09/03-19:59:04.361 96a Level-0 table #25530: 20357 bytes OK
-2026/09/03-19:59:04.361 96a Delete type=0 #25527
-2026/09/03-20:00:34.975 96b Level-0 table #25532: started
-2026/09/03-20:00:34.983 96b Level-0 table #25532: 24106 bytes OK
-2026/09/03-20:00:34.985 96b Delete type=0 #25529
-2026/09/03-20:02:17.544 96a Level-0 table #25534: started
-2026/09/03-20:02:17.547 96a Level-0 table #25534: 24550 bytes OK
-2026/09/03-20:02:17.548 96a Delete type=0 #25531
-2026/09/03-20:02:17.548 96a Compacting 4@0 + 1@1 files
-2026/09/03-20:02:17.555 96a compacted to: files[ 4 1 1 0 0 0 0 ]
+2026/09/03-20:08:37.448 867 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/03-20:08:37.462 867 Delete type=2 #25535
+2026/09/03-20:08:37.462 870 Compacting 4@0 + 1@1 files
+2026/09/03-20:08:37.637 870 Generated table #25537@0: 4862 keys, 121829 bytes
+2026/09/03-20:08:37.645 870 Compacted 4@0 + 1@1 files => 121829 bytes
+2026/09/03-20:08:37.655 870 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/03-20:08:37.656 870 Delete type=2 #25524
+2026/09/03-20:08:37.656 870 Delete type=2 #25532
+2026/09/03-20:08:37.656 870 Delete type=2 #25530
+2026/09/03-20:08:37.656 870 Delete type=2 #25528
+2026/09/03-20:08:37.656 870 Delete type=2 #25534
+2026/09/03-20:10:43.111 86b Level-0 table #25539: started
+2026/09/03-20:10:43.112 86b Level-0 table #25539: 21020 bytes OK
+2026/09/03-20:10:43.112 86b Delete type=0 #25536
+2026/09/03-20:13:43.110 86b Level-0 table #25541: started
+2026/09/03-20:13:43.115 86b Level-0 table #25541: 20348 bytes OK
+2026/09/03-20:13:43.116 86b Delete type=0 #25538
