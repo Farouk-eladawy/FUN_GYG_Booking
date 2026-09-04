@@ -1,43 +1,28 @@
-2026/09/04-06:53:15.618 901 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/09/04-06:55:30.689 901 Level-0 table #96277: started
-2026/09/04-06:55:30.694 901 Level-0 table #96277: 17611 bytes OK
-2026/09/04-06:55:30.697 901 Delete type=0 #96275
-2026/09/04-06:55:30.698 905 Compacting 4@0 + 2@1 files
-2026/09/04-06:55:30.735 905 Generated table #96278@0: 12151 keys, 2105378 bytes
-2026/09/04-06:55:30.769 905 Generated table #96279@0: 72792 keys, 2143713 bytes
-2026/09/04-06:55:30.770 905 Generated table #96280@0: 188 keys, 5731 bytes
-2026/09/04-06:55:30.770 905 Compacted 4@0 + 2@1 files => 4254822 bytes
-2026/09/04-06:55:30.770 905 compacted to: files[ 0 7 45 159 0 0 0 ]
-2026/09/04-06:55:30.772 905 Delete type=2 #96265
-2026/09/04-06:55:30.772 905 Delete type=2 #96266
-2026/09/04-06:55:30.772 905 Delete type=2 #96277
-2026/09/04-06:55:30.772 905 Delete type=2 #96271
-2026/09/04-06:55:30.772 905 Delete type=2 #96269
-2026/09/04-06:55:30.773 905 Delete type=2 #96273
-2026/09/04-06:57:05.240 905 Level-0 table #96282: started
-2026/09/04-06:57:05.252 905 Level-0 table #96282: 608098 bytes OK
-2026/09/04-06:57:05.256 905 Delete type=0 #96276
-2026/09/04-06:59:06.063 905 Level-0 table #96284: started
-2026/09/04-06:59:06.064 905 Level-0 table #96284: 16355 bytes OK
-2026/09/04-06:59:06.074 905 Delete type=0 #96281
-2026/09/04-07:04:38.415 905 Level-0 table #96286: started
-2026/09/04-07:04:38.420 905 Level-0 table #96286: 14645 bytes OK
-2026/09/04-07:04:38.423 905 Delete type=0 #96283
-2026/09/04-07:07:03.610 901 Level-0 table #96288: started
-2026/09/04-07:07:03.618 901 Level-0 table #96288: 15016 bytes OK
-2026/09/04-07:07:03.620 901 Delete type=0 #96285
-2026/09/04-07:07:03.621 901 Compacting 4@0 + 2@1 files
-2026/09/04-07:07:03.660 901 Generated table #96289@0: 12266 keys, 2104564 bytes
-2026/09/04-07:07:03.693 901 Generated table #96290@0: 72833 keys, 2146736 bytes
-2026/09/04-07:07:03.694 901 Generated table #96291@0: 93 keys, 2945 bytes
-2026/09/04-07:07:03.694 901 Compacted 4@0 + 2@1 files => 4254245 bytes
-2026/09/04-07:07:03.694 901 compacted to: files[ 0 8 45 159 0 0 0 ]
-2026/09/04-07:07:03.695 901 Delete type=2 #96286
-2026/09/04-07:07:03.695 901 Delete type=2 #96279
-2026/09/04-07:07:03.695 901 Delete type=2 #96284
-2026/09/04-07:07:03.696 901 Delete type=2 #96288
-2026/09/04-07:07:03.696 901 Delete type=2 #96278
-2026/09/04-07:07:03.696 901 Delete type=2 #96282
-2026/09/04-07:10:47.299 901 Level-0 table #96293: started
-2026/09/04-07:10:47.300 901 Level-0 table #96293: 11695 bytes OK
-2026/09/04-07:10:47.302 901 Delete type=0 #96287
+2026/09/04-07:44:02.724 9d3 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/09/04-07:46:16.530 9d8 Level-0 table #96297: started
+2026/09/04-07:46:16.537 9d8 Level-0 table #96297: 15577 bytes OK
+2026/09/04-07:46:16.540 9d8 Delete type=0 #96295
+2026/09/04-07:47:47.215 9d3 Level-0 table #96299: started
+2026/09/04-07:47:47.231 9d3 Level-0 table #96299: 607563 bytes OK
+2026/09/04-07:47:47.235 9d3 Delete type=0 #96296
+2026/09/04-07:51:34.775 9d7 Level-0 table #96301: started
+2026/09/04-07:51:34.781 9d7 Level-0 table #96301: 15729 bytes OK
+2026/09/04-07:51:34.784 9d7 Delete type=0 #96298
+2026/09/04-07:51:34.784 9d7 Compacting 4@0 + 5@1 files
+2026/09/04-07:51:34.823 9d7 Generated table #96302@0: 12600 keys, 2105439 bytes
+2026/09/04-07:51:34.866 9d7 Generated table #96303@0: 72862 keys, 2146494 bytes
+2026/09/04-07:51:34.868 9d7 Generated table #96304@0: 1366 keys, 40812 bytes
+2026/09/04-07:51:34.868 9d7 Compacted 4@0 + 5@1 files => 4292745 bytes
+2026/09/04-07:51:34.868 9d7 compacted to: files[ 0 6 45 159 0 0 0 ]
+2026/09/04-07:51:34.871 9d7 Delete type=2 #96293
+2026/09/04-07:51:34.871 9d7 Delete type=2 #96299
+2026/09/04-07:51:34.871 9d7 Delete type=2 #96289
+2026/09/04-07:51:34.871 9d7 Delete type=2 #96291
+2026/09/04-07:51:34.871 9d7 Delete type=2 #96267
+2026/09/04-07:51:34.871 9d7 Delete type=2 #96301
+2026/09/04-07:51:34.871 9d7 Delete type=2 #96297
+2026/09/04-07:51:34.871 9d7 Delete type=2 #96290
+2026/09/04-07:51:34.871 9d7 Delete type=2 #96280
+2026/09/04-07:52:14.937 9d7 Level-0 table #96306: started
+2026/09/04-07:52:14.948 9d7 Level-0 table #96306: 594943 bytes OK
+2026/09/04-07:52:14.952 9d7 Delete type=0 #96300
