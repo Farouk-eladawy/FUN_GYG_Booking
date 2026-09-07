@@ -1,19 +1,16 @@
-2026/09/07-08:25:16.347 954 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/07-08:28:17.316 970 Level-0 table #26977: started
-2026/09/07-08:28:17.322 970 Level-0 table #26977: 20958 bytes OK
-2026/09/07-08:28:17.323 970 Delete type=0 #26975
-2026/09/07-08:28:17.323 970 Compacting 4@0 + 1@1 files
-2026/09/07-08:28:17.327 970 Generated table #26978@0: 5083 keys, 126488 bytes
-2026/09/07-08:28:17.327 970 Compacted 4@0 + 1@1 files => 126488 bytes
-2026/09/07-08:28:17.328 970 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/07-08:28:17.328 970 Delete type=2 #26973
-2026/09/07-08:28:17.328 970 Delete type=2 #26977
-2026/09/07-08:28:17.328 970 Delete type=2 #26971
-2026/09/07-08:28:17.328 970 Delete type=2 #26969
-2026/09/07-08:28:17.328 970 Delete type=2 #26967
-2026/09/07-08:31:17.316 958 Level-0 table #26980: started
-2026/09/07-08:31:17.317 958 Level-0 table #26980: 21201 bytes OK
-2026/09/07-08:31:17.318 958 Delete type=0 #26976
-2026/09/07-08:33:21.148 958 Level-0 table #26982: started
-2026/09/07-08:33:21.150 958 Level-0 table #26982: 25612 bytes OK
-2026/09/07-08:33:21.150 958 Delete type=0 #26979
+2026/09/07-08:54:40.005 94c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/07-08:56:44.334 94c Level-0 table #26986: started
+2026/09/07-08:56:44.335 94c Level-0 table #26986: 20945 bytes OK
+2026/09/07-08:56:44.336 94c Delete type=0 #26984
+2026/09/07-09:00:40.551 94c Level-0 table #26988: started
+2026/09/07-09:00:40.553 94c Level-0 table #26988: 20911 bytes OK
+2026/09/07-09:00:40.553 94c Delete type=0 #26985
+2026/09/07-09:00:40.553 94c Compacting 4@0 + 1@1 files
+2026/09/07-09:00:40.556 94c Generated table #26989@0: 5085 keys, 126565 bytes
+2026/09/07-09:00:40.556 94c Compacted 4@0 + 1@1 files => 126565 bytes
+2026/09/07-09:00:40.557 94c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/07-09:00:40.557 94c Delete type=2 #26982
+2026/09/07-09:00:40.557 94c Delete type=2 #26980
+2026/09/07-09:00:40.557 94c Delete type=2 #26978
+2026/09/07-09:00:40.557 94c Delete type=2 #26986
+2026/09/07-09:00:40.557 94c Delete type=2 #26988
