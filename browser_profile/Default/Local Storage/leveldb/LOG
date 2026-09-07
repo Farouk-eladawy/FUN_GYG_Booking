@@ -1,23 +1,10 @@
-2026/09/07-16:02:09.853 95e Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/07-16:02:09.860 95e Delete type=2 #27108
-2026/09/07-16:06:10.668 95e Level-0 table #27110: started
-2026/09/07-16:06:10.673 95e Level-0 table #27110: 21084 bytes OK
-2026/09/07-16:06:10.674 95e Delete type=0 #27108
-2026/09/07-16:08:14.526 95e Level-0 table #27112: started
-2026/09/07-16:08:14.529 95e Level-0 table #27112: 20343 bytes OK
-2026/09/07-16:08:14.530 95e Delete type=0 #27109
-2026/09/07-16:09:41.680 95a Level-0 table #27114: started
-2026/09/07-16:09:41.686 95a Level-0 table #27114: 19291 bytes OK
-2026/09/07-16:09:41.688 95a Delete type=0 #27111
-2026/09/07-16:11:14.526 95a Level-0 table #27116: started
-2026/09/07-16:11:14.532 95a Level-0 table #27116: 20516 bytes OK
-2026/09/07-16:11:14.532 95a Delete type=0 #27113
-2026/09/07-16:11:14.532 95a Compacting 4@0 + 1@1 files
-2026/09/07-16:11:14.536 95a Generated table #27117@0: 5099 keys, 126714 bytes
-2026/09/07-16:11:14.536 95a Compacted 4@0 + 1@1 files => 126714 bytes
-2026/09/07-16:11:14.536 95a compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/07-16:11:14.536 95a Delete type=2 #27114
-2026/09/07-16:11:14.536 95a Delete type=2 #27116
-2026/09/07-16:11:14.536 95a Delete type=2 #27106
-2026/09/07-16:11:14.536 95a Delete type=2 #27110
-2026/09/07-16:11:14.536 95a Delete type=2 #27112
+2026/09/07-16:14:12.161 967 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/07-16:18:12.798 96b Level-0 table #27121: started
+2026/09/07-16:18:12.804 96b Level-0 table #27121: 20808 bytes OK
+2026/09/07-16:18:12.805 96b Delete type=0 #27119
+2026/09/07-16:20:17.467 96b Level-0 table #27123: started
+2026/09/07-16:20:17.471 96b Level-0 table #27123: 21969 bytes OK
+2026/09/07-16:20:17.472 96b Delete type=0 #27120
+2026/09/07-16:21:12.797 96b Level-0 table #27125: started
+2026/09/07-16:21:12.803 96b Level-0 table #27125: 19830 bytes OK
+2026/09/07-16:21:12.804 96b Delete type=0 #27122
