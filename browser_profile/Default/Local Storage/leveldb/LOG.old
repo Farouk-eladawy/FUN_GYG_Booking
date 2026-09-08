@@ -1,24 +1,8 @@
-2026/09/08-14:52:38.641 968 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/08-14:55:39.182 96e Level-0 table #27571: started
-2026/09/08-14:55:39.187 96e Level-0 table #27571: 21821 bytes OK
-2026/09/08-14:55:39.188 96e Delete type=0 #27569
-2026/09/08-14:58:39.181 96e Level-0 table #27573: started
-2026/09/08-14:58:39.185 96e Level-0 table #27573: 21602 bytes OK
-2026/09/08-14:58:39.185 96e Delete type=0 #27570
-2026/09/08-14:59:13.575 96e Level-0 table #27575: started
-2026/09/08-14:59:13.580 96e Level-0 table #27575: 19870 bytes OK
-2026/09/08-14:59:13.581 96e Delete type=0 #27572
-2026/09/08-14:59:13.581 96e Compacting 4@0 + 1@1 files
-2026/09/08-14:59:13.588 96e Generated table #27576@0: 5157 keys, 128086 bytes
-2026/09/08-14:59:13.588 96e Compacted 4@0 + 1@1 files => 128086 bytes
-2026/09/08-14:59:13.588 96e compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/08-14:59:13.589 96e Delete type=2 #27575
-2026/09/08-14:59:13.589 96e Delete type=2 #27565
-2026/09/08-14:59:13.589 96e Delete type=2 #27573
-2026/09/08-14:59:13.589 96e Delete type=2 #27567
-2026/09/08-14:59:13.589 96e Delete type=2 #27571
-2026/09/08-15:00:36.834 968 Level-0 table #27578: started
-2026/09/08-15:00:36.840 968 Level-0 table #27578: 19402 bytes OK
-2026/09/08-15:00:36.841 968 Delete type=0 #27574
-2026/09/08-15:02:15.272 968 Level-0 table #27580: started
-2026/09/08-15:02:15.284 968 Level-0 table #27580: 21121 bytes OK
+2026/09/08-15:15:50.112 98a Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/08-15:15:50.121 98a Delete type=2 #27580
+2026/09/08-15:18:55.605 98e Level-0 table #27582: started
+2026/09/08-15:18:55.606 98e Level-0 table #27582: 21048 bytes OK
+2026/09/08-15:18:55.607 98e Delete type=0 #27580
+2026/09/08-15:20:55.606 98e Level-0 table #27584: started
+2026/09/08-15:20:55.610 98e Level-0 table #27584: 20785 bytes OK
+2026/09/08-15:20:55.610 98e Delete type=0 #27581
