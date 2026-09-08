@@ -1,12 +1,20 @@
-2026/09/07-23:38:40.434 86f Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/07-23:40:44.312 873 Level-0 table #27255: started
-2026/09/07-23:40:44.313 873 Level-0 table #27255: 21695 bytes OK
-2026/09/07-23:40:44.314 873 Delete type=0 #27253
-2026/09/07-23:43:40.958 873 Level-0 table #27257: started
-2026/09/07-23:43:40.962 873 Level-0 table #27257: 20916 bytes OK
-2026/09/07-23:43:40.963 873 Delete type=0 #27254
-2026/09/07-23:46:31.917 874 Level-0 table #27259: started
-2026/09/07-23:46:31.919 874 Level-0 table #27259: 20874 bytes OK
-2026/09/07-23:46:31.919 874 Delete type=0 #27256
-2026/09/07-23:46:31.919 86f Compacting 4@0 + 1@1 files
-2026/09/07-23:46:31.922 86f compacted to: files[ 4 1 1 0 0 0 0 ]
+2026/09/08-00:29:24.117 956 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/08-00:29:24.125 956 Delete type=2 #27260
+2026/09/08-00:29:24.125 95a Compacting 4@0 + 1@1 files
+2026/09/08-00:29:24.136 95a Generated table #27262@0: 5120 keys, 126959 bytes
+2026/09/08-00:29:24.136 95a Compacted 4@0 + 1@1 files => 126959 bytes
+2026/09/08-00:29:24.138 95a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/08-00:29:24.138 95a Delete type=2 #27259
+2026/09/08-00:29:24.138 95a Delete type=2 #27249
+2026/09/08-00:29:24.138 95a Delete type=2 #27255
+2026/09/08-00:29:24.138 95a Delete type=2 #27251
+2026/09/08-00:29:24.138 95a Delete type=2 #27257
+2026/09/08-00:33:25.047 95a Level-0 table #27264: started
+2026/09/08-00:33:25.050 95a Level-0 table #27264: 21043 bytes OK
+2026/09/08-00:33:25.051 95a Delete type=0 #27261
+2026/09/08-00:36:25.047 95a Level-0 table #27266: started
+2026/09/08-00:36:25.051 95a Level-0 table #27266: 20996 bytes OK
+2026/09/08-00:36:25.051 95a Delete type=0 #27263
+2026/09/08-00:37:28.889 95a Level-0 table #27268: started
+2026/09/08-00:37:28.892 95a Level-0 table #27268: 19703 bytes OK
+2026/09/08-00:37:28.893 95a Delete type=0 #27265
