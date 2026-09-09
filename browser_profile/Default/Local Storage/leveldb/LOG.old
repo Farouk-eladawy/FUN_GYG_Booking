@@ -1,25 +1,7 @@
-2026/09/09-04:52:18.141 916 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/09-04:55:18.866 91a Level-0 table #27829: started
-2026/09/09-04:55:19.006 91a Level-0 table #27829: 21705 bytes OK
-2026/09/09-04:55:19.007 91a Delete type=0 #27827
-2026/09/09-04:58:23.533 91a Level-0 table #27831: started
-2026/09/09-04:58:23.737 91a Level-0 table #27831: 26719 bytes OK
-2026/09/09-04:58:23.738 91a Delete type=0 #27828
-2026/09/09-04:59:09.402 91a Level-0 table #27833: started
-2026/09/09-04:59:09.404 91a Level-0 table #27833: 19631 bytes OK
-2026/09/09-04:59:09.467 91a Delete type=0 #27830
-2026/09/09-05:00:32.774 91a Level-0 table #27835: started
-2026/09/09-05:00:32.777 91a Level-0 table #27835: 19614 bytes OK
-2026/09/09-05:00:32.813 91a Delete type=0 #27832
-2026/09/09-05:00:32.813 91a Compacting 4@0 + 1@1 files
-2026/09/09-05:00:32.829 91a Generated table #27836@0: 5192 keys, 129665 bytes
-2026/09/09-05:00:32.829 91a Compacted 4@0 + 1@1 files => 129665 bytes
-2026/09/09-05:00:32.830 91a compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/09-05:00:32.830 91a Delete type=2 #27831
-2026/09/09-05:00:32.830 91a Delete type=2 #27835
-2026/09/09-05:00:32.830 91a Delete type=2 #27829
-2026/09/09-05:00:32.830 91a Delete type=2 #27825
-2026/09/09-05:00:32.830 91a Delete type=2 #27833
-2026/09/09-05:02:18.866 916 Level-0 table #27838: started
-2026/09/09-05:02:18.917 916 Level-0 table #27838: 21370 bytes OK
-2026/09/09-05:02:18.918 916 Delete type=0 #27834
+2026/09/09-05:15:59.302 957 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/09-05:19:59.881 95b Level-0 table #27842: started
+2026/09/09-05:19:59.889 95b Level-0 table #27842: 21880 bytes OK
+2026/09/09-05:19:59.891 95b Delete type=0 #27840
+2026/09/09-05:22:04.166 95b Level-0 table #27844: started
+2026/09/09-05:22:04.171 95b Level-0 table #27844: 22193 bytes OK
+2026/09/09-05:22:04.171 95b Delete type=0 #27841
