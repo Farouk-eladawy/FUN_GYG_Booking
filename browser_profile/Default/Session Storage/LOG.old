@@ -1,22 +1,10 @@
-2026/09/10-15:57:52.153 893 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/09/10-16:00:09.325 897 Level-0 table #98875: started
-2026/09/10-16:00:09.332 897 Level-0 table #98875: 14372 bytes OK
-2026/09/10-16:00:09.335 897 Delete type=0 #98873
-2026/09/10-16:01:59.710 897 Level-0 table #98877: started
-2026/09/10-16:01:59.716 897 Level-0 table #98877: 13293 bytes OK
-2026/09/10-16:01:59.720 897 Delete type=0 #98874
-2026/09/10-16:04:11.514 893 Level-0 table #98879: started
-2026/09/10-16:04:11.522 893 Level-0 table #98879: 14449 bytes OK
-2026/09/10-16:04:11.525 893 Delete type=0 #98876
-2026/09/10-16:04:11.525 897 Compacting 4@0 + 2@1 files
-2026/09/10-16:04:11.570 897 Generated table #98880@0: 32135 keys, 2118590 bytes
-2026/09/10-16:04:11.607 897 Generated table #98881@0: 73327 keys, 2145584 bytes
-2026/09/10-16:04:11.608 897 Generated table #98882@0: 68 keys, 2016 bytes
-2026/09/10-16:04:11.608 897 Compacted 4@0 + 2@1 files => 4266190 bytes
-2026/09/10-16:04:11.609 897 compacted to: files[ 0 6 44 180 0 0 0 ]
-2026/09/10-16:04:11.610 897 Delete type=2 #98877
-2026/09/10-16:04:11.610 897 Delete type=2 #98879
-2026/09/10-16:04:11.610 897 Delete type=2 #98875
-2026/09/10-16:04:11.610 897 Delete type=2 #98867
-2026/09/10-16:04:11.610 897 Delete type=2 #98871
-2026/09/10-16:04:11.610 897 Delete type=2 #98866
+2026/09/10-16:27:18.153 87d Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/09/10-16:29:37.226 87d Level-0 table #98886: started
+2026/09/10-16:29:37.229 87d Level-0 table #98886: 15028 bytes OK
+2026/09/10-16:29:37.233 87d Delete type=0 #98884
+2026/09/10-16:31:42.797 882 Level-0 table #98888: started
+2026/09/10-16:31:42.866 882 Level-0 table #98888: 13953 bytes OK
+2026/09/10-16:31:42.868 882 Delete type=0 #98885
+2026/09/10-16:33:37.855 881 Level-0 table #98890: started
+2026/09/10-16:33:37.867 881 Level-0 table #98890: 15175 bytes OK
+2026/09/10-16:33:37.869 881 Delete type=0 #98887
