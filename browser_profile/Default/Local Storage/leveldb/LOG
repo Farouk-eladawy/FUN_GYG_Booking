@@ -1,7 +1,61 @@
-2026/09/11-04:38:29.920 95b Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/11-04:41:30.633 95f Level-0 table #28574: started
-2026/09/11-04:41:30.640 95f Level-0 table #28574: 21408 bytes OK
-2026/09/11-04:41:30.641 95f Delete type=0 #28572
-2026/09/11-04:44:30.633 95f Level-0 table #28576: started
-2026/09/11-04:44:30.638 95f Level-0 table #28576: 21701 bytes OK
-2026/09/11-04:44:30.638 95f Delete type=0 #28573
+2026/09/11-05:29:14.466 95a Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/11-05:32:14.986 95a Level-0 table #28580: started
+2026/09/11-05:32:14.994 95a Level-0 table #28580: 21384 bytes OK
+2026/09/11-05:32:14.994 95a Delete type=0 #28578
+2026/09/11-05:34:08.999 95a Level-0 table #28582: started
+2026/09/11-05:34:09.008 95a Level-0 table #28582: 20896 bytes OK
+2026/09/11-05:34:09.009 95a Delete type=0 #28579
+2026/09/11-05:34:09.009 95a Compacting 4@0 + 1@1 files
+2026/09/11-05:34:09.020 95a Generated table #28583@0: 5327 keys, 131623 bytes
+2026/09/11-05:34:09.020 95a Compacted 4@0 + 1@1 files => 131623 bytes
+2026/09/11-05:34:09.021 95a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/11-05:34:09.021 95a Delete type=2 #28574
+2026/09/11-05:34:09.021 95a Delete type=2 #28576
+2026/09/11-05:34:09.021 95a Delete type=2 #28582
+2026/09/11-05:34:09.021 95a Delete type=2 #28580
+2026/09/11-05:34:09.021 95a Delete type=2 #28570
+2026/09/11-05:36:08.998 95f Level-0 table #28585: started
+2026/09/11-05:36:09.003 95f Level-0 table #28585: 20987 bytes OK
+2026/09/11-05:36:09.004 95f Delete type=0 #28581
+2026/09/11-05:36:56.282 95e Level-0 table #28587: started
+2026/09/11-05:36:56.283 95e Level-0 table #28587: 20487 bytes OK
+2026/09/11-05:36:56.284 95e Delete type=0 #28584
+2026/09/11-05:39:14.986 95e Level-0 table #28589: started
+2026/09/11-05:39:14.987 95e Level-0 table #28589: 20479 bytes OK
+2026/09/11-05:39:14.988 95e Delete type=0 #28586
+2026/09/11-05:40:09.692 95f Level-0 table #28591: started
+2026/09/11-05:40:09.699 95f Level-0 table #28591: 20478 bytes OK
+2026/09/11-05:40:09.700 95f Delete type=0 #28588
+2026/09/11-05:40:09.700 95f Compacting 4@0 + 1@1 files
+2026/09/11-05:40:09.704 95f Generated table #28592@0: 5327 keys, 131633 bytes
+2026/09/11-05:40:09.704 95f Compacted 4@0 + 1@1 files => 131633 bytes
+2026/09/11-05:40:09.705 95f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/11-05:40:09.705 95f Delete type=2 #28591
+2026/09/11-05:40:09.705 95f Delete type=2 #28589
+2026/09/11-05:40:09.705 95f Delete type=2 #28587
+2026/09/11-05:40:09.705 95f Delete type=2 #28585
+2026/09/11-05:40:09.705 95f Delete type=2 #28583
+2026/09/11-05:42:14.986 95e Level-0 table #28594: started
+2026/09/11-05:42:14.987 95e Level-0 table #28594: 20224 bytes OK
+2026/09/11-05:42:14.988 95e Delete type=0 #28590
+2026/09/11-05:43:30.379 95e Level-0 table #28596: started
+2026/09/11-05:43:30.385 95e Level-0 table #28596: 20387 bytes OK
+2026/09/11-05:43:30.386 95e Delete type=0 #28593
+2026/09/11-05:46:54.740 965 Level-0 table #28598: started
+2026/09/11-05:46:54.743 965 Level-0 table #28598: 21684 bytes OK
+2026/09/11-05:46:54.744 965 Delete type=0 #28595
+2026/09/11-05:49:14.986 95e Level-0 table #28600: started
+2026/09/11-05:49:14.992 95e Level-0 table #28600: 21687 bytes OK
+2026/09/11-05:49:14.993 95e Delete type=0 #28597
+2026/09/11-05:49:14.993 95a Compacting 4@0 + 1@1 files
+2026/09/11-05:49:14.999 95a Generated table #28601@0: 5327 keys, 131635 bytes
+2026/09/11-05:49:14.999 95a Compacted 4@0 + 1@1 files => 131635 bytes
+2026/09/11-05:49:14.999 95a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/11-05:49:14.999 95a Delete type=2 #28592
+2026/09/11-05:49:14.999 95a Delete type=2 #28598
+2026/09/11-05:49:14.999 95a Delete type=2 #28600
+2026/09/11-05:49:14.999 95a Delete type=2 #28596
+2026/09/11-05:49:15.000 95a Delete type=2 #28594
+2026/09/11-05:52:14.986 95e Level-0 table #28603: started
+2026/09/11-05:52:14.990 95e Level-0 table #28603: 21706 bytes OK
+2026/09/11-05:52:14.991 95e Delete type=0 #28599
