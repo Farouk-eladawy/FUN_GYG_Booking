@@ -1,26 +1,7 @@
-2026/09/12-11:21:47.551 880 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/12-11:21:47.577 880 Delete type=2 #29063
-2026/09/12-11:24:48.362 880 Level-0 table #29065: started
-2026/09/12-11:24:48.363 880 Level-0 table #29065: 21610 bytes OK
-2026/09/12-11:24:48.364 880 Delete type=0 #29063
-2026/09/12-11:27:48.361 87c Level-0 table #29067: started
-2026/09/12-11:27:48.370 87c Level-0 table #29067: 21105 bytes OK
-2026/09/12-11:27:48.371 87c Delete type=0 #29064
-2026/09/12-11:28:12.560 880 Level-0 table #29069: started
-2026/09/12-11:28:12.565 880 Level-0 table #29069: 20385 bytes OK
-2026/09/12-11:28:12.566 880 Delete type=0 #29066
-2026/09/12-11:29:21.864 880 Level-0 table #29071: started
-2026/09/12-11:29:21.879 880 Level-0 table #29071: 20004 bytes OK
-2026/09/12-11:29:21.880 880 Delete type=0 #29068
-2026/09/12-11:29:21.880 87c Compacting 4@0 + 1@1 files
-2026/09/12-11:29:21.886 87c Generated table #29072@0: 5411 keys, 133238 bytes
-2026/09/12-11:29:21.886 87c Compacted 4@0 + 1@1 files => 133238 bytes
-2026/09/12-11:29:21.887 87c compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/12-11:29:21.887 87c Delete type=2 #29065
-2026/09/12-11:29:21.887 87c Delete type=2 #29067
-2026/09/12-11:29:21.887 87c Delete type=2 #29069
-2026/09/12-11:29:21.887 87c Delete type=2 #29061
-2026/09/12-11:29:21.887 87c Delete type=2 #29071
-2026/09/12-11:30:29.062 881 Level-0 table #29074: started
-2026/09/12-11:30:29.070 881 Level-0 table #29074: 20012 bytes OK
-2026/09/12-11:30:29.070 881 Delete type=0 #29070
+2026/09/12-11:55:12.792 944 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/12-11:58:13.954 948 Level-0 table #29078: started
+2026/09/12-11:58:13.961 948 Level-0 table #29078: 22596 bytes OK
+2026/09/12-11:58:13.961 948 Delete type=0 #29076
+2026/09/12-12:01:13.953 948 Level-0 table #29080: started
+2026/09/12-12:01:13.958 948 Level-0 table #29080: 21538 bytes OK
+2026/09/12-12:01:13.959 948 Delete type=0 #29077
