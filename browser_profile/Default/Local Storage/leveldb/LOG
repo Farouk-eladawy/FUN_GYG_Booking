@@ -1,16 +1,19 @@
-2026/09/13-02:17:03.015 913 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/13-02:20:03.463 917 Level-0 table #29321: started
-2026/09/13-02:20:03.469 917 Level-0 table #29321: 21523 bytes OK
-2026/09/13-02:20:03.470 917 Delete type=0 #29319
-2026/09/13-02:20:03.470 917 Compacting 4@0 + 1@1 files
-2026/09/13-02:20:03.474 917 Generated table #29322@0: 5463 keys, 133959 bytes
-2026/09/13-02:20:03.474 917 Compacted 4@0 + 1@1 files => 133959 bytes
-2026/09/13-02:20:03.475 917 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/13-02:20:03.475 917 Delete type=2 #29315
-2026/09/13-02:20:03.475 917 Delete type=2 #29321
-2026/09/13-02:20:03.475 917 Delete type=2 #29317
-2026/09/13-02:20:03.475 917 Delete type=2 #29311
-2026/09/13-02:20:03.475 917 Delete type=2 #29309
-2026/09/13-02:24:03.464 917 Level-0 table #29324: started
-2026/09/13-02:24:03.468 917 Level-0 table #29324: 22546 bytes OK
-2026/09/13-02:24:03.468 917 Delete type=0 #29320
+2026/09/13-03:03:33.691 92b Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/13-03:06:34.237 92f Level-0 table #29328: started
+2026/09/13-03:06:34.243 92f Level-0 table #29328: 21584 bytes OK
+2026/09/13-03:06:34.244 92f Delete type=0 #29326
+2026/09/13-03:09:40.527 92b Level-0 table #29330: started
+2026/09/13-03:09:40.532 92b Level-0 table #29330: 26424 bytes OK
+2026/09/13-03:09:40.533 92b Delete type=0 #29327
+2026/09/13-03:11:03.897 92b Level-0 table #29332: started
+2026/09/13-03:11:03.907 92b Level-0 table #29332: 19936 bytes OK
+2026/09/13-03:11:03.908 92b Delete type=0 #29329
+2026/09/13-03:11:03.909 92b Compacting 4@0 + 1@1 files
+2026/09/13-03:11:03.913 92b Generated table #29333@0: 5465 keys, 134002 bytes
+2026/09/13-03:11:03.913 92b Compacted 4@0 + 1@1 files => 134002 bytes
+2026/09/13-03:11:03.914 92b compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/13-03:11:03.914 92b Delete type=2 #29322
+2026/09/13-03:11:03.914 92b Delete type=2 #29324
+2026/09/13-03:11:03.914 92b Delete type=2 #29332
+2026/09/13-03:11:03.914 92b Delete type=2 #29330
+2026/09/13-03:11:03.914 92b Delete type=2 #29328
