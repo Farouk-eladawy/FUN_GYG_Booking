@@ -1,22 +1,19 @@
-2026/09/15-14:43:05.892 9a8 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/15-14:46:06.542 9ac Level-0 table #30261: started
-2026/09/15-14:46:06.548 9ac Level-0 table #30261: 21987 bytes OK
-2026/09/15-14:46:06.549 9ac Delete type=0 #30259
-2026/09/15-14:46:06.550 9a8 Compacting 4@0 + 1@1 files
-2026/09/15-14:46:06.556 9a8 Generated table #30262@0: 5618 keys, 137310 bytes
-2026/09/15-14:46:06.556 9a8 Compacted 4@0 + 1@1 files => 137310 bytes
-2026/09/15-14:46:06.557 9a8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/15-14:46:06.557 9a8 Delete type=2 #30257
-2026/09/15-14:46:06.557 9a8 Delete type=2 #30261
-2026/09/15-14:46:06.557 9a8 Delete type=2 #30253
-2026/09/15-14:46:06.557 9a8 Delete type=2 #30249
-2026/09/15-14:46:06.557 9a8 Delete type=2 #30255
-2026/09/15-14:48:11.178 9ac Level-0 table #30264: started
-2026/09/15-14:48:11.184 9ac Level-0 table #30264: 22253 bytes OK
-2026/09/15-14:48:11.184 9ac Delete type=0 #30260
-2026/09/15-14:49:27.672 9ac Level-0 table #30266: started
-2026/09/15-14:49:27.676 9ac Level-0 table #30266: 20914 bytes OK
-2026/09/15-14:49:27.677 9ac Delete type=0 #30263
-2026/09/15-14:50:35.480 9a8 Level-0 table #30268: started
-2026/09/15-14:50:35.485 9a8 Level-0 table #30268: 20085 bytes OK
-2026/09/15-14:50:35.486 9a8 Delete type=0 #30265
+2026/09/15-15:45:40.539 955 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/15-15:47:45.270 95a Level-0 table #30272: started
+2026/09/15-15:47:45.271 95a Level-0 table #30272: 22002 bytes OK
+2026/09/15-15:47:45.272 95a Delete type=0 #30270
+2026/09/15-15:47:45.272 95a Compacting 4@0 + 1@1 files
+2026/09/15-15:47:45.276 95a Generated table #30273@0: 5620 keys, 137346 bytes
+2026/09/15-15:47:45.276 95a Compacted 4@0 + 1@1 files => 137346 bytes
+2026/09/15-15:47:45.277 95a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/15-15:47:45.277 95a Delete type=2 #30266
+2026/09/15-15:47:45.277 95a Delete type=2 #30262
+2026/09/15-15:47:45.277 95a Delete type=2 #30264
+2026/09/15-15:47:45.277 95a Delete type=2 #30268
+2026/09/15-15:47:45.277 95a Delete type=2 #30272
+2026/09/15-15:50:41.023 95a Level-0 table #30275: started
+2026/09/15-15:50:41.027 95a Level-0 table #30275: 21933 bytes OK
+2026/09/15-15:50:41.028 95a Delete type=0 #30271
+2026/09/15-15:53:23.466 955 Level-0 table #30277: started
+2026/09/15-15:53:23.469 955 Level-0 table #30277: 22832 bytes OK
+2026/09/15-15:53:23.471 955 Delete type=0 #30274
