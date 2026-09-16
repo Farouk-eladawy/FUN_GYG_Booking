@@ -1,19 +1,16 @@
-2026/09/16-07:27:24.303 99d Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/16-07:30:24.831 99d Level-0 table #30538: started
-2026/09/16-07:30:24.836 99d Level-0 table #30538: 21980 bytes OK
-2026/09/16-07:30:24.837 99d Delete type=0 #30536
-2026/09/16-07:30:24.837 99d Compacting 4@0 + 1@1 files
-2026/09/16-07:30:24.841 99d Generated table #30539@0: 5661 keys, 137634 bytes
-2026/09/16-07:30:24.841 99d Compacted 4@0 + 1@1 files => 137634 bytes
-2026/09/16-07:30:24.842 99d compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/16-07:30:24.842 99d Delete type=2 #30534
-2026/09/16-07:30:24.842 99d Delete type=2 #30530
-2026/09/16-07:30:24.842 99d Delete type=2 #30538
-2026/09/16-07:30:24.842 99d Delete type=2 #30526
-2026/09/16-07:30:24.842 99d Delete type=2 #30532
-2026/09/16-07:32:29.829 99d Level-0 table #30541: started
-2026/09/16-07:32:29.833 99d Level-0 table #30541: 21958 bytes OK
-2026/09/16-07:32:29.834 99d Delete type=0 #30537
-2026/09/16-07:35:46.714 999 Level-0 table #30543: started
-2026/09/16-07:35:46.716 999 Level-0 table #30543: 22009 bytes OK
-2026/09/16-07:35:46.718 999 Delete type=0 #30540
+2026/09/16-08:05:30.865 94b Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/16-08:09:31.396 94f Level-0 table #30547: started
+2026/09/16-08:09:31.402 94f Level-0 table #30547: 21944 bytes OK
+2026/09/16-08:09:31.402 94f Delete type=0 #30545
+2026/09/16-08:11:35.646 94f Level-0 table #30549: started
+2026/09/16-08:11:35.651 94f Level-0 table #30549: 21863 bytes OK
+2026/09/16-08:11:35.651 94f Delete type=0 #30546
+2026/09/16-08:11:35.651 94f Compacting 4@0 + 1@1 files
+2026/09/16-08:11:35.655 94f Generated table #30550@0: 5662 keys, 137757 bytes
+2026/09/16-08:11:35.655 94f Compacted 4@0 + 1@1 files => 137757 bytes
+2026/09/16-08:11:35.655 94f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/16-08:11:35.655 94f Delete type=2 #30547
+2026/09/16-08:11:35.655 94f Delete type=2 #30541
+2026/09/16-08:11:35.655 94f Delete type=2 #30539
+2026/09/16-08:11:35.655 94f Delete type=2 #30543
+2026/09/16-08:11:35.655 94f Delete type=2 #30549
