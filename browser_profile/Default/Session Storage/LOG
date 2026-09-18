@@ -1,4 +1,31 @@
-2026/09/18-21:12:58.663 958 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/09/18-21:16:36.450 958 Level-0 table #102674: started
-2026/09/18-21:16:36.461 958 Level-0 table #102674: 603281 bytes OK
-2026/09/18-21:16:36.465 958 Delete type=0 #102672
+2026/09/18-21:24:08.862 9ab Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/09/18-21:26:19.755 9af Level-0 table #102678: started
+2026/09/18-21:26:19.761 9af Level-0 table #102678: 17441 bytes OK
+2026/09/18-21:26:19.764 9af Delete type=0 #102676
+2026/09/18-21:27:52.929 9af Level-0 table #102680: started
+2026/09/18-21:27:52.941 9af Level-0 table #102680: 611986 bytes OK
+2026/09/18-21:27:52.945 9af Delete type=0 #102677
+2026/09/18-21:27:52.946 9af Compacting 4@0 + 3@1 files
+2026/09/18-21:27:52.995 9af Generated table #102681@0: 1082 keys, 2402066 bytes
+2026/09/18-21:27:53.059 9af Generated table #102682@0: 73590 keys, 2146230 bytes
+2026/09/18-21:27:53.106 9af Generated table #102683@0: 55932 keys, 1630197 bytes
+2026/09/18-21:27:53.106 9af Compacted 4@0 + 3@1 files => 6178493 bytes
+2026/09/18-21:27:53.106 9af compacted to: files[ 0 5 44 210 0 0 0 ]
+2026/09/18-21:27:53.111 9af Delete type=2 #102666
+2026/09/18-21:27:53.111 9af Delete type=2 #102678
+2026/09/18-21:27:53.111 9af Delete type=2 #102680
+2026/09/18-21:27:53.111 9af Delete type=2 #102668
+2026/09/18-21:27:53.111 9af Delete type=2 #102670
+2026/09/18-21:27:53.111 9af Delete type=2 #102667
+2026/09/18-21:27:53.111 9af Delete type=2 #102674
+2026/09/18-21:27:53.115 9af Compacting 1@1 + 1@2 files
+2026/09/18-21:27:53.161 9af Generated table #102684@1: 30 keys, 2397088 bytes
+2026/09/18-21:27:53.192 9af Generated table #102685@1: 37 keys, 2243405 bytes
+2026/09/18-21:27:53.193 9af Compacted 1@1 + 1@2 files => 4640493 bytes
+2026/09/18-21:27:53.193 9af compacted to: files[ 0 4 45 210 0 0 0 ]
+2026/09/18-21:27:53.195 9af Delete type=2 #102478
+2026/09/18-21:27:53.195 9af Delete type=2 #102524
+2026/09/18-21:27:53.196 9ab Moved #97420 to level-3 2381255 bytes OK: files[ 0 4 44 211 0 0 0 ]
+2026/09/18-21:29:46.137 9af Level-0 table #102687: started
+2026/09/18-21:29:46.138 9af Level-0 table #102687: 16341 bytes OK
+2026/09/18-21:29:46.142 9af Delete type=0 #102679
