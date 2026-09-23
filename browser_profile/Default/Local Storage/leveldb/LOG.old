@@ -1,16 +1,19 @@
-2026/09/23-20:27:50.021 965 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/09/23-20:30:54.743 964 Level-0 table #33465: started
-2026/09/23-20:30:54.745 964 Level-0 table #33465: 24241 bytes OK
-2026/09/23-20:30:54.746 964 Delete type=0 #33463
-2026/09/23-20:30:54.746 964 Compacting 4@0 + 1@1 files
-2026/09/23-20:30:54.749 964 Generated table #33466@0: 6056 keys, 146374 bytes
-2026/09/23-20:30:54.749 964 Compacted 4@0 + 1@1 files => 146374 bytes
-2026/09/23-20:30:54.750 964 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/23-20:30:54.750 964 Delete type=2 #33459
-2026/09/23-20:30:54.750 964 Delete type=2 #33455
-2026/09/23-20:30:54.750 964 Delete type=2 #33457
-2026/09/23-20:30:54.750 964 Delete type=2 #33465
-2026/09/23-20:30:54.750 964 Delete type=2 #33461
-2026/09/23-20:34:50.866 964 Level-0 table #33468: started
-2026/09/23-20:34:50.869 964 Level-0 table #33468: 23182 bytes OK
-2026/09/23-20:34:50.870 964 Delete type=0 #33464
+2026/09/23-21:37:54.753 95f Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/09/23-21:39:59.856 963 Level-0 table #33472: started
+2026/09/23-21:39:59.857 963 Level-0 table #33472: 23423 bytes OK
+2026/09/23-21:39:59.858 963 Delete type=0 #33470
+2026/09/23-21:41:59.855 963 Level-0 table #33474: started
+2026/09/23-21:41:59.860 963 Level-0 table #33474: 18495 bytes OK
+2026/09/23-21:41:59.861 963 Delete type=0 #33471
+2026/09/23-21:43:59.856 963 Level-0 table #33476: started
+2026/09/23-21:43:59.861 963 Level-0 table #33476: 23372 bytes OK
+2026/09/23-21:43:59.861 963 Delete type=0 #33473
+2026/09/23-21:43:59.861 963 Compacting 4@0 + 1@1 files
+2026/09/23-21:43:59.866 963 Generated table #33477@0: 6057 keys, 146657 bytes
+2026/09/23-21:43:59.866 963 Compacted 4@0 + 1@1 files => 146657 bytes
+2026/09/23-21:43:59.867 963 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/23-21:43:59.867 963 Delete type=2 #33472
+2026/09/23-21:43:59.867 963 Delete type=2 #33474
+2026/09/23-21:43:59.867 963 Delete type=2 #33476
+2026/09/23-21:43:59.867 963 Delete type=2 #33468
+2026/09/23-21:43:59.867 963 Delete type=2 #33466
