@@ -1,22 +1,16 @@
-2026/09/23-19:34:31.703 886 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/09/23-19:36:36.555 88a Level-0 table #33454: started
-2026/09/23-19:36:36.556 88a Level-0 table #33454: 23202 bytes OK
-2026/09/23-19:36:36.556 88a Delete type=0 #33452
-2026/09/23-19:36:36.556 88a Compacting 4@0 + 1@1 files
-2026/09/23-19:36:36.558 88a Generated table #33455@0: 6054 keys, 146336 bytes
-2026/09/23-19:36:36.558 88a Compacted 4@0 + 1@1 files => 146336 bytes
-2026/09/23-19:36:36.559 88a compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/23-19:36:36.559 88a Delete type=2 #33446
-2026/09/23-19:36:36.559 88a Delete type=2 #33450
-2026/09/23-19:36:36.559 88a Delete type=2 #33448
-2026/09/23-19:36:36.559 88a Delete type=2 #33454
-2026/09/23-19:36:36.559 88a Delete type=2 #33444
-2026/09/23-19:39:32.645 88a Level-0 table #33457: started
-2026/09/23-19:39:32.650 88a Level-0 table #33457: 23896 bytes OK
-2026/09/23-19:39:32.650 88a Delete type=0 #33453
-2026/09/23-19:40:36.555 88a Level-0 table #33459: started
-2026/09/23-19:40:36.558 88a Level-0 table #33459: 22144 bytes OK
-2026/09/23-19:40:36.558 88a Delete type=0 #33456
-2026/09/23-19:42:32.645 88a Level-0 table #33461: started
-2026/09/23-19:42:32.650 88a Level-0 table #33461: 22838 bytes OK
-2026/09/23-19:42:32.651 88a Delete type=0 #33458
+2026/09/23-20:27:50.021 965 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/09/23-20:30:54.743 964 Level-0 table #33465: started
+2026/09/23-20:30:54.745 964 Level-0 table #33465: 24241 bytes OK
+2026/09/23-20:30:54.746 964 Delete type=0 #33463
+2026/09/23-20:30:54.746 964 Compacting 4@0 + 1@1 files
+2026/09/23-20:30:54.749 964 Generated table #33466@0: 6056 keys, 146374 bytes
+2026/09/23-20:30:54.749 964 Compacted 4@0 + 1@1 files => 146374 bytes
+2026/09/23-20:30:54.750 964 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/23-20:30:54.750 964 Delete type=2 #33459
+2026/09/23-20:30:54.750 964 Delete type=2 #33455
+2026/09/23-20:30:54.750 964 Delete type=2 #33457
+2026/09/23-20:30:54.750 964 Delete type=2 #33465
+2026/09/23-20:30:54.750 964 Delete type=2 #33461
+2026/09/23-20:34:50.866 964 Level-0 table #33468: started
+2026/09/23-20:34:50.869 964 Level-0 table #33468: 23182 bytes OK
+2026/09/23-20:34:50.870 964 Delete type=0 #33464
