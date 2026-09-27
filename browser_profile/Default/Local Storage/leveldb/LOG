@@ -1,16 +1,28 @@
-2026/09/26-23:59:01.819 896 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/09/27-00:02:02.896 89a Level-0 table #34715: started
-2026/09/27-00:02:02.898 89a Level-0 table #34715: 23681 bytes OK
-2026/09/27-00:02:02.899 89a Delete type=0 #34713
-2026/09/27-00:02:02.899 89a Compacting 4@0 + 1@1 files
-2026/09/27-00:02:02.902 89a Generated table #34716@0: 6252 keys, 149555 bytes
-2026/09/27-00:02:02.902 89a Compacted 4@0 + 1@1 files => 149555 bytes
-2026/09/27-00:02:02.902 89a compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/27-00:02:02.902 89a Delete type=2 #34715
-2026/09/27-00:02:02.902 89a Delete type=2 #34705
-2026/09/27-00:02:02.902 89a Delete type=2 #34711
-2026/09/27-00:02:02.902 89a Delete type=2 #34709
-2026/09/27-00:02:02.902 89a Delete type=2 #34703
-2026/09/27-00:06:02.897 896 Level-0 table #34718: started
-2026/09/27-00:06:03.043 896 Level-0 table #34718: 23423 bytes OK
-2026/09/27-00:06:03.044 896 Delete type=0 #34714
+2026/09/27-00:20:44.290 884 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/09/27-00:23:45.406 888 Level-0 table #34722: started
+2026/09/27-00:23:45.406 888 Level-0 table #34722: 23424 bytes OK
+2026/09/27-00:23:45.407 888 Delete type=0 #34720
+2026/09/27-00:26:56.797 889 Level-0 table #34724: started
+2026/09/27-00:26:56.800 889 Level-0 table #34724: 28794 bytes OK
+2026/09/27-00:26:56.800 889 Delete type=0 #34721
+2026/09/27-00:27:35.556 888 Level-0 table #34726: started
+2026/09/27-00:27:35.558 888 Level-0 table #34726: 21485 bytes OK
+2026/09/27-00:27:35.559 888 Delete type=0 #34723
+2026/09/27-00:27:35.559 888 Compacting 4@0 + 1@1 files
+2026/09/27-00:27:35.584 888 Generated table #34727@0: 6254 keys, 149357 bytes
+2026/09/27-00:27:35.584 888 Compacted 4@0 + 1@1 files => 149357 bytes
+2026/09/27-00:27:35.584 888 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/27-00:27:35.584 888 Delete type=2 #34716
+2026/09/27-00:27:35.584 888 Delete type=2 #34724
+2026/09/27-00:27:35.584 888 Delete type=2 #34726
+2026/09/27-00:27:35.584 888 Delete type=2 #34718
+2026/09/27-00:27:35.584 888 Delete type=2 #34722
+2026/09/27-00:28:45.406 888 Level-0 table #34729: started
+2026/09/27-00:28:45.411 888 Level-0 table #34729: 21516 bytes OK
+2026/09/27-00:28:45.412 888 Delete type=0 #34725
+2026/09/27-00:29:35.808 888 Level-0 table #34731: started
+2026/09/27-00:29:35.809 888 Level-0 table #34731: 21267 bytes OK
+2026/09/27-00:29:35.812 888 Delete type=0 #34728
+2026/09/27-00:30:45.405 888 Level-0 table #34733: started
+2026/09/27-00:30:45.412 888 Level-0 table #34733: 22130 bytes OK
+2026/09/27-00:30:45.412 888 Delete type=0 #34730
