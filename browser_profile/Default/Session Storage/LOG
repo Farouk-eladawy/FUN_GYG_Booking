@@ -1,4 +1,27 @@
-2026/09/28-11:07:42.674 888 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/09/28-11:11:25.152 88c Level-0 table #106201: started
-2026/09/28-11:11:25.200 88c Level-0 table #106201: 613413 bytes OK
-2026/09/28-11:11:25.203 88c Delete type=0 #106199
+2026/09/28-11:35:11.414 896 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/09/28-11:37:34.578 896 Level-0 table #106205: started
+2026/09/28-11:37:34.677 896 Level-0 table #106205: 15930 bytes OK
+2026/09/28-11:37:34.801 896 Delete type=0 #106203
+2026/09/28-11:39:21.728 896 Level-0 table #106207: started
+2026/09/28-11:39:21.733 896 Level-0 table #106207: 15900 bytes OK
+2026/09/28-11:39:21.737 896 Delete type=0 #106204
+2026/09/28-11:39:21.738 896 Compacting 4@0 + 3@1 files
+2026/09/28-11:39:21.852 896 Generated table #106208@0: 2560 keys, 2448574 bytes
+2026/09/28-11:39:21.969 896 Generated table #106209@0: 73929 keys, 2145606 bytes
+2026/09/28-11:39:22.004 896 Generated table #106210@0: 73990 keys, 2146221 bytes
+2026/09/28-11:39:22.008 896 Generated table #106211@0: 11589 keys, 337299 bytes
+2026/09/28-11:39:22.008 896 Compacted 4@0 + 3@1 files => 7077700 bytes
+2026/09/28-11:39:22.077 896 compacted to: files[ 0 6 44 244 0 0 0 ]
+2026/09/28-11:39:22.079 896 Delete type=2 #106197
+2026/09/28-11:39:22.079 896 Delete type=2 #106201
+2026/09/28-11:39:22.079 896 Delete type=2 #106193
+2026/09/28-11:39:22.079 896 Delete type=2 #106205
+2026/09/28-11:39:22.079 896 Delete type=2 #106194
+2026/09/28-11:39:22.079 896 Delete type=2 #106195
+2026/09/28-11:39:22.079 896 Delete type=2 #106207
+2026/09/28-11:41:08.484 89a Level-0 table #106213: started
+2026/09/28-11:41:08.490 89a Level-0 table #106213: 15940 bytes OK
+2026/09/28-11:41:08.494 89a Delete type=0 #106206
+2026/09/28-11:43:06.352 896 Level-0 table #106215: started
+2026/09/28-11:43:06.359 896 Level-0 table #106215: 15909 bytes OK
+2026/09/28-11:43:06.362 896 Delete type=0 #106212
