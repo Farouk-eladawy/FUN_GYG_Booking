@@ -1,12 +1,19 @@
-2026/09/29-11:45:08.959 96d Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/09/29-11:47:37.185 971 Level-0 table #107064: started
-2026/09/29-11:47:37.189 971 Level-0 table #107064: 15207 bytes OK
-2026/09/29-11:47:37.194 971 Delete type=0 #107062
-2026/09/29-11:49:05.755 971 Level-0 table #107066: started
-2026/09/29-11:49:05.766 971 Level-0 table #107066: 621139 bytes OK
-2026/09/29-11:49:05.771 971 Delete type=0 #107063
-2026/09/29-11:51:01.590 96d Level-0 table #107068: started
-2026/09/29-11:51:01.593 96d Level-0 table #107068: 15234 bytes OK
-2026/09/29-11:51:01.597 96d Delete type=0 #107065
-2026/09/29-11:52:59.490 971 Level-0 table #107070: started
-2026/09/29-11:52:59.493 971 Level-0 table #107070: 14049 bytes OK
+2026/09/29-12:36:15.299 882 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/09/29-12:36:15.308 882 Delete type=2 #107070
+2026/09/29-12:39:56.080 886 Level-0 table #107072: started
+2026/09/29-12:39:56.099 886 Level-0 table #107072: 614010 bytes OK
+2026/09/29-12:39:56.103 886 Delete type=0 #107070
+2026/09/29-12:39:56.105 886 Compacting 4@0 + 3@1 files
+2026/09/29-12:39:56.142 886 Generated table #107073@0: 10937 keys, 2104452 bytes
+2026/09/29-12:39:56.182 886 Generated table #107074@0: 73886 keys, 2145970 bytes
+2026/09/29-12:39:56.212 886 Generated table #107075@0: 73916 keys, 2146243 bytes
+2026/09/29-12:39:56.215 886 Generated table #107076@0: 6826 keys, 198366 bytes
+2026/09/29-12:39:56.215 886 Compacted 4@0 + 3@1 files => 6595031 bytes
+2026/09/29-12:39:56.215 886 compacted to: files[ 0 6 44 249 0 0 0 ]
+2026/09/29-12:39:56.217 886 Delete type=2 #107060
+2026/09/29-12:39:56.217 886 Delete type=2 #107064
+2026/09/29-12:39:56.217 886 Delete type=2 #107058
+2026/09/29-12:39:56.217 886 Delete type=2 #107066
+2026/09/29-12:39:56.217 886 Delete type=2 #107072
+2026/09/29-12:39:56.217 886 Delete type=2 #107068
+2026/09/29-12:39:56.217 886 Delete type=2 #107059
