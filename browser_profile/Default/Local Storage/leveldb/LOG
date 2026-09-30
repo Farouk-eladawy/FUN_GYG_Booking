@@ -1,10 +1,58 @@
-2026/09/30-07:34:36.813 951 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/09/30-07:37:42.043 955 Level-0 table #36062: started
-2026/09/30-07:37:42.044 955 Level-0 table #36062: 23294 bytes OK
-2026/09/30-07:37:42.044 955 Delete type=0 #36060
-2026/09/30-07:39:42.043 955 Level-0 table #36064: started
-2026/09/30-07:39:42.046 955 Level-0 table #36064: 23202 bytes OK
-2026/09/30-07:39:42.046 955 Delete type=0 #36061
-2026/09/30-07:41:59.981 951 Level-0 table #36066: started
-2026/09/30-07:41:59.982 951 Level-0 table #36066: 23214 bytes OK
-2026/09/30-07:41:59.983 951 Delete type=0 #36063
+2026/09/30-08:09:29.099 9ad Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/09/30-08:12:29.635 9ad Level-0 table #36070: started
+2026/09/30-08:12:29.637 9ad Level-0 table #36070: 23253 bytes OK
+2026/09/30-08:12:29.638 9ad Delete type=0 #36068
+2026/09/30-08:12:29.638 9ad Compacting 4@0 + 1@1 files
+2026/09/30-08:12:29.642 9ad Generated table #36071@0: 6487 keys, 152805 bytes
+2026/09/30-08:12:29.642 9ad Compacted 4@0 + 1@1 files => 152805 bytes
+2026/09/30-08:12:29.642 9ad compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/30-08:12:29.642 9ad Delete type=2 #36064
+2026/09/30-08:12:29.642 9ad Delete type=2 #36066
+2026/09/30-08:12:29.642 9ad Delete type=2 #36070
+2026/09/30-08:12:29.642 9ad Delete type=2 #36058
+2026/09/30-08:12:29.642 9ad Delete type=2 #36062
+2026/09/30-08:15:29.636 9ad Level-0 table #36073: started
+2026/09/30-08:15:29.637 9ad Level-0 table #36073: 23451 bytes OK
+2026/09/30-08:15:29.638 9ad Delete type=0 #36069
+2026/09/30-08:16:10.210 9a9 Level-0 table #36075: started
+2026/09/30-08:16:10.213 9a9 Level-0 table #36075: 22853 bytes OK
+2026/09/30-08:16:10.214 9a9 Delete type=0 #36072
+2026/09/30-08:18:29.636 9ad Level-0 table #36077: started
+2026/09/30-08:18:29.638 9ad Level-0 table #36077: 22307 bytes OK
+2026/09/30-08:18:29.638 9ad Delete type=0 #36074
+2026/09/30-08:20:10.101 9a9 Level-0 table #36079: started
+2026/09/30-08:20:10.103 9a9 Level-0 table #36079: 22042 bytes OK
+2026/09/30-08:20:10.103 9a9 Delete type=0 #36076
+2026/09/30-08:20:10.104 9a9 Compacting 4@0 + 1@1 files
+2026/09/30-08:20:10.108 9a9 Generated table #36080@0: 6488 keys, 152586 bytes
+2026/09/30-08:20:10.108 9a9 Compacted 4@0 + 1@1 files => 152586 bytes
+2026/09/30-08:20:10.108 9a9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/30-08:20:10.108 9a9 Delete type=2 #36075
+2026/09/30-08:20:10.108 9a9 Delete type=2 #36073
+2026/09/30-08:20:10.108 9a9 Delete type=2 #36077
+2026/09/30-08:20:10.108 9a9 Delete type=2 #36079
+2026/09/30-08:20:10.108 9a9 Delete type=2 #36071
+2026/09/30-08:21:29.636 9ad Level-0 table #36082: started
+2026/09/30-08:21:29.638 9ad Level-0 table #36082: 22085 bytes OK
+2026/09/30-08:21:29.638 9ad Delete type=0 #36078
+2026/09/30-08:23:32.162 9ad Level-0 table #36084: started
+2026/09/30-08:23:32.164 9ad Level-0 table #36084: 22047 bytes OK
+2026/09/30-08:23:32.165 9ad Delete type=0 #36081
+2026/09/30-08:26:29.636 9ad Level-0 table #36086: started
+2026/09/30-08:26:29.638 9ad Level-0 table #36086: 23574 bytes OK
+2026/09/30-08:26:29.638 9ad Delete type=0 #36083
+2026/09/30-08:29:34.530 9ad Level-0 table #36088: started
+2026/09/30-08:29:34.532 9ad Level-0 table #36088: 23732 bytes OK
+2026/09/30-08:29:34.533 9ad Delete type=0 #36085
+2026/09/30-08:29:34.533 9ad Compacting 4@0 + 1@1 files
+2026/09/30-08:29:34.537 9ad Generated table #36089@0: 6488 keys, 152594 bytes
+2026/09/30-08:29:34.537 9ad Compacted 4@0 + 1@1 files => 152594 bytes
+2026/09/30-08:29:34.537 9ad compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/30-08:29:34.537 9ad Delete type=2 #36080
+2026/09/30-08:29:34.537 9ad Delete type=2 #36088
+2026/09/30-08:29:34.537 9ad Delete type=2 #36084
+2026/09/30-08:29:34.537 9ad Delete type=2 #36086
+2026/09/30-08:29:34.537 9ad Delete type=2 #36082
+2026/09/30-08:32:28.524 9a9 Level-0 table #36091: started
+2026/09/30-08:32:28.525 9a9 Level-0 table #36091: 23443 bytes OK
+2026/09/30-08:32:28.525 9a9 Delete type=0 #36087
