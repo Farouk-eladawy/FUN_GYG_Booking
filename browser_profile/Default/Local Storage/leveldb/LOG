@@ -1,16 +1,25 @@
-2026/09/30-00:14:51.537 912 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/09/30-00:16:56.456 912 Level-0 table #35945: started
-2026/09/30-00:16:56.457 912 Level-0 table #35945: 23349 bytes OK
-2026/09/30-00:16:56.457 912 Delete type=0 #35943
-2026/09/30-00:16:56.458 912 Compacting 4@0 + 1@1 files
-2026/09/30-00:16:56.460 912 Generated table #35946@0: 6467 keys, 152343 bytes
-2026/09/30-00:16:56.460 912 Compacted 4@0 + 1@1 files => 152343 bytes
-2026/09/30-00:16:56.460 912 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/30-00:16:56.461 912 Delete type=2 #35935
-2026/09/30-00:16:56.461 912 Delete type=2 #35941
-2026/09/30-00:16:56.461 912 Delete type=2 #35939
-2026/09/30-00:16:56.461 912 Delete type=2 #35945
-2026/09/30-00:16:56.461 912 Delete type=2 #35937
-2026/09/30-00:20:52.057 912 Level-0 table #35948: started
-2026/09/30-00:20:52.058 912 Level-0 table #35948: 23345 bytes OK
-2026/09/30-00:20:52.058 912 Delete type=0 #35944
+2026/09/30-00:31:01.271 89f Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/09/30-00:33:06.377 8a3 Level-0 table #35952: started
+2026/09/30-00:33:06.380 8a3 Level-0 table #35952: 23337 bytes OK
+2026/09/30-00:33:06.380 8a3 Delete type=0 #35950
+2026/09/30-00:36:06.377 8a3 Level-0 table #35954: started
+2026/09/30-00:36:06.382 8a3 Level-0 table #35954: 23358 bytes OK
+2026/09/30-00:36:06.383 8a3 Delete type=0 #35951
+2026/09/30-00:37:15.153 89f Level-0 table #35956: started
+2026/09/30-00:37:15.158 89f Level-0 table #35956: 22201 bytes OK
+2026/09/30-00:37:15.158 89f Delete type=0 #35953
+2026/09/30-00:37:15.158 89f Compacting 4@0 + 1@1 files
+2026/09/30-00:37:15.161 89f Generated table #35957@0: 6469 keys, 152230 bytes
+2026/09/30-00:37:15.161 89f Compacted 4@0 + 1@1 files => 152230 bytes
+2026/09/30-00:37:15.162 89f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/30-00:37:15.162 89f Delete type=2 #35952
+2026/09/30-00:37:15.162 89f Delete type=2 #35956
+2026/09/30-00:37:15.162 89f Delete type=2 #35954
+2026/09/30-00:37:15.162 89f Delete type=2 #35946
+2026/09/30-00:37:15.162 89f Delete type=2 #35948
+2026/09/30-00:38:40.414 8a3 Level-0 table #35959: started
+2026/09/30-00:38:40.418 8a3 Level-0 table #35959: 21453 bytes OK
+2026/09/30-00:38:40.419 8a3 Delete type=0 #35955
+2026/09/30-00:40:29.235 89f Level-0 table #35961: started
+2026/09/30-00:40:29.242 89f Level-0 table #35961: 21418 bytes OK
+2026/09/30-00:40:29.243 89f Delete type=0 #35958
