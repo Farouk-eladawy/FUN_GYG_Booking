@@ -1,16 +1,16 @@
-2026/09/26-00:07:54.302 95e Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/IndexedDB/https_player.vimeo.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/09/26-00:07:54.302 95e Delete type=2 #227
-2026/09/26-00:07:54.305 95f Level-0 table #234: started
-2026/09/26-00:07:54.305 95f Level-0 table #234: 0 bytes OK
-2026/09/26-00:07:54.306 95f Delete type=0 #232
-2026/09/26-00:07:54.309 95e Manual compaction at level-0 from '\x00=\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00>\x00\x00\x00' @ 0 : 0; will stop at (end)
-2026/09/26-00:07:54.513 95f Level-0 table #236: started
-2026/09/26-00:07:54.514 95f Level-0 table #236: 542 bytes OK
-2026/09/26-00:07:54.515 95f Delete type=0 #233
-2026/09/26-00:07:54.516 95a Manual compaction at level-0 from '\x00>\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at '\x00>\x00\x00\x05' @ 1812 : 1
-2026/09/26-00:07:54.516 95a Compacting 1@0 + 1@1 files
-2026/09/26-00:07:54.518 95a Generated table #237@0: 124 keys, 2446 bytes
-2026/09/26-00:07:54.518 95a Compacted 1@0 + 1@1 files => 2446 bytes
-2026/09/26-00:07:54.518 95a compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/26-00:07:54.518 95a Delete type=2 #236
-2026/09/26-00:07:54.518 95a Manual compaction at level-0 from '\x00>\x00\x00\x05' @ 1812 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/10/01-15:55:57.901 998 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/IndexedDB/https_player.vimeo.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/01-15:55:57.902 998 Delete type=2 #230
+2026/10/01-15:55:57.902 99e Level-0 table #241: started
+2026/10/01-15:55:57.902 99e Level-0 table #241: 0 bytes OK
+2026/10/01-15:55:57.905 99e Delete type=0 #239
+2026/10/01-15:55:57.906 99d Manual compaction at level-0 from '\x00>\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/10/01-15:55:58.417 99e Level-0 table #243: started
+2026/10/01-15:55:58.418 99e Level-0 table #243: 531 bytes OK
+2026/10/01-15:55:58.419 99e Delete type=0 #240
+2026/10/01-15:55:58.419 998 Manual compaction at level-0 from '\x00?\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at '\x00?\x00\x00\x05' @ 1831 : 1
+2026/10/01-15:55:58.419 998 Compacting 1@0 + 1@1 files
+2026/10/01-15:55:58.420 998 Generated table #244@0: 128 keys, 2473 bytes
+2026/10/01-15:55:58.420 998 Compacted 1@0 + 1@1 files => 2473 bytes
+2026/10/01-15:55:58.420 998 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/01-15:55:58.420 998 Delete type=2 #243
+2026/10/01-15:55:58.421 99c Manual compaction at level-0 from '\x00?\x00\x00\x05' @ 1831 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at (end)
