@@ -1,10 +1,24 @@
-2026/10/02-01:18:09.430 992 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/02-01:21:10.607 996 Level-0 table #36834: started
-2026/10/02-01:21:10.610 996 Level-0 table #36834: 23529 bytes OK
-2026/10/02-01:21:10.610 996 Delete type=0 #36832
-2026/10/02-01:24:10.607 996 Level-0 table #36836: started
-2026/10/02-01:24:10.610 996 Level-0 table #36836: 23848 bytes OK
-2026/10/02-01:24:10.612 996 Delete type=0 #36833
-2026/10/02-01:26:42.481 992 Level-0 table #36838: started
-2026/10/02-01:26:42.482 992 Level-0 table #36838: 23077 bytes OK
-2026/10/02-01:26:42.482 992 Delete type=0 #36835
+2026/10/02-01:32:08.206 983 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/02-01:35:10.234 983 Level-0 table #36842: started
+2026/10/02-01:35:10.240 983 Level-0 table #36842: 23481 bytes OK
+2026/10/02-01:35:10.240 983 Delete type=0 #36840
+2026/10/02-01:35:10.240 983 Compacting 4@0 + 1@1 files
+2026/10/02-01:35:10.245 983 Generated table #36843@0: 6596 keys, 155927 bytes
+2026/10/02-01:35:10.245 983 Compacted 4@0 + 1@1 files => 155927 bytes
+2026/10/02-01:35:10.245 983 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/02-01:35:10.245 983 Delete type=2 #36834
+2026/10/02-01:35:10.245 983 Delete type=2 #36838
+2026/10/02-01:35:10.245 983 Delete type=2 #36836
+2026/10/02-01:35:10.245 983 Delete type=2 #36830
+2026/10/02-01:35:10.245 983 Delete type=2 #36842
+2026/10/02-01:38:39.066 983 Level-0 table #36845: started
+2026/10/02-01:38:39.068 983 Level-0 table #36845: 24081 bytes OK
+2026/10/02-01:38:39.069 983 Delete type=0 #36841
+2026/10/02-01:39:10.235 983 Level-0 table #36847: started
+2026/10/02-01:39:10.238 983 Level-0 table #36847: 22007 bytes OK
+2026/10/02-01:39:10.239 983 Delete type=0 #36844
+2026/10/02-01:40:10.234 983 Level-0 table #36849: started
+2026/10/02-01:40:10.236 983 Level-0 table #36849: 21765 bytes OK
+2026/10/02-01:40:10.236 983 Delete type=0 #36846
+2026/10/02-01:42:30.847 97f Level-0 table #36851: started
+2026/10/02-01:42:30.865 97f Level-0 table #36851: 23527 bytes OK
