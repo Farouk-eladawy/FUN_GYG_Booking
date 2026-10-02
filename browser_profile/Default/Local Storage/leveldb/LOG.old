@@ -1,10 +1,22 @@
-2026/10/02-17:14:17.851 991 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/02-17:16:18.694 995 Level-0 table #37118: started
-2026/10/02-17:16:18.696 995 Level-0 table #37118: 18135 bytes OK
-2026/10/02-17:16:18.697 995 Delete type=0 #37116
-2026/10/02-17:19:18.694 995 Level-0 table #37120: started
-2026/10/02-17:19:18.697 995 Level-0 table #37120: 18256 bytes OK
-2026/10/02-17:19:18.699 995 Delete type=0 #37117
-2026/10/02-17:22:13.480 996 Level-0 table #37122: started
-2026/10/02-17:22:13.482 996 Level-0 table #37122: 18307 bytes OK
-2026/10/02-17:22:13.482 996 Delete type=0 #37119
+2026/10/02-18:14:56.813 8bd Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/02-18:16:00.924 8c1 Level-0 table #37126: started
+2026/10/02-18:16:00.925 8c1 Level-0 table #37126: 18396 bytes OK
+2026/10/02-18:16:00.925 8c1 Delete type=0 #37124
+2026/10/02-18:16:00.926 8c1 Compacting 4@0 + 1@1 files
+2026/10/02-18:16:00.929 8c1 Generated table #37127@0: 6646 keys, 157211 bytes
+2026/10/02-18:16:00.929 8c1 Compacted 4@0 + 1@1 files => 157211 bytes
+2026/10/02-18:16:00.929 8c1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/02-18:16:00.930 8c1 Delete type=2 #37120
+2026/10/02-18:16:00.930 8c1 Delete type=2 #37118
+2026/10/02-18:16:00.930 8c1 Delete type=2 #37126
+2026/10/02-18:16:00.930 8c1 Delete type=2 #37114
+2026/10/02-18:16:00.930 8c1 Delete type=2 #37122
+2026/10/02-18:18:57.401 8c1 Level-0 table #37129: started
+2026/10/02-18:18:57.406 8c1 Level-0 table #37129: 18478 bytes OK
+2026/10/02-18:18:57.406 8c1 Delete type=0 #37125
+2026/10/02-18:20:00.924 8c1 Level-0 table #37131: started
+2026/10/02-18:20:00.935 8c1 Level-0 table #37131: 18424 bytes OK
+2026/10/02-18:20:00.936 8c1 Delete type=0 #37128
+2026/10/02-18:22:27.177 8c1 Level-0 table #37133: started
+2026/10/02-18:22:27.178 8c1 Level-0 table #37133: 18554 bytes OK
+2026/10/02-18:22:27.182 8c1 Delete type=0 #37130
