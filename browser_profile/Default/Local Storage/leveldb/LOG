@@ -1,20 +1,19 @@
-2026/10/02-07:49:01.653 994 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/02-07:49:01.669 994 Delete type=2 #36948
-2026/10/02-07:52:02.460 998 Level-0 table #36950: started
-2026/10/02-07:52:02.463 998 Level-0 table #36950: 23658 bytes OK
-2026/10/02-07:52:02.464 998 Delete type=0 #36948
-2026/10/02-07:56:02.460 994 Level-0 table #36952: started
-2026/10/02-07:56:02.463 994 Level-0 table #36952: 24204 bytes OK
-2026/10/02-07:56:02.465 994 Delete type=0 #36949
-2026/10/02-07:56:02.466 994 Compacting 4@0 + 1@1 files
-2026/10/02-07:56:02.475 994 Generated table #36953@0: 6616 keys, 156365 bytes
-2026/10/02-07:56:02.475 994 Compacted 4@0 + 1@1 files => 156365 bytes
-2026/10/02-07:56:02.476 994 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/02-07:56:02.476 994 Delete type=2 #36944
-2026/10/02-07:56:02.477 994 Delete type=2 #36946
-2026/10/02-07:56:02.477 994 Delete type=2 #36942
-2026/10/02-07:56:02.477 994 Delete type=2 #36950
-2026/10/02-07:56:02.477 994 Delete type=2 #36952
-2026/10/02-07:57:28.532 99a Level-0 table #36955: started
-2026/10/02-07:57:28.536 99a Level-0 table #36955: 22625 bytes OK
-2026/10/02-07:57:28.537 99a Delete type=0 #36951
+2026/10/02-08:04:28.504 8c8 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/02-08:07:29.054 8cc Level-0 table #36959: started
+2026/10/02-08:07:29.056 8cc Level-0 table #36959: 24569 bytes OK
+2026/10/02-08:07:29.056 8cc Delete type=0 #36957
+2026/10/02-08:10:34.993 8c8 Level-0 table #36961: started
+2026/10/02-08:10:34.995 8c8 Level-0 table #36961: 29315 bytes OK
+2026/10/02-08:10:34.995 8c8 Delete type=0 #36958
+2026/10/02-08:12:29.055 8cc Level-0 table #36963: started
+2026/10/02-08:12:29.056 8cc Level-0 table #36963: 23217 bytes OK
+2026/10/02-08:12:29.056 8cc Delete type=0 #36960
+2026/10/02-08:12:29.056 8cc Compacting 4@0 + 1@1 files
+2026/10/02-08:12:29.059 8cc Generated table #36964@0: 6618 keys, 155925 bytes
+2026/10/02-08:12:29.059 8cc Compacted 4@0 + 1@1 files => 155925 bytes
+2026/10/02-08:12:29.059 8cc compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/02-08:12:29.059 8cc Delete type=2 #36961
+2026/10/02-08:12:29.059 8cc Delete type=2 #36953
+2026/10/02-08:12:29.059 8cc Delete type=2 #36955
+2026/10/02-08:12:29.059 8cc Delete type=2 #36963
+2026/10/02-08:12:29.059 8cc Delete type=2 #36959
