@@ -1,20 +1,12 @@
-2026/10/03-17:08:28.647 8b0 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/03-17:08:28.665 8b0 Delete type=2 #37541
-2026/10/03-17:10:31.248 8b4 Level-0 table #37543: started
-2026/10/03-17:10:31.251 8b4 Level-0 table #37543: 23775 bytes OK
-2026/10/03-17:10:31.252 8b4 Delete type=0 #37541
-2026/10/03-17:12:31.248 8b4 Level-0 table #37545: started
-2026/10/03-17:12:31.285 8b4 Level-0 table #37545: 18204 bytes OK
-2026/10/03-17:12:31.286 8b4 Delete type=0 #37542
-2026/10/03-17:12:31.286 8b4 Compacting 4@0 + 1@1 files
-2026/10/03-17:12:31.290 8b4 Generated table #37546@0: 6714 keys, 158018 bytes
-2026/10/03-17:12:31.290 8b4 Compacted 4@0 + 1@1 files => 158018 bytes
-2026/10/03-17:12:31.291 8b4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/03-17:12:31.291 8b4 Delete type=2 #37539
-2026/10/03-17:12:31.291 8b4 Delete type=2 #37543
-2026/10/03-17:12:31.291 8b4 Delete type=2 #37545
-2026/10/03-17:12:31.291 8b4 Delete type=2 #37533
-2026/10/03-17:12:31.291 8b4 Delete type=2 #37537
-2026/10/03-17:15:31.248 8b4 Level-0 table #37548: started
-2026/10/03-17:15:31.257 8b4 Level-0 table #37548: 18899 bytes OK
-2026/10/03-17:15:31.257 8b4 Delete type=0 #37544
+2026/10/03-17:18:48.355 9ad Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/03-17:21:48.954 9b1 Level-0 table #37552: started
+2026/10/03-17:21:48.956 9b1 Level-0 table #37552: 23831 bytes OK
+2026/10/03-17:21:48.957 9b1 Delete type=0 #37550
+2026/10/03-17:24:48.954 9b1 Level-0 table #37554: started
+2026/10/03-17:24:48.956 9b1 Level-0 table #37554: 18322 bytes OK
+2026/10/03-17:24:48.956 9b1 Delete type=0 #37551
+2026/10/03-17:26:58.840 9ad Level-0 table #37556: started
+2026/10/03-17:26:58.842 9ad Level-0 table #37556: 23459 bytes OK
+2026/10/03-17:26:58.842 9ad Delete type=0 #37553
+2026/10/03-17:26:58.843 9ad Compacting 4@0 + 1@1 files
+2026/10/03-17:26:58.847 9ad compacted to: files[ 4 1 1 0 0 0 0 ]
