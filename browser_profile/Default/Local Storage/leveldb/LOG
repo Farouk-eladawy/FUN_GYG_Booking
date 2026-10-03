@@ -1,10 +1,22 @@
-2026/10/03-06:57:26.722 9ca Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/03-07:00:28.005 9ce Level-0 table #37405: started
-2026/10/03-07:00:28.011 9ce Level-0 table #37405: 23752 bytes OK
-2026/10/03-07:00:28.012 9ce Delete type=0 #37403
-2026/10/03-07:03:28.005 9ce Level-0 table #37407: started
-2026/10/03-07:03:28.011 9ce Level-0 table #37407: 18258 bytes OK
-2026/10/03-07:03:28.011 9ce Delete type=0 #37404
-2026/10/03-07:06:08.440 9ce Level-0 table #37409: started
-2026/10/03-07:06:08.442 9ce Level-0 table #37409: 18373 bytes OK
-2026/10/03-07:06:08.442 9ce Delete type=0 #37406
+2026/10/03-07:48:47.450 9a4 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/03-07:50:48.029 9a4 Level-0 table #37413: started
+2026/10/03-07:50:48.031 9a4 Level-0 table #37413: 23697 bytes OK
+2026/10/03-07:50:48.031 9a4 Delete type=0 #37411
+2026/10/03-07:50:48.031 9a4 Compacting 4@0 + 1@1 files
+2026/10/03-07:50:48.035 9a4 Generated table #37414@0: 6690 keys, 157774 bytes
+2026/10/03-07:50:48.035 9a4 Compacted 4@0 + 1@1 files => 157774 bytes
+2026/10/03-07:50:48.035 9a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/03-07:50:48.035 9a4 Delete type=2 #37413
+2026/10/03-07:50:48.035 9a4 Delete type=2 #37401
+2026/10/03-07:50:48.035 9a4 Delete type=2 #37407
+2026/10/03-07:50:48.035 9a4 Delete type=2 #37409
+2026/10/03-07:50:48.035 9a4 Delete type=2 #37405
+2026/10/03-07:53:48.028 9a4 Level-0 table #37416: started
+2026/10/03-07:53:48.030 9a4 Level-0 table #37416: 18223 bytes OK
+2026/10/03-07:53:48.030 9a4 Delete type=0 #37412
+2026/10/03-07:55:48.029 9a4 Level-0 table #37418: started
+2026/10/03-07:55:48.031 9a4 Level-0 table #37418: 18259 bytes OK
+2026/10/03-07:55:48.031 9a4 Delete type=0 #37415
+2026/10/03-07:57:27.072 9a0 Level-0 table #37420: started
+2026/10/03-07:57:27.073 9a0 Level-0 table #37420: 22608 bytes OK
+2026/10/03-07:57:27.073 9a0 Delete type=0 #37417
