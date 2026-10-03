@@ -1,12 +1,20 @@
-2026/10/03-17:18:48.355 9ad Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/03-17:21:48.954 9b1 Level-0 table #37552: started
-2026/10/03-17:21:48.956 9b1 Level-0 table #37552: 23831 bytes OK
-2026/10/03-17:21:48.957 9b1 Delete type=0 #37550
-2026/10/03-17:24:48.954 9b1 Level-0 table #37554: started
-2026/10/03-17:24:48.956 9b1 Level-0 table #37554: 18322 bytes OK
-2026/10/03-17:24:48.956 9b1 Delete type=0 #37551
-2026/10/03-17:26:58.840 9ad Level-0 table #37556: started
-2026/10/03-17:26:58.842 9ad Level-0 table #37556: 23459 bytes OK
-2026/10/03-17:26:58.842 9ad Delete type=0 #37553
-2026/10/03-17:26:58.843 9ad Compacting 4@0 + 1@1 files
-2026/10/03-17:26:58.847 9ad compacted to: files[ 4 1 1 0 0 0 0 ]
+2026/10/03-17:59:09.761 9b1 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/03-17:59:09.764 9b1 Delete type=2 #37557
+2026/10/03-17:59:09.767 9b7 Compacting 4@0 + 1@1 files
+2026/10/03-17:59:09.791 9b7 Generated table #37559@0: 6716 keys, 158133 bytes
+2026/10/03-17:59:09.791 9b7 Compacted 4@0 + 1@1 files => 158133 bytes
+2026/10/03-17:59:09.793 9b7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/03-17:59:09.794 9b7 Delete type=2 #37552
+2026/10/03-17:59:09.794 9b7 Delete type=2 #37546
+2026/10/03-17:59:09.794 9b7 Delete type=2 #37554
+2026/10/03-17:59:09.794 9b7 Delete type=2 #37556
+2026/10/03-17:59:09.794 9b7 Delete type=2 #37548
+2026/10/03-18:02:10.252 9b6 Level-0 table #37561: started
+2026/10/03-18:02:10.253 9b6 Level-0 table #37561: 23765 bytes OK
+2026/10/03-18:02:10.254 9b6 Delete type=0 #37558
+2026/10/03-18:05:10.252 9b6 Level-0 table #37563: started
+2026/10/03-18:05:10.255 9b6 Level-0 table #37563: 18783 bytes OK
+2026/10/03-18:05:10.255 9b6 Delete type=0 #37560
+2026/10/03-18:07:10.251 9b6 Level-0 table #37565: started
+2026/10/03-18:07:10.253 9b6 Level-0 table #37565: 18221 bytes OK
+2026/10/03-18:07:10.254 9b6 Delete type=0 #37562
