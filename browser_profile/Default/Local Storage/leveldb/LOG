@@ -1,19 +1,19 @@
-2026/10/04-04:08:26.978 8bc Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/04-04:08:26.982 8bc Compacting 4@0 + 1@1 files
-2026/10/04-04:08:27.007 8bc Generated table #37769@0: 6746 keys, 158979 bytes
-2026/10/04-04:08:27.007 8bc Compacted 4@0 + 1@1 files => 158979 bytes
-2026/10/04-04:08:27.008 8bc compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/04-04:08:27.008 8bc Delete type=2 #37762
-2026/10/04-04:08:27.008 8bc Delete type=2 #37758
-2026/10/04-04:08:27.008 8bc Delete type=2 #37766
-2026/10/04-04:08:27.008 8bc Delete type=2 #37764
-2026/10/04-04:08:27.008 8bc Delete type=2 #37756
-2026/10/04-04:10:27.570 8bc Level-0 table #37771: started
-2026/10/04-04:10:27.572 8bc Level-0 table #37771: 18656 bytes OK
-2026/10/04-04:10:27.572 8bc Delete type=0 #37768
-2026/10/04-04:13:27.570 8bc Level-0 table #37773: started
-2026/10/04-04:13:27.572 8bc Level-0 table #37773: 19547 bytes OK
-2026/10/04-04:13:27.572 8bc Delete type=0 #37770
-2026/10/04-04:15:27.570 8bc Level-0 table #37775: started
-2026/10/04-04:15:27.571 8bc Level-0 table #37775: 18362 bytes OK
-2026/10/04-04:15:27.572 8bc Delete type=0 #37772
+2026/10/04-04:59:17.408 8c3 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/04-05:02:18.540 8c7 Level-0 table #37779: started
+2026/10/04-05:02:18.541 8c7 Level-0 table #37779: 24003 bytes OK
+2026/10/04-05:02:18.541 8c7 Delete type=0 #37777
+2026/10/04-05:02:18.542 8c7 Compacting 4@0 + 1@1 files
+2026/10/04-05:02:18.544 8c7 Generated table #37780@0: 6750 keys, 158726 bytes
+2026/10/04-05:02:18.544 8c7 Compacted 4@0 + 1@1 files => 158726 bytes
+2026/10/04-05:02:18.545 8c7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/04-05:02:18.545 8c7 Delete type=2 #37773
+2026/10/04-05:02:18.545 8c7 Delete type=2 #37779
+2026/10/04-05:02:18.545 8c7 Delete type=2 #37771
+2026/10/04-05:02:18.545 8c7 Delete type=2 #37769
+2026/10/04-05:02:18.545 8c7 Delete type=2 #37775
+2026/10/04-05:05:18.539 8c7 Level-0 table #37782: started
+2026/10/04-05:05:18.541 8c7 Level-0 table #37782: 19207 bytes OK
+2026/10/04-05:05:18.542 8c7 Delete type=0 #37778
+2026/10/04-05:07:18.539 8c7 Level-0 table #37784: started
+2026/10/04-05:07:18.541 8c7 Level-0 table #37784: 19083 bytes OK
+2026/10/04-05:07:18.541 8c7 Delete type=0 #37781
