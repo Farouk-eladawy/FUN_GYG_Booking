@@ -1,7 +1,22 @@
-2026/10/05-08:56:05.242 98e Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/10/05-09:00:00.430 992 Level-0 table #109423: started
-2026/10/05-09:00:00.442 992 Level-0 table #109423: 614556 bytes OK
-2026/10/05-09:00:00.447 992 Delete type=0 #109421
-2026/10/05-09:03:47.508 992 Level-0 table #109425: started
-2026/10/05-09:03:47.517 992 Level-0 table #109425: 614704 bytes OK
-2026/10/05-09:03:47.520 992 Delete type=0 #109422
+2026/10/05-09:46:53.372 9d1 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/10/05-09:50:36.530 9d6 Level-0 table #109429: started
+2026/10/05-09:50:36.541 9d6 Level-0 table #109429: 614526 bytes OK
+2026/10/05-09:50:36.547 9d6 Delete type=0 #109427
+2026/10/05-09:50:36.548 9d6 Compacting 4@0 + 4@1 files
+2026/10/05-09:50:36.583 9d6 Generated table #109430@0: 60 keys, 2430519 bytes
+2026/10/05-09:50:36.619 9d6 Generated table #109431@0: 30925 keys, 2118517 bytes
+2026/10/05-09:50:36.658 9d6 Generated table #109432@0: 74050 keys, 2145829 bytes
+2026/10/05-09:50:36.689 9d6 Generated table #109433@0: 74062 keys, 2146529 bytes
+2026/10/05-09:50:36.691 9d6 Generated table #109434@0: 2928 keys, 85936 bytes
+2026/10/05-09:50:36.691 9d6 Compacted 4@0 + 4@1 files => 8927330 bytes
+2026/10/05-09:50:36.691 9d6 compacted to: files[ 0 6 44 271 0 0 0 ]
+2026/10/05-09:50:36.694 9d6 Delete type=2 #109416
+2026/10/05-09:50:36.694 9d6 Delete type=2 #109429
+2026/10/05-09:50:36.694 9d6 Delete type=2 #109415
+2026/10/05-09:50:36.694 9d6 Delete type=2 #109423
+2026/10/05-09:50:36.694 9d6 Delete type=2 #109419
+2026/10/05-09:50:36.694 9d6 Delete type=2 #109414
+2026/10/05-09:50:36.694 9d6 Delete type=2 #109425
+2026/10/05-09:50:36.694 9d6 Delete type=2 #109417
+2026/10/05-09:50:36.696 9d6 Moved #109284 to level-2 2409113 bytes OK: files[ 0 5 45 271 0 0 0 ]
+2026/10/05-09:50:36.696 9d6 Moved #104663 to level-3 2402227 bytes OK: files[ 0 5 44 272 0 0 0 ]
