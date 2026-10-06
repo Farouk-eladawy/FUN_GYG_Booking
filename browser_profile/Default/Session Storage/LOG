@@ -1,4 +1,25 @@
-2026/10/06-19:38:37.691 9b3 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/10/06-19:42:18.609 9b7 Level-0 table #110317: started
-2026/10/06-19:42:18.620 9b7 Level-0 table #110317: 617592 bytes OK
-2026/10/06-19:42:18.624 9b7 Delete type=0 #110315
+2026/10/06-20:34:05.584 994 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/10/06-20:37:54.642 998 Level-0 table #110321: started
+2026/10/06-20:37:54.652 998 Level-0 table #110321: 617040 bytes OK
+2026/10/06-20:37:54.655 998 Delete type=0 #110319
+2026/10/06-20:37:54.655 998 Compacting 4@0 + 4@1 files
+2026/10/06-20:37:54.706 998 Generated table #110322@0: 27 keys, 2454663 bytes
+2026/10/06-20:37:54.769 998 Generated table #110323@0: 30761 keys, 2119349 bytes
+2026/10/06-20:37:54.809 998 Generated table #110324@0: 74159 keys, 2146314 bytes
+2026/10/06-20:37:54.838 998 Generated table #110325@0: 74078 keys, 2146041 bytes
+2026/10/06-20:37:54.844 998 Generated table #110326@0: 7514 keys, 218302 bytes
+2026/10/06-20:37:54.844 998 Compacted 4@0 + 4@1 files => 9084669 bytes
+2026/10/06-20:37:54.845 998 compacted to: files[ 0 6 44 278 0 0 0 ]
+2026/10/06-20:37:54.847 998 Delete type=2 #110306
+2026/10/06-20:37:54.847 998 Delete type=2 #110311
+2026/10/06-20:37:54.847 998 Delete type=2 #110309
+2026/10/06-20:37:54.847 998 Delete type=2 #110317
+2026/10/06-20:37:54.847 998 Delete type=2 #110307
+2026/10/06-20:37:54.847 998 Delete type=2 #110313
+2026/10/06-20:37:54.847 998 Delete type=2 #110321
+2026/10/06-20:37:54.847 998 Delete type=2 #110308
+2026/10/06-20:37:54.848 998 Moved #110122 to level-2 2453905 bytes OK: files[ 0 5 45 278 0 0 0 ]
+2026/10/06-20:37:54.849 998 Moved #105491 to level-3 2446551 bytes OK: files[ 0 5 44 279 0 0 0 ]
+2026/10/06-20:42:23.251 994 Level-0 table #110328: started
+2026/10/06-20:42:23.255 994 Level-0 table #110328: 15249 bytes OK
+2026/10/06-20:42:23.258 994 Delete type=0 #110320
