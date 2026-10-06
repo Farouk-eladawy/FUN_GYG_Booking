@@ -1,22 +1,10 @@
-2026/10/06-21:43:49.393 98c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/06-21:45:50.187 990 Level-0 table #38950: started
-2026/10/06-21:45:50.189 990 Level-0 table #38950: 24039 bytes OK
-2026/10/06-21:45:50.190 990 Delete type=0 #38948
-2026/10/06-21:48:50.187 990 Level-0 table #38952: started
-2026/10/06-21:48:50.189 990 Level-0 table #38952: 18573 bytes OK
-2026/10/06-21:48:50.189 990 Delete type=0 #38949
-2026/10/06-21:50:26.523 98c Level-0 table #38954: started
-2026/10/06-21:50:26.525 98c Level-0 table #38954: 23390 bytes OK
-2026/10/06-21:50:26.525 98c Delete type=0 #38951
-2026/10/06-21:51:50.187 990 Level-0 table #38956: started
-2026/10/06-21:51:50.188 990 Level-0 table #38956: 23213 bytes OK
-2026/10/06-21:51:50.189 990 Delete type=0 #38953
-2026/10/06-21:51:50.189 990 Compacting 4@0 + 1@1 files
-2026/10/06-21:51:50.193 990 Generated table #38957@0: 6929 keys, 161387 bytes
-2026/10/06-21:51:50.193 990 Compacted 4@0 + 1@1 files => 161387 bytes
-2026/10/06-21:51:50.193 990 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/06-21:51:50.193 990 Delete type=2 #38946
-2026/10/06-21:51:50.193 990 Delete type=2 #38954
-2026/10/06-21:51:50.193 990 Delete type=2 #38952
-2026/10/06-21:51:50.193 990 Delete type=2 #38950
-2026/10/06-21:51:50.193 990 Delete type=2 #38956
+2026/10/06-22:15:13.278 8b4 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/06-22:17:14.128 8b4 Level-0 table #38961: started
+2026/10/06-22:17:14.135 8b4 Level-0 table #38961: 18216 bytes OK
+2026/10/06-22:17:14.135 8b4 Delete type=0 #38959
+2026/10/06-22:20:14.128 8b4 Level-0 table #38963: started
+2026/10/06-22:20:14.132 8b4 Level-0 table #38963: 18266 bytes OK
+2026/10/06-22:20:14.133 8b4 Delete type=0 #38960
+2026/10/06-22:23:07.352 8b5 Level-0 table #38965: started
+2026/10/06-22:23:07.355 8b5 Level-0 table #38965: 23475 bytes OK
+2026/10/06-22:23:07.355 8b5 Delete type=0 #38962
