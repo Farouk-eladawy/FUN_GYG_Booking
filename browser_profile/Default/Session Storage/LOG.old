@@ -1,4 +1,27 @@
-2026/10/06-15:27:20.351 99c Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/10/06-15:31:07.765 9a0 Level-0 table #110115: started
-2026/10/06-15:31:07.777 9a0 Level-0 table #110115: 616830 bytes OK
-2026/10/06-15:31:07.783 9a0 Delete type=0 #110113
+2026/10/06-16:19:06.365 9d7 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/10/06-16:21:29.942 9d7 Level-0 table #110119: started
+2026/10/06-16:21:29.944 9d7 Level-0 table #110119: 14212 bytes OK
+2026/10/06-16:21:29.947 9d7 Delete type=0 #110117
+2026/10/06-16:22:58.273 9db Level-0 table #110121: started
+2026/10/06-16:22:58.286 9db Level-0 table #110121: 622902 bytes OK
+2026/10/06-16:22:58.299 9db Delete type=0 #110118
+2026/10/06-16:22:58.301 9d7 Compacting 4@0 + 4@1 files
+2026/10/06-16:22:58.388 9d7 Generated table #110122@0: 24 keys, 2453905 bytes
+2026/10/06-16:22:58.475 9d7 Generated table #110123@0: 52330 keys, 2131936 bytes
+2026/10/06-16:22:58.537 9d7 Generated table #110124@0: 74228 keys, 2146536 bytes
+2026/10/06-16:22:58.571 9d7 Generated table #110125@0: 59381 keys, 1718909 bytes
+2026/10/06-16:22:58.571 9d7 Compacted 4@0 + 4@1 files => 8451286 bytes
+2026/10/06-16:22:58.571 9d7 compacted to: files[ 0 5 44 277 0 0 0 ]
+2026/10/06-16:22:58.574 9d7 Delete type=2 #110119
+2026/10/06-16:22:58.574 9d7 Delete type=2 #110121
+2026/10/06-16:22:58.574 9d7 Delete type=2 #110111
+2026/10/06-16:22:58.574 9d7 Delete type=2 #110115
+2026/10/06-16:22:58.574 9d7 Delete type=2 #110104
+2026/10/06-16:22:58.574 9d7 Delete type=2 #110105
+2026/10/06-16:22:58.574 9d7 Delete type=2 #110107
+2026/10/06-16:22:58.574 9d7 Delete type=2 #110106
+2026/10/06-16:22:58.577 9d7 Moved #110068 to level-2 2449053 bytes OK: files[ 0 4 45 277 0 0 0 ]
+2026/10/06-16:22:58.577 9d7 Moved #105415 to level-3 2447871 bytes OK: files[ 0 4 44 278 0 0 0 ]
+2026/10/06-16:24:51.928 9d7 Level-0 table #110127: started
+2026/10/06-16:24:51.931 9d7 Level-0 table #110127: 13078 bytes OK
+2026/10/06-16:24:51.937 9d7 Delete type=0 #110120
