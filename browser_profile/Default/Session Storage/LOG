@@ -1,10 +1,23 @@
-2026/10/07-21:48:43.027 994 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/10/07-21:51:22.577 994 Level-0 table #110714: started
-2026/10/07-21:51:22.579 994 Level-0 table #110714: 16463 bytes OK
-2026/10/07-21:51:22.583 994 Delete type=0 #110712
-2026/10/07-21:52:51.013 998 Level-0 table #110716: started
-2026/10/07-21:52:51.023 998 Level-0 table #110716: 613706 bytes OK
-2026/10/07-21:52:51.026 998 Delete type=0 #110713
-2026/10/07-21:54:46.673 998 Level-0 table #110718: started
-2026/10/07-21:54:46.675 998 Level-0 table #110718: 15234 bytes OK
-2026/10/07-21:54:46.680 998 Delete type=0 #110715
+2026/10/07-22:01:01.903 99f Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/10/07-22:03:30.631 9a3 Level-0 table #110722: started
+2026/10/07-22:03:30.634 9a3 Level-0 table #110722: 16800 bytes OK
+2026/10/07-22:03:30.640 9a3 Delete type=0 #110720
+2026/10/07-22:03:30.641 9a3 Compacting 4@0 + 3@1 files
+2026/10/07-22:03:30.689 9a3 Generated table #110723@0: 52371 keys, 2132477 bytes
+2026/10/07-22:03:30.734 9a3 Generated table #110724@0: 74174 keys, 2145701 bytes
+2026/10/07-22:03:30.761 9a3 Generated table #110725@0: 63651 keys, 1844571 bytes
+2026/10/07-22:03:30.761 9a3 Compacted 4@0 + 3@1 files => 6122749 bytes
+2026/10/07-22:03:30.762 9a3 compacted to: files[ 0 4 44 284 0 0 0 ]
+2026/10/07-22:03:30.764 9a3 Delete type=2 #110718
+2026/10/07-22:03:30.764 9a3 Delete type=2 #110708
+2026/10/07-22:03:30.764 9a3 Delete type=2 #110709
+2026/10/07-22:03:30.764 9a3 Delete type=2 #110716
+2026/10/07-22:03:30.764 9a3 Delete type=2 #110722
+2026/10/07-22:03:30.764 9a3 Delete type=2 #110714
+2026/10/07-22:03:30.764 9a3 Delete type=2 #110710
+2026/10/07-22:06:06.563 99f Level-0 table #110727: started
+2026/10/07-22:06:06.566 99f Level-0 table #110727: 16702 bytes OK
+2026/10/07-22:06:06.570 99f Delete type=0 #110721
+2026/10/07-22:11:25.980 9a3 Level-0 table #110729: started
+2026/10/07-22:11:25.984 9a3 Level-0 table #110729: 15508 bytes OK
+2026/10/07-22:11:25.990 9a3 Delete type=0 #110726
