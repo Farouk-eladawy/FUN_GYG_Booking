@@ -1,22 +1,10 @@
-2026/10/08-22:56:14.356 8b9 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/08-22:59:15.774 8bd Level-0 table #39978: started
-2026/10/08-22:59:15.777 8bd Level-0 table #39978: 19050 bytes OK
-2026/10/08-22:59:15.779 8bd Delete type=0 #39976
-2026/10/08-23:01:15.773 8bd Level-0 table #39980: started
-2026/10/08-23:01:15.775 8bd Level-0 table #39980: 19098 bytes OK
-2026/10/08-23:01:15.776 8bd Delete type=0 #39977
-2026/10/08-23:03:15.773 8b9 Level-0 table #39982: started
-2026/10/08-23:03:15.775 8b9 Level-0 table #39982: 19086 bytes OK
-2026/10/08-23:03:15.776 8b9 Delete type=0 #39979
-2026/10/08-23:03:15.776 8b9 Compacting 4@0 + 1@1 files
-2026/10/08-23:03:15.778 8b9 Generated table #39983@0: 7069 keys, 164986 bytes
-2026/10/08-23:03:15.778 8b9 Compacted 4@0 + 1@1 files => 164986 bytes
-2026/10/08-23:03:15.779 8b9 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/08-23:03:15.779 8b9 Delete type=2 #39972
-2026/10/08-23:03:15.779 8b9 Delete type=2 #39980
-2026/10/08-23:03:15.779 8b9 Delete type=2 #39978
-2026/10/08-23:03:15.779 8b9 Delete type=2 #39974
-2026/10/08-23:03:15.779 8b9 Delete type=2 #39982
-2026/10/08-23:04:20.164 8bd Level-0 table #39985: started
-2026/10/08-23:04:20.166 8bd Level-0 table #39985: 18996 bytes OK
-2026/10/08-23:04:20.166 8bd Delete type=0 #39981
+2026/10/08-23:27:53.936 996 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/08-23:29:59.270 99a Level-0 table #39989: started
+2026/10/08-23:29:59.271 99a Level-0 table #39989: 19006 bytes OK
+2026/10/08-23:29:59.271 99a Delete type=0 #39987
+2026/10/08-23:31:59.270 99a Level-0 table #39991: started
+2026/10/08-23:31:59.272 99a Level-0 table #39991: 18901 bytes OK
+2026/10/08-23:31:59.272 99a Delete type=0 #39988
+2026/10/08-23:35:52.198 99b Level-0 table #39993: started
+2026/10/08-23:35:52.200 99b Level-0 table #39993: 25453 bytes OK
+2026/10/08-23:35:52.200 99b Delete type=0 #39990
