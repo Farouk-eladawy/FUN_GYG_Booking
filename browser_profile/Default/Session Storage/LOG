@@ -1,10 +1,30 @@
-2026/10/08-16:39:19.838 8ee Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/10/08-16:52:11.630 8ee Level-0 table #111300: started
-2026/10/08-16:52:11.636 8ee Level-0 table #111300: 13553 bytes OK
-2026/10/08-16:52:11.639 8ee Delete type=0 #111298
-2026/10/08-16:55:52.751 8f3 Level-0 table #111302: started
-2026/10/08-16:55:52.762 8f3 Level-0 table #111302: 15332 bytes OK
-2026/10/08-16:55:52.766 8f3 Delete type=0 #111299
-2026/10/08-17:01:00.706 8ee Level-0 table #111304: started
-2026/10/08-17:01:00.710 8ee Level-0 table #111304: 11697 bytes OK
-2026/10/08-17:01:00.714 8ee Delete type=0 #111301
+2026/10/08-17:31:27.341 945 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/10/08-17:33:33.725 94a Level-0 table #111308: started
+2026/10/08-17:33:33.729 94a Level-0 table #111308: 15977 bytes OK
+2026/10/08-17:33:33.733 94a Delete type=0 #111306
+2026/10/08-17:33:33.733 94a Compacting 4@0 + 6@1 files
+2026/10/08-17:33:33.772 94a Generated table #111309@0: 30877 keys, 2118456 bytes
+2026/10/08-17:33:33.802 94a Generated table #111310@0: 74211 keys, 2147516 bytes
+2026/10/08-17:33:33.841 94a Generated table #111311@0: 74112 keys, 2146592 bytes
+2026/10/08-17:33:33.849 94a Generated table #111312@0: 13862 keys, 401341 bytes
+2026/10/08-17:33:33.849 94a Compacted 4@0 + 6@1 files => 6813905 bytes
+2026/10/08-17:33:33.849 94a compacted to: files[ 0 5 44 287 0 0 0 ]
+2026/10/08-17:33:33.851 94a Delete type=2 #111302
+2026/10/08-17:33:33.851 94a Delete type=2 #111300
+2026/10/08-17:33:33.851 94a Delete type=2 #111304
+2026/10/08-17:33:33.851 94a Delete type=2 #111296
+2026/10/08-17:33:33.851 94a Delete type=2 #111239
+2026/10/08-17:33:33.851 94a Delete type=2 #111251
+2026/10/08-17:33:33.851 94a Delete type=2 #111227
+2026/10/08-17:33:33.851 94a Delete type=2 #111308
+2026/10/08-17:33:33.851 94a Delete type=2 #111294
+2026/10/08-17:33:33.851 94a Delete type=2 #111295
+2026/10/08-17:35:07.784 949 Level-0 table #111314: started
+2026/10/08-17:35:07.794 949 Level-0 table #111314: 625618 bytes OK
+2026/10/08-17:35:07.796 949 Delete type=0 #111307
+2026/10/08-17:37:03.130 949 Level-0 table #111316: started
+2026/10/08-17:37:03.132 949 Level-0 table #111316: 15830 bytes OK
+2026/10/08-17:37:03.136 949 Delete type=0 #111313
+2026/10/08-17:40:52.637 949 Level-0 table #111318: started
+2026/10/08-17:40:52.645 949 Level-0 table #111318: 618007 bytes OK
+2026/10/08-17:40:52.647 949 Delete type=0 #111315
