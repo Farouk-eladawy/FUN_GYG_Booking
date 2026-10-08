@@ -1,17 +1,19 @@
-2026/10/08-10:22:25.347 8e3 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/10/08-10:24:39.990 8e7 Level-0 table #111063: started
-2026/10/08-10:24:39.991 8e7 Level-0 table #111063: 16422 bytes OK
-2026/10/08-10:24:39.994 8e7 Delete type=0 #111061
-2026/10/08-10:26:26.270 8e7 Level-0 table #111065: started
-2026/10/08-10:26:26.275 8e7 Level-0 table #111065: 16374 bytes OK
-2026/10/08-10:26:26.279 8e7 Delete type=0 #111062
-2026/10/08-10:28:24.758 8e7 Level-0 table #111067: started
-2026/10/08-10:28:24.759 8e7 Level-0 table #111067: 16383 bytes OK
-2026/10/08-10:28:24.763 8e7 Delete type=0 #111064
-2026/10/08-10:32:30.019 8e3 Level-0 table #111069: started
-2026/10/08-10:32:30.044 8e3 Level-0 table #111069: 16534 bytes OK
-2026/10/08-10:32:30.049 8e3 Delete type=0 #111066
-2026/10/08-10:32:30.051 8e3 Compacting 4@0 + 4@1 files
-2026/10/08-10:32:30.093 8e3 Generated table #111070@0: 30842 keys, 2117758 bytes
-2026/10/08-10:32:30.169 8e3 Generated table #111071@0: 74170 keys, 2146262 bytes
-2026/10/08-10:32:30.169 8e3 compacted to: files[ 4 5 44 286 0 0 0 ]
+2026/10/08-10:43:23.370 945 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/10/08-10:43:23.383 945 Delete type=2 #111071
+2026/10/08-10:43:23.383 945 Delete type=2 #111070
+2026/10/08-10:43:23.383 945 Delete type=2 #111072
+2026/10/08-10:43:23.384 949 Compacting 4@0 + 4@1 files
+2026/10/08-10:43:23.444 949 Generated table #111072@0: 30842 keys, 2117758 bytes
+2026/10/08-10:43:23.531 949 Generated table #111073@0: 74170 keys, 2146262 bytes
+2026/10/08-10:43:23.613 949 Generated table #111074@0: 74179 keys, 2145291 bytes
+2026/10/08-10:43:23.626 949 Generated table #111075@0: 12931 keys, 375036 bytes
+2026/10/08-10:43:23.626 949 Compacted 4@0 + 4@1 files => 6784347 bytes
+2026/10/08-10:43:23.627 949 compacted to: files[ 0 5 44 286 0 0 0 ]
+2026/10/08-10:43:23.634 949 Delete type=2 #111059
+2026/10/08-10:43:23.634 949 Delete type=2 #111058
+2026/10/08-10:43:23.634 949 Delete type=2 #111063
+2026/10/08-10:43:23.634 949 Delete type=2 #111065
+2026/10/08-10:43:23.634 949 Delete type=2 #111057
+2026/10/08-10:43:23.634 949 Delete type=2 #111067
+2026/10/08-10:43:23.634 949 Delete type=2 #111038
+2026/10/08-10:43:23.634 949 Delete type=2 #111069
