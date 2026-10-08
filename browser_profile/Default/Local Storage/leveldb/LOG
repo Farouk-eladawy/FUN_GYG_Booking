@@ -1,10 +1,22 @@
-2026/10/08-19:47:47.347 8b0 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/08-19:50:48.545 8b4 Level-0 table #39930: started
-2026/10/08-19:50:48.546 8b4 Level-0 table #39930: 18408 bytes OK
-2026/10/08-19:50:48.547 8b4 Delete type=0 #39928
-2026/10/08-19:51:54.238 8b4 Level-0 table #39932: started
-2026/10/08-19:51:54.266 8b4 Level-0 table #39932: 18608 bytes OK
-2026/10/08-19:51:54.266 8b4 Delete type=0 #39929
-2026/10/08-19:54:48.544 8b4 Level-0 table #39934: started
-2026/10/08-19:54:48.545 8b4 Level-0 table #39934: 18618 bytes OK
-2026/10/08-19:54:48.546 8b4 Delete type=0 #39931
+2026/10/08-20:04:51.498 8b6 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/08-20:06:52.378 8ba Level-0 table #39938: started
+2026/10/08-20:06:52.387 8ba Level-0 table #39938: 19063 bytes OK
+2026/10/08-20:06:52.388 8ba Delete type=0 #39936
+2026/10/08-20:06:52.389 8ba Compacting 4@0 + 1@1 files
+2026/10/08-20:06:52.399 8ba Generated table #39939@0: 7064 keys, 164687 bytes
+2026/10/08-20:06:52.399 8ba Compacted 4@0 + 1@1 files => 164687 bytes
+2026/10/08-20:06:52.399 8ba compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/08-20:06:52.399 8ba Delete type=2 #39930
+2026/10/08-20:06:52.399 8ba Delete type=2 #39938
+2026/10/08-20:06:52.399 8ba Delete type=2 #39934
+2026/10/08-20:06:52.399 8ba Delete type=2 #39926
+2026/10/08-20:06:52.399 8ba Delete type=2 #39932
+2026/10/08-20:08:52.379 8ba Level-0 table #39941: started
+2026/10/08-20:08:52.479 8ba Level-0 table #39941: 18571 bytes OK
+2026/10/08-20:08:52.479 8ba Delete type=0 #39937
+2026/10/08-20:09:56.665 8ba Level-0 table #39943: started
+2026/10/08-20:09:56.678 8ba Level-0 table #39943: 18901 bytes OK
+2026/10/08-20:09:56.678 8ba Delete type=0 #39940
+2026/10/08-20:11:52.379 8ba Level-0 table #39945: started
+2026/10/08-20:11:52.381 8ba Level-0 table #39945: 18845 bytes OK
+2026/10/08-20:11:52.381 8ba Delete type=0 #39942
