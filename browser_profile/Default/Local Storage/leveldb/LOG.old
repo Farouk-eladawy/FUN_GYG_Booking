@@ -1,22 +1,19 @@
-2026/10/09-17:46:57.795 96a Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/09-17:48:58.992 96e Level-0 table #40389: started
-2026/10/09-17:48:58.994 96e Level-0 table #40389: 18352 bytes OK
-2026/10/09-17:48:58.994 96e Delete type=0 #40387
-2026/10/09-17:48:58.994 96e Compacting 4@0 + 1@1 files
-2026/10/09-17:48:58.998 96e Generated table #40390@0: 7111 keys, 165753 bytes
-2026/10/09-17:48:58.998 96e Compacted 4@0 + 1@1 files => 165753 bytes
-2026/10/09-17:48:58.999 96e compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/09-17:48:58.999 96e Delete type=2 #40385
-2026/10/09-17:48:58.999 96e Delete type=2 #40383
-2026/10/09-17:48:58.999 96e Delete type=2 #40389
-2026/10/09-17:48:58.999 96e Delete type=2 #40381
-2026/10/09-17:48:58.999 96e Delete type=2 #40377
-2026/10/09-17:50:58.992 96e Level-0 table #40392: started
-2026/10/09-17:50:58.993 96e Level-0 table #40392: 18555 bytes OK
-2026/10/09-17:50:58.994 96e Delete type=0 #40388
-2026/10/09-17:52:04.730 96a Level-0 table #40394: started
-2026/10/09-17:52:04.736 96a Level-0 table #40394: 18538 bytes OK
-2026/10/09-17:52:04.736 96a Delete type=0 #40391
-2026/10/09-17:54:58.992 96e Level-0 table #40396: started
-2026/10/09-17:54:58.993 96e Level-0 table #40396: 19211 bytes OK
-2026/10/09-17:54:58.994 96e Delete type=0 #40393
+2026/10/09-18:07:08.826 8bb Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/09-18:09:13.639 8bf Level-0 table #40400: started
+2026/10/09-18:09:13.640 8bf Level-0 table #40400: 18581 bytes OK
+2026/10/09-18:09:13.640 8bf Delete type=0 #40398
+2026/10/09-18:09:13.640 8bf Compacting 4@0 + 1@1 files
+2026/10/09-18:09:13.643 8bf Generated table #40401@0: 7112 keys, 166147 bytes
+2026/10/09-18:09:13.643 8bf Compacted 4@0 + 1@1 files => 166147 bytes
+2026/10/09-18:09:13.643 8bf compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/09-18:09:13.643 8bf Delete type=2 #40394
+2026/10/09-18:09:13.643 8bf Delete type=2 #40396
+2026/10/09-18:09:13.643 8bf Delete type=2 #40392
+2026/10/09-18:09:13.643 8bf Delete type=2 #40390
+2026/10/09-18:09:13.643 8bf Delete type=2 #40400
+2026/10/09-18:11:09.544 8bf Level-0 table #40403: started
+2026/10/09-18:11:09.546 8bf Level-0 table #40403: 18497 bytes OK
+2026/10/09-18:11:09.546 8bf Delete type=0 #40399
+2026/10/09-18:13:09.543 8bf Level-0 table #40405: started
+2026/10/09-18:13:09.544 8bf Level-0 table #40405: 18538 bytes OK
+2026/10/09-18:13:09.545 8bf Delete type=0 #40402
