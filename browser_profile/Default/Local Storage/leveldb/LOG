@@ -1,74 +1,43 @@
-2026/10/09-01:09:38.612 8f4 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
-2026/10/09-01:09:38.614 8f4 Delete type=2 #40016
-2026/10/09-01:09:38.614 8f9 Compacting 4@0 + 1@1 files
-2026/10/09-01:09:38.827 8f9 Generated table #40018@0: 7074 keys, 164850 bytes
-2026/10/09-01:09:38.827 8f9 Compacted 4@0 + 1@1 files => 164850 bytes
-2026/10/09-01:09:38.847 8f9 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/09-01:09:38.848 8f9 Delete type=2 #40015
-2026/10/09-01:09:38.848 8f9 Delete type=2 #40013
-2026/10/09-01:09:38.848 8f9 Delete type=2 #40009
-2026/10/09-01:09:38.848 8f9 Delete type=2 #40011
-2026/10/09-01:09:38.848 8f9 Delete type=2 #40005
-2026/10/09-01:11:39.798 8f8 Level-0 table #40020: started
-2026/10/09-01:11:39.800 8f8 Level-0 table #40020: 18604 bytes OK
-2026/10/09-01:11:39.800 8f8 Delete type=0 #40017
-2026/10/09-01:13:39.798 8f8 Level-0 table #40022: started
-2026/10/09-01:13:39.800 8f8 Level-0 table #40022: 19312 bytes OK
-2026/10/09-01:13:39.800 8f8 Delete type=0 #40019
-2026/10/09-01:14:44.487 8f8 Level-0 table #40024: started
-2026/10/09-01:14:44.489 8f8 Level-0 table #40024: 18625 bytes OK
-2026/10/09-01:14:44.489 8f8 Delete type=0 #40021
-2026/10/09-01:15:44.488 8f8 Level-0 table #40026: started
-2026/10/09-01:15:44.490 8f8 Level-0 table #40026: 23832 bytes OK
-2026/10/09-01:15:44.490 8f8 Delete type=0 #40023
-2026/10/09-01:15:44.490 8f8 Compacting 4@0 + 1@1 files
-2026/10/09-01:15:44.493 8f8 Generated table #40027@0: 7076 keys, 164902 bytes
-2026/10/09-01:15:44.493 8f8 Compacted 4@0 + 1@1 files => 164902 bytes
-2026/10/09-01:15:44.493 8f8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/09-01:15:44.493 8f8 Delete type=2 #40018
-2026/10/09-01:15:44.493 8f8 Delete type=2 #40020
-2026/10/09-01:15:44.493 8f8 Delete type=2 #40022
-2026/10/09-01:15:44.493 8f8 Delete type=2 #40024
-2026/10/09-01:15:44.493 8f8 Delete type=2 #40026
-2026/10/09-01:16:39.799 8f8 Level-0 table #40029: started
-2026/10/09-01:16:39.800 8f8 Level-0 table #40029: 22685 bytes OK
-2026/10/09-01:16:39.800 8f8 Delete type=0 #40025
-2026/10/09-01:17:35.881 8f8 Level-0 table #40031: started
-2026/10/09-01:17:35.882 8f8 Level-0 table #40031: 22458 bytes OK
-2026/10/09-01:17:35.883 8f8 Delete type=0 #40028
-2026/10/09-01:19:39.798 8f8 Level-0 table #40033: started
-2026/10/09-01:19:39.799 8f8 Level-0 table #40033: 23388 bytes OK
-2026/10/09-01:19:39.800 8f8 Delete type=0 #40030
-2026/10/09-01:21:44.488 8f8 Level-0 table #40035: started
-2026/10/09-01:21:44.489 8f8 Level-0 table #40035: 23974 bytes OK
-2026/10/09-01:21:44.490 8f8 Delete type=0 #40032
-2026/10/09-01:21:44.490 8f8 Compacting 4@0 + 1@1 files
-2026/10/09-01:21:44.493 8f8 Generated table #40036@0: 7076 keys, 164912 bytes
-2026/10/09-01:21:44.493 8f8 Compacted 4@0 + 1@1 files => 164912 bytes
-2026/10/09-01:21:44.493 8f8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/09-01:21:44.494 8f8 Delete type=2 #40035
-2026/10/09-01:21:44.494 8f8 Delete type=2 #40027
-2026/10/09-01:21:44.494 8f8 Delete type=2 #40031
-2026/10/09-01:21:44.494 8f8 Delete type=2 #40029
-2026/10/09-01:21:44.494 8f8 Delete type=2 #40033
-2026/10/09-01:24:39.798 8f8 Level-0 table #40038: started
-2026/10/09-01:24:39.799 8f8 Level-0 table #40038: 18846 bytes OK
-2026/10/09-01:24:39.799 8f8 Delete type=0 #40034
-2026/10/09-01:26:39.799 8f8 Level-0 table #40040: started
-2026/10/09-01:26:39.800 8f8 Level-0 table #40040: 18905 bytes OK
-2026/10/09-01:26:39.801 8f8 Delete type=0 #40037
-2026/10/09-01:28:39.798 8f8 Level-0 table #40042: started
-2026/10/09-01:28:39.799 8f8 Level-0 table #40042: 18886 bytes OK
-2026/10/09-01:28:39.800 8f8 Delete type=0 #40039
-2026/10/09-01:30:33.293 8f9 Level-0 table #40044: started
-2026/10/09-01:30:33.296 8f9 Level-0 table #40044: 18980 bytes OK
-2026/10/09-01:30:33.296 8f9 Delete type=0 #40041
-2026/10/09-01:30:33.298 8f9 Compacting 4@0 + 1@1 files
-2026/10/09-01:30:33.314 8f9 Generated table #40045@0: 7076 keys, 164914 bytes
-2026/10/09-01:30:33.314 8f9 Compacted 4@0 + 1@1 files => 164914 bytes
-2026/10/09-01:30:33.317 8f9 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/09-01:30:33.317 8f9 Delete type=2 #40036
-2026/10/09-01:30:33.317 8f9 Delete type=2 #40042
-2026/10/09-01:30:33.317 8f9 Delete type=2 #40040
-2026/10/09-01:30:33.317 8f9 Delete type=2 #40044
-2026/10/09-01:30:33.317 8f9 Delete type=2 #40038
+2026/10/09-02:00:25.053 8ac Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-032405
+2026/10/09-02:02:26.131 8b0 Level-0 table #40049: started
+2026/10/09-02:02:26.147 8b0 Level-0 table #40049: 19155 bytes OK
+2026/10/09-02:02:26.152 8b0 Delete type=0 #40047
+2026/10/09-02:04:26.131 8b0 Level-0 table #40051: started
+2026/10/09-02:04:26.190 8b0 Level-0 table #40051: 18970 bytes OK
+2026/10/09-02:04:26.192 8b0 Delete type=0 #40048
+2026/10/09-02:05:29.994 8b0 Level-0 table #40053: started
+2026/10/09-02:05:30.015 8b0 Level-0 table #40053: 18608 bytes OK
+2026/10/09-02:05:30.015 8b0 Delete type=0 #40050
+2026/10/09-02:06:50.381 8b0 Level-0 table #40055: started
+2026/10/09-02:06:50.382 8b0 Level-0 table #40055: 23752 bytes OK
+2026/10/09-02:06:50.383 8b0 Delete type=0 #40052
+2026/10/09-02:06:50.383 8b0 Compacting 4@0 + 1@1 files
+2026/10/09-02:06:50.387 8b0 Generated table #40056@0: 7078 keys, 164468 bytes
+2026/10/09-02:06:50.387 8b0 Compacted 4@0 + 1@1 files => 164468 bytes
+2026/10/09-02:06:50.387 8b0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/09-02:06:50.388 8b0 Delete type=2 #40055
+2026/10/09-02:06:50.388 8b0 Delete type=2 #40051
+2026/10/09-02:06:50.388 8b0 Delete type=2 #40045
+2026/10/09-02:06:50.388 8b0 Delete type=2 #40049
+2026/10/09-02:06:50.388 8b0 Delete type=2 #40053
+2026/10/09-02:07:26.131 8b0 Level-0 table #40058: started
+2026/10/09-02:07:26.132 8b0 Level-0 table #40058: 22678 bytes OK
+2026/10/09-02:07:26.133 8b0 Delete type=0 #40054
+2026/10/09-02:09:26.131 8b0 Level-0 table #40060: started
+2026/10/09-02:09:26.133 8b0 Level-0 table #40060: 22709 bytes OK
+2026/10/09-02:09:26.137 8b0 Delete type=0 #40057
+2026/10/09-02:10:29.994 8b0 Level-0 table #40062: started
+2026/10/09-02:10:29.995 8b0 Level-0 table #40062: 22659 bytes OK
+2026/10/09-02:10:29.996 8b0 Delete type=0 #40059
+2026/10/09-02:12:29.994 8b0 Level-0 table #40064: started
+2026/10/09-02:12:29.995 8b0 Level-0 table #40064: 19832 bytes OK
+2026/10/09-02:12:29.996 8b0 Delete type=0 #40061
+2026/10/09-02:12:29.996 8b0 Compacting 4@0 + 1@1 files
+2026/10/09-02:12:29.999 8b0 Generated table #40065@0: 7078 keys, 164471 bytes
+2026/10/09-02:12:29.999 8b0 Compacted 4@0 + 1@1 files => 164471 bytes
+2026/10/09-02:12:29.999 8b0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/09-02:12:30.000 8b0 Delete type=2 #40060
+2026/10/09-02:12:30.000 8b0 Delete type=2 #40064
+2026/10/09-02:12:30.000 8b0 Delete type=2 #40062
+2026/10/09-02:12:30.000 8b0 Delete type=2 #40056
+2026/10/09-02:12:30.000 8b0 Delete type=2 #40058
