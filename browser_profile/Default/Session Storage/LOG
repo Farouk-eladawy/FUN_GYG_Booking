@@ -1,4 +1,30 @@
-2026/10/09-21:58:01.797 9a3 Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
-2026/10/09-22:01:42.144 9a8 Level-0 table #111626: started
-2026/10/09-22:01:42.158 9a8 Level-0 table #111626: 606704 bytes OK
-2026/10/09-22:01:42.163 9a8 Delete type=0 #111624
+2026/10/09-22:21:05.648 8aa Reusing MANIFEST /home/runner/work/FUN_GYG_Booking/FUN_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-095411
+2026/10/09-22:23:19.118 8ae Level-0 table #111630: started
+2026/10/09-22:23:19.124 8ae Level-0 table #111630: 17344 bytes OK
+2026/10/09-22:23:19.131 8ae Delete type=0 #111628
+2026/10/09-22:25:07.922 8aa Level-0 table #111632: started
+2026/10/09-22:25:07.982 8aa Level-0 table #111632: 16134 bytes OK
+2026/10/09-22:25:07.990 8aa Delete type=0 #111629
+2026/10/09-22:25:07.991 8aa Compacting 4@0 + 4@1 files
+2026/10/09-22:25:08.074 8aa Generated table #111633@0: 34 keys, 2432231 bytes
+2026/10/09-22:25:08.111 8aa Generated table #111634@0: 74002 keys, 2145561 bytes
+2026/10/09-22:25:08.209 8aa Generated table #111635@0: 74255 keys, 2146555 bytes
+2026/10/09-22:25:08.231 8aa Generated table #111636@0: 47823 keys, 1383488 bytes
+2026/10/09-22:25:08.231 8aa Compacted 4@0 + 4@1 files => 8107835 bytes
+2026/10/09-22:25:08.231 8aa compacted to: files[ 0 5 44 290 0 0 0 ]
+2026/10/09-22:25:08.233 8aa Delete type=2 #111626
+2026/10/09-22:25:08.233 8aa Delete type=2 #111632
+2026/10/09-22:25:08.233 8aa Delete type=2 #111616
+2026/10/09-22:25:08.233 8aa Delete type=2 #111615
+2026/10/09-22:25:08.233 8aa Delete type=2 #111622
+2026/10/09-22:25:08.233 8aa Delete type=2 #111630
+2026/10/09-22:25:08.233 8aa Delete type=2 #111618
+2026/10/09-22:25:08.233 8aa Delete type=2 #111617
+2026/10/09-22:25:08.235 8aa Moved #111584 to level-2 2450278 bytes OK: files[ 0 4 45 290 0 0 0 ]
+2026/10/09-22:25:08.236 8aa Moved #107119 to level-3 2411923 bytes OK: files[ 0 4 44 291 0 0 0 ]
+2026/10/09-22:27:05.211 8ae Level-0 table #111638: started
+2026/10/09-22:27:05.212 8ae Level-0 table #111638: 16107 bytes OK
+2026/10/09-22:27:05.215 8ae Delete type=0 #111631
+2026/10/09-22:39:06.393 8ae Level-0 table #111640: started
+2026/10/09-22:39:06.398 8ae Level-0 table #111640: 12425 bytes OK
+2026/10/09-22:39:06.402 8ae Delete type=0 #111637
